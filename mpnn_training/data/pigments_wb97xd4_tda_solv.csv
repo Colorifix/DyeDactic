@@ -1,0 +1,653 @@
+Unnamed: 0,name,smiles,class,species,wavelength_wb97xd_tda_solvent,lambda_max,solvent
+0,"1,3-dihydroxy-2-methoxyanthraquinone",O=C1C2=C(C=C(O)C(OC)=C2O)C(C3=CC=CC=C31)=O,anthraquinones,Rubia tinctoria,3.771828414968056,3.009223300970873,CCO
+1,1-aminopurpurin,O=C(C1=C2C(N)=C(O)C=C1O)C3=CC=CC=C3C2=O,anthraquinones,semisynthetic,3.1887860082304527,2.258287795992714,CO
+2,1-desmethylaurantio-obtusin,CC1=CC2=C(C(C3=C(O)C(OC)=C(O)C=C3C2=O)=O)C(O)=C1O,anthraquinones,Cassia tora L.,3.677840403441115,2.876566125290023,CO
+3,1-desmethylchryso-obtusin,CC1=CC2=C(C(C3=C(OC)C(OC)=C(OC)C=C3C2=O)=O)C(O)=C1O,anthraquinones,Cassia tora L.,3.7949188858279768,3.0387254901960783,CO
+4,"1-hydroxy-9,10-anthraquinone",C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=CC=C3)O,anthraquinones,Morinda officinalis,3.8707461754605057,3.0387254901960783,Cc1ccccc1
+5,1-hydroxyphenazine_di-N-oxide,OC1=CC=CC2=C1[N+]([O-])=C3C=CC=CC3=[N+]2[O-],phenazines,Pseudomonas iodina,2.9540147724565164,2.4309803921568625,C(Cl)(Cl)Cl
+6,2-hydroxyphenazine_di-N-oxide,[O-][N+]1=C2C=CC=CC2=[N+]([O-])C3=C1C=CC(O)=C3,phenazines,Pseudomonas iodina,3.138734177215189,2.4796,CCO
+7,"3,6-dimethoxyphenazinecarboxylic_acid_methyl_ester",O=C(OC)C1=C2N=C3C=CC=C(OC)C3=NC2=CC(OC)=C1,phenazines,Streptomyces tanashiensiszaomyceticus,3.587384259259259,2.917176470588235,CO
+8,3-aminodemethyloxyaaptamine,COC(C(C1=NC=C2N)=O)=CC3=C1C2=NC=C3,quinoline_heterocycles,Aaptos suberitoides,3.4496382860322763,2.5937238493723846,CO
+9,"4,3-dibromprodigiosin",CCCCCC1=C(Br)/C(N=C1C)=C/c2c(OC)cc(c3[nH]ccc3Br)[nH]2,pyrrol_heterocycles,semisynthetic,3.05294262496922,2.2790441176470586,CC(=O)OCC
+10,4-aminocarminic_acid,CC1=C2C(=CC(=C1C(=O)O)O)C(=O)C3=C(C2=O)C(=C(C(=C3N)O)[C@@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,anthraquinones,semisynthetic,2.968869731800766,2.2338738738738737,CO
+11,4-demethoxymychigazone,COC1=CC2=NC3=C(C=CC(=C3)CO)OC2=CC1=O,phenoxazinones,Streptomyces halstedii,3.557532281205165,2.792342342342342,CO
+12,"5,6-dihydroxydamnacanthol",COC1=C2C(C(C3=C(O)C(O)=CC=C3C2=O)=O)=CC(O)=C1CO,anthraquinones,Pentas micrantha,3.758108517732647,2.9240566037735847,CO
+13,5-benzyldemethylaaptamine,COC1=C(O)C(NC=C2)=C3C2=NC(C(C4=CC=CC=C4)=O)=CC3=C1,quinoline_heterocycles,Aaptos suberitoides,3.455406911928651,3.0461916461916463,CO
+14,6-bromo-N-methylaplysinopsin,CN1/C(C(N(/C1=N\C)C)=O)=C\C2=CNC3=CC(Br)=CC=C32,indole_heterocycles,Astroides calycularis,4.181450252951096,3.115075376884422,CO
+15,6-bromoaplysinopsin,CN1/C(C(N(C)C1=N)=O)=C\C2=CNC3=CC(Br)=CC=C32,indole_heterocycles,Astroides calycularis,4.1716016150740245,3.115075376884422,CO
+16,6-cyano-5-methoxy-12-methylindolo_23-a_carbazole,CN(C1=C2C=CC=C1)C3=C2C(OC)=C(C#N)C4=C3NC5=CC=CC=C54,indole_heterocycles,Nostoc sphaericum (EX-5-1),4.140948563794256,3.332795698924731,C1CCCO1
+17,6-deoxyexophialin,O=C(C1=C2C=CC=C1)C=C(OC3=O)C2=C3C4=CNC5=CC=CC=C54,indole_heterocycles,Exophiala dermatitidis,3.187966058112625,2.519918699186992,CO
+18,"6E,6E-rhodoxanthin",CC\1=CC(=O)CC(/C1=C\C=C(\C=C\C=C(\C=C\C=C\C(=C\C=C\C(=C\C=C\2/C(CC(=O)C=C2C)(C)C)\C)\C)/C)/C)(C)C,carotenoids,Ptilinopus magnificus,2.797382671480144,2.535378323108384,CCCCCC
+19,"6Z,6E-rhodoxanthin",CC1(C)CC(C=C(C)/C1=C\C=C(C)\C=C\C=C(C)\C=C\C=C\C(C)=C\C=C\C(C)=C\C=C2C(C)(C)CC(C=C/2C)=O)=O,carotenoids,Ptilinopus magnificus,2.8331809872029248,2.561570247933884,CCCCCC
+20,"6Z,6Z-rhodoxanthin",CC1(C)CC(C=C(C)/C1=C\C=C(C)\C=C\C=C(C)\C=C\C=C\C(C)=C\C=C\C(C)=C\C=C2C(C)=CC(CC/2(C)C)=O)=O,carotenoids,Ptilinopus magnificus,2.861297022847911,2.59916142557652,CCCCCC
+21,"7,7-biphyscion",CC1=CC(O)=C2C(C(C3=C(C(OC)=C(C4=C(OC)C(C(C(C(O)=CC(C)=C5)=C5C6=O)=O)=C6C=C4O)C(O)=C3)C2=O)=O)=C1,anthraquinones,Cortinarius sp.,3.610366919044846,2.8177272727272724,CO
+22,"7,7-biphyscion",CC1=CC(O)=C2C(C(C3=C(C(OC)=C(C4=C(OC)C(C(C(C(O)=CC(C)=C5)=C5C6=O)=O)=C6C=C4O)C(O)=C3)C2=O)=O)=C1,anthraquinones,Cortinarius sp.,3.610366919044846,2.8177272727272724,CO
+23,7-isopropenyl-4-methylazulen-1-ylmethyl_stearate,C(CCCCCCCCCCCCCCCCC)(=O)OCC1=CC=C2C(=CC=C(C=C12)C(=C)C)C,azulenes,Lactarius indigo,2.632271762208068,2.137586206896552,C1CCCO1
+24,8-hydroxyexophialin,O=C(C1=C2C=C(O)C=C1O)C=C(OC3=O)C2=C3C4=CNC5=CC=CC=C54,indole_heterocycles,Exophiala dermatitidis,3.090999750685614,2.4746506986027943,CO
+25,"9,14-diacetylxanosporolactone",C[C@@H]1CC2=C(OC3=C4C2=C5C(C[C@H](OC(C)=O)C)=C(OC)C(OC(C)=O)=C6C5=C7C4=C(OCOC7=CC6=O)C=C3O)C(O1)=O,perylenequinones,Xanthomonas campestris,2.922677982083923,2.3173831775700933,CO
+26,9-cis-neoxanthin,C/C(=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C=C1[C@](C[C@H](CC1(C)C)O)(C)O)/C=C/C=C(/C)\C=C\[C@]23[C@](O2)(C[C@H](CC3(C)C)O)C,carotenoids,Codium tomentosum,3.0194836824159763,2.6605150214592275,CO
+27,AQ256,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O,anthraquinones,Photorhabdus luminescens,3.588422575976845,2.8566820276497693,CO
+28,Alkannin_S-alpha-_methylbutyryl,C/C(C)=C\C[C@@H](C1=CC(c2c(C1=O)c(O)ccc2O)=O)OC([C@@H](C)CC)=O,naphthoquinones,Alkanna tinctoria,3.206932229694775,2.2178890876565296,CC#N
+29,IB-00208,CC1CC2=C(O[C@@H]3[C@@H](OC)[C@H](OC)[C@@H](OC)[C@H](C)O3)C4=C(C(O)=C2C(O1)=O)C5=C(C(C6=C(C(C7=C(OC)C=CC(OC)=C7O6)=O)C5=O)=O)C=C4,xanthones,Actinomadura sp.,3.3846573846573844,3.22025974025974,C(Cl)(Cl)Cl
+30,"N,N-dimethylindigo",O=C1C2=C(C=CC=C2)N(C)/C1=C3C(C4=CC=CC=C4N\3C)=O,synthetic_indigo_analogs,synthetic,2.4960740889873163,1.9073846153846152,C(Cl)(Cl)Cl
+31,"N,N-dodecylindigoidine",O=C(NC1=O)/C(C=C1NCCCCCCCCCCCC)=C2C=C(C(NC\2=O)=O)NCCCCCCCCCCCC,glutamine_heterocycles,Shewanella violacea,2.2955008331790405,1.9493710691823896,C(Cl)(Cl)Cl
+32,N-acetylquestiomycin_A,CC(=O)NC1=CC2=NC3=CC=CC=C3OC2=CC1=O,phenoxazinones,Waksmania aerata sp. nov.,3.5301822323462413,3.0612345679012343,O
+33,PD116152,CC1=C(O)C(N=C2C(C(OC)=O)=CC=C(C2=N3)O)=C3C(C=O)=C1O,phenazines,Streptomyces sp,3.5311876958131583,3.22025974025974,CO
+34,PD116740,COC1=CC=CC2=C1C(C3=C(C4=C([C@@H](O)[C@@H]3O)C=C(CO)C=C4O)C2=O)=O,angucyclinones,Actinomyces sp. WP4669,3.296463706461047,3.031295843520782,CO
+35,PP-R,CCCCCCCC(C1=C2C=C3C=C(/C=C\C)N(CCO)C=C3C([C@]2(C)OC1=O)=O)=O,azaphilones,Penicillium sp. AZ,2.986750180679354,2.339245283018868,C[S+]([O-])C
+36,PP-V,CCCCCCCC(C1=C2C=C3C=C(/C=C\C(O)=O)NC=C3C([C@]2(C)OC1=O)=O)=O,azaphilones,Penicillium sp. AZ,2.786693639020005,2.1674825174825174,C[S+]([O-])C
+37,Popolohuanone_A,C=C1CCC[C@H]2[C@](C)(CC3=CC(=O)C(Nc4ccc(O)c(C[C@]5(C)[C@@H](C)CC[C@@]6(C)C(=C)CCC[C@@H]56)c4)=CC3=O)[C@@H](C)CC[C@@]12C,benzoquinones,Dysidea sp.,3.0224280838615307,2.421484375,CCCCCC
+38,R-hydroxyethylcanthine-6-one,O=C1N2C3=CC=CC=C3C4=C2C(C=C1[C@H](O)C)=NC=C4,indole_heterocycles,Ailanthus altissima,4.211277173913044,3.3061333333333334,CO
+39,SB212021,COC(=O)C1=C(C=CC2=NC3=C(C=CC=C3N=C21)C(=O)O)O,phenazines,Streptomyces sp. HIL Y-9031725,3.415426997245179,2.876566125290023,CO
+40,SB212305,CC(=O)NC(CSC1=CC2=NC3=C(C=CC=C3N=C2C(=C1O)C(=O)OC)C(=O)O)C(=O)O,phenazines,Streptomyces sp. HIL Y-9031725,3.8300895891257336,2.8177272727272724,CO
+41,TMC-256A1,CC1=CC(=C2C(=CC3=CC(=O)C=C(C3=C2O)OC)O1)O,pyranones,Aspergillus niger,3.96736,3.0612345679012343,CO
+42,TMC-256C1,CC1=CC(=C2C(=CC3=CC(=O)C=C(C3=C2O1)OC)O)O,pyranones,Aspergillus niger,4.257554945054945,3.332795698924731,CO
+43,Vitisin_A,COC1=CC(C2=C(O[C@H]3[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O3)C4=C5C(C=C(C=C5OC(C(O)=O)=C4)O)=[O+]2)=CC(OC)=C1O,anthocyanins,old wine,3.148298628745556,2.3934362934362934,CO
+44,Vitisin_B,COC1=CC(C2=C(O[C@H]3[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O3)C4=C5C(C=C(C=C5O2)O)=[O+]C=C4)=CC(OC)=C1O,anthocyanins,old wine,3.55447247706422,2.489558232931727,CO
+45,aaptamine,COC1=C(C2=NC=CC3=C2C(=C1)C=CN3)OC,quinoline_heterocycles,Aaptos aaptos,3.9864951768488734,3.146700507614213,O
+46,aaptamine_1,COC1=C(N=CC2=O)C(N2C=C3)=C4C3=NC=CC4=C1,quinoline_heterocycles,Aaptos suberitoides,3.790278202384592,2.843577981651376,CO
+47,aaptamine_2,COC1=C(N=C(OC)C2=O)C(N2C=C3)=C4C3=NC=CC4=C1,quinoline_heterocycles,Aaptos suberitoides,3.906112161310649,2.937914691943128,CO
+48,actinorhodin,C[C@@H]1C2=C(C[C@@H](CC(=O)O)O1)C(=O)C3=C(C(=C(C=C3O)C4=CC(=C5C(=C4O)C(=O)C6=C(C[C@@H](CC(=O)O)O[C@@H]6C)C5=O)O)O)C2=O,naphthoquinones,Streptomyces coelicolor,3.156313645621181,1.9371875,CCO
+49,adonixanthin,C=1(C(C[C@@H](C(C1C)=O)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C=2C(C[C@@H](CC2C)O)(C)C)\C)\C)/C)/C,carotenoids,microbial,2.825432999088423,2.6719827586206897,CO
+50,aeruginosin_A,C[N+]1=C(C=C(C=C2)N)C2=NC3=C(C(O)=O)C=CC=C13,phenazines,Pseudomonas aeruginosa,3.199483870967742,2.407378640776699,O
+51,aeruginosin_B,C[N+]1=C(C=C(C=C2)N)C2=NC3=C(C(O)=O)C=C(S([O-])(=O)=O)C=C13,phenazines,Pseudomonas aeruginosa,3.1700332395806696,2.375095785440613,O
+52,akashin_A,C[C@@H]1[C@@H](N)[C@H](O)[C@@H](O)[C@@H](N2C3=C(C(/C2=C4NC(C=CC(Cl)=C5)=C5C\4=O)=O)C=C(Cl)C=C3)O1,indole_heterocycles,Streptomyces sp. GW 48/1497,2.601342845153168,2.002907915993538,CO
+53,albatrellin,C/C(C)=C\CC/C(C)=C/CC/C(C)=C/CC1=C(O)C(C(C)=C(C2=C(C=C(O2)/C=C(C)\C)CCC/C(C)=C/CC3=C(O)C=C(C=C3O)C)C1=O)=O,benzoquinones,Alabtrellus flettii,2.885268792180592,2.3173831775700933,CO
+54,albidin,CC1=C2C(=CO1)C=C(C(=O)C2=O)OC,benzoquinones,Penicillium albidum,3.429598893499308,2.8566820276497693,CO
+55,aleuriaxanthin,CC1=C(C(CCC1)(C)C)/C=C/C(=C\C=C\C(=C\C=C\C=C(\C)/C=C/C=C(\C)/C=C/C=C(/C)\CCC(C(=C)C)O)\C)/C,carotenoids,Aleuria aurantia,2.940004742708086,2.514807302231237,CC(=O)C
+56,alizarin,Oc1ccc2C(=O)c3ccccc3C(=O)c2c1O,anthraquinones,Rubia tinctorum,3.8019012572830415,2.944893111638955,CC#N
+57,all-trans-neoxanthin,CC(/C=C/[C@@]12[C@@](O2)(C)C[C@@H](O)CC1(C)C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C([H])=[C@@]=C3C(C)(C)C[C@H](O)C[C@]3(O)C,carotenoids,Codium tomentosum,3.0121477162293484,2.632271762208068,CO
+58,aloe-emodin,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)CO,anthraquinones,Aloe excelsa,3.5967507977951843,2.8832558139534883,CC#N
+59,alpha-carotene,CC(/C=C/C=C(/C=C/C1=C(CCCC1(C)C)C)C)=C\C=C\C=C(\C=C\C=C(\C=C\[C@@]2([H])C(C)=CCCC2(C)C)C)C,carotenoids,Daucus carota,2.953311100524059,2.6156118143459914,CCCCCC
+60,alterperylenol,C1[C@@H]([C@@H]2C3=C(C=CC(=C3C1=O)O)C4=C5[C@]2(C=CC(=O)C5=C(C=C4)O)O)O,perylenequinones,Alternaria cassiae,4.163196776359973,3.406043956043956,CO
+61,altertoxin,C1C[C@]2([C@@H]3[C@H](CC(=O)C4=C(C=CC(=C34)C5=C2C(=C(C=C5)O)C1=O)O)O)O,perylenequinones,Alternaria cassiae,4.123046225473894,3.482584269662921,CO
+62,aminodrosopterin,CC1=C2[C@]([H])(CN=C3C(C(NC(N)=N3)=O)=N2)[C@@]4(N1C5=C(NC4)N=C(N=C5N)N)[H],pterins/flavins,semisynthetic,3.0582141095214603,2.535378323108384,O
+63,amitenone,CC(=CCC/C(=C/CC/C(=C/CC/C(=C/CC1=C(C(=O)C(=C(C1=O)O)CC2=C(C(=O)C(=C(C2=O)O)C/C=C(/CC/C=C(/CC/C=C(/CCC=C(C)C)\C)\C)\C)O)O)/C)/C)/C)C,benzoquinones,Suillus bovinus,2.914433474377057,3.0239024390243903,CCO
+64,ammosamide_a,CN1C2=C(C(=C(C3=C2C(=CC(=N3)C(=O)N)C1=S)N)Cl)N,indole_heterocycles,Streptomyces sp,2.7320405464962536,2.122945205479452,CO
+65,ammosamide_b,CN1C2=C(C(=C(C3=C2C(=CC(=N3)C(=O)N)C1=O)N)Cl)N,indole_heterocycles,Streptomyces sp,3.0424539877300614,2.339245283018868,CO
+66,anhydrofusarubin,CC1=CC2=C(CO1)C(=C3C(=O)C=C(C(=O)C3=C2O)OC)O,naphthoquinones,Fusarium sp.,3.040961491292617,2.274862385321101,O
+67,anhydrogrevillin_D,O=C(/C(O1)=C/C2=CC(O)=C(O)C=C2)C(C3=CC(O)=CC=C3O4)=C4C1=O,pulvinones,Suillus americanus,3.6432559506317954,2.824145785876993,CO
+68,anhydrojavanicin,CC1=CC2=C(C(=C3C(=O)C=C(C(=O)C3=C2O1)OC)O)C,naphthoquinones,Fusarium javanicum,3.406979939543831,2.7188596491228068,CCO
+69,anigorufon,C1=CC=C(C=C1)C2=C3C4=C(C=CC=C4C=C(C3=O)O)C=C2,phenalenones,Musa acuminata var. pisang sipulu,3.497320169252468,3.406043956043956,CCO
+70,ankaflavin,CCCCCCCC(=O)[C@@H]1[C@H]2CC3=C(COC(=C3)/C=C/C)C(=O)[C@@]2(OC1=O)C,azaphilones,Monascus purpurea,3.698687350835322,3.15470737913486,CO
+71,anthracyclinone-blue_B,CCC1=C(C2=C(C3=C(C(=O)C4=C(C=CC=C4C3=O)O)C(=C2C(=C1)NCCO)O)O)C(=O)OC,anthracyclinones,Streptomyces galilaeus,2.949096098953378,2.0391447368421054,CO
+72,apigenin,C1=CC(=CC=C1C2=CC(=O)C3=C(C=C(C=C3O2)O)O)O,flavonoids,Justicia gendarussa,4.4437275985663085,3.689880952380952,CO
+73,arcyriacyanin_A,O=C(C1=C2C3=C(C4=C5C(NC=C51)=CC=C4)NC6=CC=CC=C63)NC2=O,indole_heterocycles,Arcyria obvelata,2.521456172462884,1.9932475884244367,CO
+74,arcyriaflavin_B,C1=CC=C2C(=C1)C3=C4C(=C5C6=C(C=C(C=C6)O)NC5=C3N2)C(=O)NC4=O,indole_heterocycles,Arcyria denudata,3.7086449297038575,2.994685990338164,CO
+75,arcyriaflavin_C,C1=CC2=C(C=C1O)NC3=C4C(=C5C(=C23)C(=O)NC5=O)C6=C(N4)C=C(C=C6)O,indole_heterocycles,Arcyria denudata,3.724241513968159,2.937914691943128,CO
+76,arcyriarubin_B,C1=CC2=C(C=C1O)NC=C2C3=C(C(=O)NC3=O)C4=CNC5=C4C=CC(=C5)O,indole_heterocycles,Arcyria denudata,3.21691748832382,2.6662365591397847,CO
+77,arcyriarubin_C,C1=CC=C2C(=C1)C(=CN2)C3=C(C(=O)NC3=O)C4=CNC5=C4C=CC(=C5)O,indole_heterocycles,Arcyria denudata,3.248951781970649,2.6156118143459914,CO
+78,arcyroxepin_A,C1=CC=C2C(=C1)C3=C(N2)OC4=C(C5=CC=CC=C5N4)C6=C3C(=O)NC6=O,indole_heterocycles,Arcyria denudata,2.968158965764903,2.632271762208068,CO
+79,arcyroxocin_A,O=C(C1=C2C3=CNC4=C3C(OC5=C1C(C=CC(O)=C6)=C6N5)=CC=C4)NC2=O,indole_heterocycles,Arcyria denudata,3.22528616024974,2.6662365591397847,CO
+80,arcyroxocin_B,C1=CC2=C3C(=C1)OC4=NC5=C(C4=C6C(=C(NC6=O)O)C3=CN2)C=CC(=C5)O,indole_heterocycles,Arcyria denudata,3.221933471933472,2.6156118143459914,CO
+81,arixanthomycin_B,O=C1C(C=CC=C2O)=C2OC3=C1C(O)=C4C5=C(O)C(C(N6[C@@H](C(O)=O)CO[C@]6(C)C7)=O)=C7C=C5CCC4=C3OC,xanthones,unknown,4.007110536522301,3.107268170426065,CO
+82,arixanthomycin_C,OC1=C2CCC3=CC4=C(C(N5[C@@H](C(O)=O)CO[C@]5(C)C4)=O)C(O)=C3C2=C(O)C6=C1OC7=C(C=CC=C7O)C6=O,xanthones,unknown,3.833642547928263,3.107268170426065,CO
+83,arnoamine_A,C1=CC=C2C(=C1)C3=C4C5=C(C=CN25)C=C(C4=NC=C3)O,quinoline_heterocycles,Cystodytes violatinctus,3.832457496136012,2.551028806584362,CO
+84,arnoamine_B,COC1=CC2=C3C4=C(C=CN=C14)C5=CC=CC=C5N3C=C2,quinoline_heterocycles,Cystodytes violatinctus,3.90119572057898,2.6548179871520343,CO
+85,arnoamine_C,CC=C(C)C(=O)NC1=CC2=C3N1C4=CC=CC=C4C5=C3C(=NC=C5)C(=C2)O,quinoline_heterocycles,Cystodytes violatinctus,3.676749703440095,2.6211416490486257,CO
+86,artocarnin_A,O=C1C2=C(O)C3=C(OC(C)(C)C=C3)C(CC(O)C(C)=C)=C2OC4=C1C(/C=C(C)/C)OC5=C4C=C(O)C(O)=C5,flavonoids,Artocarpus nigrifolius,3.8707461754605057,3.0995,CO
+87,asnipyrone_A,CC1=C(C=C(OC1=O)/C=C/C(=C/C(=C/C2=CC=CC=C2)/C)/C)OC,pyranones,Aspergillus niger,3.6723933649289098,3.27989417989418,CCO
+88,asnipyrone_B,C/C(=C\C(=C\C1=CC=CC=C1)\C)/C=C/C2=CC(=CC(=O)O2)OC,pyranones,Aspergillus niger,3.75924802910855,3.2973404255319148,CCO
+89,asperenone,CCC(=O)/C=C/C=C/C(=C/C=C/C=C/C1=CC=CC=C1)/C,polyenes,Aspergillus niger,3.3363832077502686,2.994685990338164,CCCCCC
+90,astaxanthin,CC(\C=C\C=C(C)\C=C\C1=C(C)C(=O)[C@@H](O)CC1(C)C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)C(=O)[C@@H](O)CC1(C)C,carotenoids,Haematococcus pluvialis,2.843577981651376,2.5937238493723846,CCCCCC
+91,asteropterin,CN(CCC1=CN=CN1)C2=CN=C3C(=N2)C(=O)NC(=O)N3,pterins/flavins,Asteropus simplex,3.730965994583208,2.980288461538461,CO
+92,atromentic_acid,OC(/C(C1=CC=C(O)C=C1)=C2OC(C(C3=CC=C(O)C=C3)=C/2O)=O)=O,pulvinones,Clitocybe illudens,3.92465970243748,3.0995,CCO
+93,atromentin,C1=CC(=CC=C1C2=C(C(=O)C(=C(C2=O)O)C3=CC=C(C=C3)O)O)O,terphenyls,Paxillus atrotomentosus,3.927146024707001,3.22025974025974,C1COCCO1
+94,atrovenetin,C[C@@H]1C(C2=C(C3=C4C(=C2O1)C(=CC(=O)C4=C(C(=C3O)O)O)C)O)(C)C,phenalenones,Penicillium atrovenetum G. Smith,3.823003391921061,3.22025974025974,CCO
+95,aulosirazole,COC1=NSC2=C1C(=O)C3=C(C2=O)C=CC=C3O,anthraquinones,Aulosira fertilissima,3.636843649163978,2.9240566037735847,CO
+96,aurantio-obtusin,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)O)OC)O,anthraquinones,Cassia tora L.,3.7638129933211903,3.115075376884422,CO
+97,aurantricholide_A,C1=CC=C(C=C1)C2=C3C(=CC4=CC(=C(C=C4O3)O)O)OC2=O,pyranones,Tricholoma aurantium,3.766099635479952,2.572199170124481,CO
+98,aurantricholide_B,C1=CC(=CC=C1C2=C3C(=CC4=CC(=C(C=C4O3)O)O)OC2=O)O,pyranones,Tricholoma aurantium,3.677840403441115,2.980288461538461,CO
+99,aurantricholone,C1=CC=C(C=C1)C2=C(/C(=C/C3=CC4=C(C(=C(C=C4/C=C\5/C(=C(C(=O)O5)C6=CC=CC=C6)O)O)O)C(=O)C(=C3)O)/OC2=O)O,tropolones,Tricholoma aurantium,3.0544469081054446,2.8177272727272724,CO
+100,aurasperone_A,O1C2=C(C3=C(OC)C=4C(C=C3OC)=CC=5OC(=CC(=O)C5C4O)C)C6=C(C(O)=C2C(=O)C=C1C)C(OC)=CC(OC)=C6,pyranones,Aspergillus niger ATCC 1015,3.9321281319378367,3.0995,CCO
+101,aurasperone_B,CC1(CC(=O)C2=C(O1)C=C3C=C(C(=C(C3=C2O)OC)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)CC(O5)(C)O)OC)O,pyranones,Aspergillus niger,3.897516504243948,3.0239024390243903,CCO
+102,aurasperone_D,CC1=CC(=O)C2=C(O1)C=C3C=C(C(=C(C3=C2O)OC)C4=C5C(=C(C6=C4C=C(C=C6O)OC)O)C(=O)C=C(O5)C)OC,pyranones,Aspergillus niger,3.8913998744507214,3.262631578947368,CCO
+103,aurasperone_E,CC1=CC(=O)C2=C(C3=C(C=C(C=C3OC)OC)C(=C2O1)C4=C(C5=C(C6=C(C=C5C=C4OC)OC(CC6=O)(C)O)O)OC)O,pyranones,Aspergillus niger,3.909807631661936,3.0995,CCO
+104,aureusidin,C1=CC(=C(C=C1C=C2C(=O)C3=C(C=C(C=C3O2)O)O)O)O,aurones,Coreopsis grandiflora,3.8792240300375465,3.115075376884422,CO
+105,aurodrosopterin,CC1=C2[C@]([H])(CN=C3C(C(NC(N)=N3)=O)=N2)[C@@]4(N1C5=C(NC4)NC(NC5=O)=O)[H],pterins/flavins,Drosophyla melanogaster,3.0048473097430923,2.59916142557652,O
+106,aurofusarin,CC1=CC(=O)C2=C(O1)C=C3C(=C2O)C(=O)C(=C(C3=O)OC)C4=C(C(=O)C5=CC6=C(C(=O)C=C(O6)C)C(=C5C4=O)O)OC,naphthoquinones,Hypomyces rosellus,3.559575078954924,3.195360824742268,CCO
+107,austocystin_A,COC1=C(C=CC2=C1C(=O)C3=C(C4=C(C=C3O2)O[C@@H]5[C@H]4C=CO5)OC)Cl,xanthones,Aspergillus ustus,4.558088235294117,3.70089552238806,C(Cl)(Cl)Cl
+108,austocystin_F,C1=CC(=C2C(=C1)OC3=CC4=C(C(=C3C2=O)O)[C@@]5(C=CO[C@@H]5O4)O)O,xanthones,Aspergillus ustus,4.3731922398589065,3.3690217391304347,C(Cl)(Cl)Cl
+109,averythrin,CCCC/C=C/C1=C(C=C2C(=C1O)C(=O)C3=C(C2=O)C=C(C=C3O)O)O,anthraquinones,Aspergillus versicolor,3.4486787204450624,2.736865342163356,CO
+110,bacterioruberin,C\C(\C=C\C=C(/C)\C=C\C=C(/C)\C=C\[C@H](CCC(C)(C)O)C(C)(C)O)=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H](CCC(C)(C)O)C(C)(C)O,carotenoids,Halobacterium salinarum,2.713504049026045,2.366030534351145,CC#N
+111,bactobilin,COC(CCC1=C(NC(/C=C2C(CCC(OC)=O)=C(C(N/2)=O)CC(OC)=O)=C1CC(OC)=O)/C=C3C(CCC(OC)=O)=C(C(/C=C4C(CC(OC)=O)=C(C(N/4)=O)CCC(OC)=O)=N\3)CCC(OC)=O)=O,pyrrol_heterocycles,Clostridium tetanomorphum,2.182362260165464,1.958609794628752,C(Cl)(Cl)Cl
+112,badione_A,C1=CC(=CC=C1/C(=C\2/C(=C(C(=O)O2)C3=CC4=C5C(=C3)C(=O)C(=O)OC5=C(C=C4C6=C(/C(=C(/C7=CC=C(C=C7)O)\C(=O)O)/OC6=O)O)O)O)/C(=O)O)O,pulvinones,Pisolithus arrhizus (Scop.) Rauschert,3.5052304212609555,2.572199170124481,CO
+113,baicalein,C1=CC=C(C=C1)C2=CC(=O)C3=C(O2)C=C(C(=C3O)O)O,flavonoids,Scutellaria baicalensis,4.487151646760767,3.8383900928792567,CO
+114,benaphthamycin,C[C@H]1[C@@H](C2=C(C(=C3C(=C2)CC(C4=C3C(=C5C(=C4OC)C(=O)C6=C(C5=O)C=CC=C6O)O)O)O)C(=O)O1)O,angucyclinones,Streptomyces sp. HKI-0057,3.4191947049089904,2.6101052631578945,CO
+115,benastatin_A,CCCCCC1=C(C(=C2C(=C1)C=CC3=C(C4=C(C=C32)C(C5=C(C4=O)C(=CC(=C5)O)O)(C)C)O)O)C(=O)O,other_polyketides,Streptomyces sp. MI384-DF12,3.840768277571251,3.170843989769821,CCO
+116,benastatin_B,CCCCCC1=C(C(=C2C(=C1)CCC3=C(C4=C(C=C32)C(C5=C(C4=O)C(=CC(=C5)O)O)(C)C)O)O)C(=O)O,other_polyketides,Streptomyces sp. MI384-DF12,3.974991984610452,3.115075376884422,CCO
+117,benthocyanin_a,C/C(CC/C=C(C)/C)=C\CN1C(C(C=C2O3)=NC4=C(C(O)=O)C=CC=C41)=CC2=C(C5=CC=CC=C5)C3=O,phenazines,Streptomyces pruni-color,2.636750319013186,1.9432601880877745,CO
+118,benthocyanin_b,C/C(CC/C=C(C)/C)=C\CN1C(C(C(C(O)=O)=C2O3)=NC4=CC=CC=C41)=CC2=C(C5=CC=CC=C5)C3=O,phenazines,Streptomyces pruni-color,2.620587613612344,1.9617088607594937,CO
+119,benthocyanin_c,C/C(CC/C=C(C)/C)=C\CN1C(C(NC2=CC=CC=C21)=C(C(O)=O)C/3=O)=CC3=C(C4=CC=CC=C4)\C#N,phenazines,Streptomyces pruni-color,2.8886300093196646,1.864360902255639,CO
+120,benzanthrin_B,C[C@H]1[C@@H]([C@H](C[C@H](O1)C2=C(C3=C4C(=C(C=C3C=C2C)O)C(=O)C5=C(C4=O)C=CC=C5O)O[C@@H]6C[C@@H]([C@@H]([C@H](O6)C)O)N(C)C)N(C)C)O,angucyclinones,Nocardia lurida,3.255777310924369,2.9103286384976523,CO
+121,berberine,COc1ccc2cc3-c4cc5OCOc5cc4CC[n+]3cc2c1OC,isoquinoline_heterocycles,Coptis japonica,3.618797431406888,2.88997668997669,CO
+122,beta-carotene,CC(\C=C\C=C(C)\C=C\C1=C(C)CCCC1(C)C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C,carotenoids,Daucus carota,2.93096926713948,2.5937238493723846,CCCCCC
+123,beta-cryptoxantin,CC(/C=C/C=C(/C=C/C1=C(CC(O)CC1(C)C)C)C)=C\C=C\C=C(\C=C\C=C(\C=C\C2=C(CCCC2(C)C)C)C)C,carotenoids,Rhodoturula taiwaniensis,2.875231910946197,2.5937238493723846,CCCCCC
+124,betalamic_acid,C\1[C@H](NC(=C/C1=C/C=O)C(=O)O)C(=O)O,tyrosine_heterocycles,Beta vulgaris,3.6756596501630594,2.9240566037735847,O
+125,betanidin,C1[C@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O)C(=O)O)C(=O)O)C(=O)O,tyrosine_heterocycles,Beta vulgaris,3.381887615930169,2.287453874538745,O
+126,betanin,C1[C@H](N=C(C=C1/C=C/N2[C@@H](CC3=CC(=C(C=C32)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)C(=O)O)C(=O)O)C(=O)O,tyrosine_heterocycles,Beta vulgaris,3.55447247706422,2.3173831775700933,O
+127,betulinan_A,COC1=C(C(=O)C(=C(C1=O)C2=CC=CC=C2)OC)C3=CC=CC=C3,terphenyls,Lenzites betulinus,4.480664980122877,3.8383900928792567,CCO
+128,bezerramycin_A,C1=CC2=C(C=C1CO)N=C3C(=CC(=O)C(=C3C(=O)N)N)O2,phenoxazinones,Streptomyces griseus,3.356253383865728,2.830593607305936,CO
+129,bezerramycin_B,CC(=O)NC1=C(C2=NC3=C(C=CC(=C3)CO)OC2=CC1=O)C(=O)O,phenoxazinones,Streptomyces griseus,3.3791223766693923,3.262631578947368,CO
+130,bezerramycin_C,CC(=O)NC1=C(C2=NC3=C(C=CC(=C3)CO)OC2=CC1=O)C#N,phenoxazinones,Streptomyces griseus,3.37360544217687,3.115075376884422,CO
+131,bikaverin,COC1=CC(=O)c2c(O)c3c(oc4cc(OC)cc(C)c4c3=O)c(O)c2C1=O,naphthoquinones,Fusarium oxysporum,3.116641528406234,2.379654510556622,C(Cl)(Cl)Cl
+132,bilirubin,CC1=C(NC(=C1CCC(=O)O)CC2=C(C(=C(N2)/C=C\3/C(=C(C(=O)N3)C)C=C)C)CCC(=O)O)/C=C\4/C(=C(C(=O)N4)C=C)C,pyrrol_heterocycles,Homo sapiens,3.3828103683492494,2.736865342163356,C(Cl)(Cl)Cl
+133,biliverdin,CC1=C(CCC(O)=O)\C(/N=C1/C=C1NC(=O)C(C=C)=C/1C)=C\c1[nH]c(\C=C2NC(=O)C(C)=C/2C=C)c(C)c1CCC(O)=O,pyrrol_heterocycles,Homo sapiens,2.219080007159477,1.83946587537092,O
+134,bisanhydrobacterioruberin,CC(C)=CC[C@@H](\C=C\C(\C)=C\C=C\C(\C)=C\C=C\C(\C)=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C\C=C(/C)\C=C\[C@H](CC=C(C)C)C(C)(C)O)C(C)(C)O,carotenoids,Haloarcula japonica,2.712910284463895,2.379654510556622,CO
+135,blennione,COC1=C(N)C(C(O)=O)=C(O)C(C2=CC(C(N)=C(C(O)=O)C2=O)=O)=C1,benzoquinones,Lactarius blennius,2.93096926713948,1.8125730994152045,CO
+136,boshramycinone_A,CC1=CC2=CC3=C(C(=C2C=C1)O)C(=O)C4=C(C3=O)C=CC=C4O,anthracyclinones,"Streptomyces sp. Mei 16-1,2",3.4835627985389155,2.7429203539823006,CO
+137,boshramycinone_B,CC1=CC2=CC3=C(C(=C2C=C1)O)C(=O)C4=C(C3=O)C(=CC=C4)O,anthracyclinones,"Streptomyces sp. Mei 16-1,2",3.5231599886331346,2.7490022172949,CO
+138,boshramycinone_C,C[C@]1(C[C@@H](C2=C(C3=C(C=C2C1)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O)O,anthracyclinones,"Streptomyces sp. Mei 16-1,2",3.606166375799883,2.8832558139534883,CO
+139,bostrycoidin,CC1=CC2=C(C=N1)C(=O)C3=C(C2=O)C(=C(C=C3O)OC)O,pyridine_heterocycles,Fusarium bostrycoides,3.340878469415252,2.49456740442656,CCO
+140,bracteatin,C1=C(C=C(C(=C1O)O)O)/C=C\2/C(=O)C3=C(C=C(C=C3O2)O)O,aurones,Helichrysum bracteatum,3.886520376175549,3.076426799007444,CCO
+141,brazilein,C=12C(=CC(O)=CC1)OC[C@]3(C2=C4C(C3)=CC(=O)C(=C4)O)O,benzoquinones,Caesalpinia sappan,3.3911378555798684,2.767410714285714,CO
+142,bromorebeccamycin,COC1C(OC(C(C1O)O)N2C3=C(C=CC=C3Br)C4=C5C(=C6C7=C(C(=CC=C7)Br)NC6=C42)C(=O)NC5=O)CO,indole_heterocycles,Saccharotrix aerocolonigenes,3.7638129933211903,3.178974358974359,CO
+143,calothrixin_A,C1=CC=C2C(=C1)C3=C(N2)C(=O)C4=C(C3=O)C=[N+](C5=CC=CC=C54)[O-],indole_heterocycles,Calothrix sp,3.015811238141571,3.0019370460048425,CCO
+144,calothrixin_B,C1=CC=C2C(=C1)C3=C(N2)C(=O)C4=C(C3=O)C=NC5=CC=CC=C54,indole_heterocycles,Calothrix sp,3.214415348716619,3.053694581280788,CCO
+145,calycin,C1=CC=C(C=C1)C2=C(/C(=C\3/C4=CC=CC=C4OC3=O)/OC2=O)O,pulvinones,Pseudocyphellaria crocata,3.6114185843285753,2.951904761904762,CC#N
+146,candidine,C1=CC2=C(C=C1)N/C(=C\3/C4=C(C=CC=C4)N5C3=NC6=C(C=CC=C6)C5=O)/C2=O,indole_heterocycles,Isatis tinctoria,2.803708729081863,2.16369982547993,C(Cl)(Cl)Cl
+147,canthaxanthin,CC1=C(C(CCC1=O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(C(=O)CCC2(C)C)C)\C)\C)/C)/C,carotenoids,Micrococcus roseus,2.8799070847851334,2.6605150214592275,CCCCCC
+148,carbonarone_A,C1=CC=C(C=C1)CC2=CC(=O)C(=CO2)C(=O)N,pyranones,Aspergillus carbonarius,5.788048552754435,3.0917705735660848,CO
+149,carbonarone_B,C1=CC=C(C=C1)CC2=CC(=C(C(=O)N2)C=O)O,pyranones,Aspergillus carbonarius,4.493657122145705,3.646470588235294,CO
+150,cardinalin_1,C[C@H]1C[C@@H]2[C@@H]([C@H](O1)C)C(=O)C3=C(C(=C(C=C3[C@@H]2O)OC)C4=C(C=C5C(=O)[C@@H]6C[C@@H](O[C@@H]([C@H]6C(=O)C5=C4O)C)C)OC)O,naphthoquinones,Dermocybe cardinalis,4.324380885943495,3.8383900928792567,CCO
+151,cardinalin_2,C[C@H]1C[C@@H]2[C@@H]([C@H](O1)C)C(=O)C3=C(C(=C(C=C3[C@@H]2O)OC)C4=C(C=C5C(=C4O)C(=O)C6=C(C5=O)C[C@@H](O[C@@H]6C)C)OC)O,naphthoquinones,Dermocybe cardinalis,3.508205998868138,2.93096926713948,CCO
+152,cardinalin_3,C[C@H]1CC2=C([C@H](O1)C)C(=O)C3=C(C(=C(C=C3C2=O)OC)C4=C(C=C5C(=C4O)C(=O)C6=C(C5=O)C[C@@H](O[C@@H]6C)C)OC)O,naphthoquinones,Dermocybe cardinalis,3.5131765372626806,2.9103286384976523,CCO
+153,cardinalin_4,C[C@H]1C[C@H]2C(=C3C=C(C4=C(C3=C([C@@]2([C@H](O1)C)O)O)OC5=C4C(=O)C6=C(C5=O)C(=O)C7=C(C6=O)[C@H](O[C@H](C7)C)C)OC)O,naphthoquinones,Dermocybe cardinalis,3.233698487219614,2.087205387205388,CCO
+154,cardinalin_5,C[C@H]1C[C@@H]2C(=C3C=C(C4=C(C3=C([C@@]2([C@H](O1)C)O)O)OC5=C4C(=O)C6=C(C5=O)C(=O)C7=C(C6=O)[C@H](O[C@H](C7)C)C)OC)O,naphthoquinones,Dermocybe cardinalis,3.192892093741952,2.237906137184116,CCO
+155,cardinalin_6,C[C@H]1CC2=C([C@H](O1)C)C(=O)C3=C4C(=C(C=C3C2=O)OC)C5=C(C6=C(C(=C5O4)O)C(=O)C7=C(C6=O)[C@H](O[C@H](C7)C)C)O,naphthoquinones,Dermocybe cardinalis,3.221933471933472,2.066333333333333,CCO
+156,carthamin,C1=CC(=CC=C1/C=C/C(=O)C2=C([C@@](C(=C(C2=O)/C=C\3/C(=O)C(=C([C@](C3=O)([C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)C(=O)/C=C/C5=CC=C(C=C5)O)O)([C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O)O)O,chalcones,Carthamus tinctorius,3.268652781439493,2.3888246628131022,CO
+157,catenarin,CC1=CC(=C2C(=C1O)C(=O)C3=C(C2=O)C(=CC(=C3)O)O)O,anthraquinones,Bipolaris sorokiniana,2.988910318225651,2.366030534351145,CCO
+158,cephalocerone,C1OC2=C(O1)C3=C(C=C2O)O/C(=C\C4=CC=CC=C4)/C3=O,aurones,Cephalocereus senilis,3.7478839177750896,2.8177272727272724,CO
+159,cercosporin,CC(CC1=C2C3=C(C(=C(C4=C3C5=C6C2=C(C(=O)C=C6OCOC5=CC4=O)C(=C1OC)O)O)OC)CC(C)O)O,perylenequinones,Cercospora hayii,2.786693639020005,2.6101052631578945,CO
+160,chaetominedione,C1=CC2=CC3=C(NC(=O)C(=C3N=C2C=C1)C4=CC=C(O4)CO)O,quinoline_heterocycles,Chaetomium sp.,3.235386221294364,3.27989417989418,CO
+161,chaetomugilin_D,CC[C@H](C)/C=C/C1=CC2=C(C(=O)[C@@]3([C@H](C2=CO1)[C@H]4C(=O)O[C@@H]([C@H]([C@]4(O3)O)C)C)C)Cl,azaphilones,Chaetomium globosum,3.90119572057898,3.076426799007444,CCO
+162,chaetomugilin_E,CC[C@H](C)/C=C/C1=CC2=C(C(=O)[C@@]3([C@H](C2=CO1)[C@H]4C(=O)O[C@@H]([C@H]([C@]4(O3)OC)C)C)C)Cl,azaphilones,Chaetomium globosum,3.903652392947103,3.0995,CCO
+163,chaetomugilin_F,CC[C@H](C)/C=C/C1=CC2=C(C(=O)[C@@]3([C@H](C2=CO1)C4=C(O3)[C@@H]([C@H](OC4=O)C)C)C)Cl,azaphilones,Chaetomium globosum,3.8491151816206144,3.0239024390243903,CCO
+164,chaetoviridin_A,CC[C@H](C)/C=C/C1=CC2=C(C(=O)[C@@]3(C(=C(C(=O)O3)C(=O)[C@@H](C)[C@@H](C)O)C2=CO1)C)Cl,azaphilones,Chaetomium globosum var. flavo-viridae,3.412606661161574,2.755111111111111,C(Cl)(Cl)Cl
+165,chaetoviridin_C,CC[C@H](C)/C=C/C1=CC2=C(C(=O)[C@@]3([C@H](C2=CO1)[C@@H](C(=O)O3)C(=O)[C@@H](C)[C@H](C)O)C)Cl,azaphilones,Chaetomium globosum var. flavo-viridae,3.859900373599004,2.8832558139534883,C(Cl)(Cl)Cl
+166,chaetoviridin_D,C[C@H](/C=C/C1=CC2=C(C(=O)[C@@]3([C@H](C2=CO1)[C@@H](C(O3)(C(C)C(C)O)O)C(=O)O)C)Cl)[C@@H](C)O,azaphilones,Chaetomium globosum var. flavo-viridae,3.8719550281074326,2.8832558139534883,C(Cl)(Cl)Cl
+167,chaetoxanthone_C,C[C@@H]1CCC[C@@H](O1)C2=C(C(=C3C(=C2O)C(=O)C4=C(O3)C=CC=C4OC)Cl)O,xanthones,Chaetomium sp.,4.448510943667025,3.7914373088685016,CC#N
+168,chartreusin,C[C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)OC2=CC=CC3=C2C4=C5C6=C(C=CC(=C6C(=O)O4)C)OC(=O)C5=C3O)O[C@@H]7[C@@H]([C@H]([C@H]([C@H](O7)C)O)OC)O)O)O,other_polyketides,Streptomyces chartreusis,3.764955967203158,2.93096926713948,CCO
+169,chimaphilin,CC1=CC2=C(C=C1)C(=O)C=C(C2=O)C,naphthoquinones,Pyrola rotundifolia L.,4.105298013245033,3.657227138643068,CO
+170,chlorocyclinone_D,CC1C2=C(C3=C(C=C2C(=O)O1)C(=O)C4=C5C(=CC(=C4C3=O)O)C=C(C(=C5OC)Cl)C)O,angucyclinones,Streptomyces sp. DSM 17045,3.276427061310782,2.4599206349206346,CO
+171,chloronatronochrome,CC1=C(C=CC(=C1O)Cl)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(=O)OC,polyenes,Thialkalivibrio versutus strain ALJ 15,3.067293419099456,2.8049773755656107,CO
+172,chloroxanthin,CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/CCCC(C)(C)O)/C)/C)/C)C,carotenoids,Erwinia uredovora,2.9961333977767035,2.6434968017057567,CC#N
+173,chromoazepinone_B,C1=CC=C2C(=C1)C3=C(N2)C(=O)C(=NC(=C3)C(=O)O)C4=CNC5=CC=CC=C54,indole_heterocycles,Chromobacterum violaceum,3.0364927749204016,3.0612345679012343,CO
+174,chromopyrrolic_acid_dimethylester,O=C(OC)C1=C(C2=CNC3=CC=CC=C32)C(C4=CNC5=CC=CC=C54)=C(C(OC)=O)N1,indole_heterocycles,Chromobacterium violaceum,4.68202416918429,3.7914373088685016,CO
+175,chromoviridan,OC1=CC2=C(C=C1)NC=C2C(C=C/3C4=CNC5=C4C=CC=C5)=NC3=C/C6=C(C7=CNC8=C7C=CC=C8)C=C(C9=CNC%10=C9C=CC=C%10)N6,indole_heterocycles,Chromobacterium violaceum,2.763093380878092,1.9251552795031053,CO
+176,chrysin,C1=CC=C(C=C1)C2=CC(=O)C3=C(C=C(C=C3O2)O)O,flavonoids,Passiflora Coerulea,4.556413083425211,3.961022364217252,CO
+177,chryso-obtusin,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)OC,anthraquinones,Cassia tora L.,4.206990159484222,3.4248618784530387,CO
+178,chrysophanol,Cc1cc(O)c2C(=O)c3c(O)cccc3C(=O)c2c1,anthraquinones,Aloe vera,3.64861683343143,2.8967289719626166,CO
+179,cinnabarinic_acid,C1=CC(=C2C(=C1)OC3=CC(=O)C(=C(C3=N2)C(=O)O)N)C(=O)O,phenoxazinones,Polystictus sanguineus,3.4267551133222773,2.8049773755656107,c1cccnc1
+180,citrinin,C[C@@H]1[C@H](OC=C2C1=C(C(=C(C2=O)C(=O)O)O)C)C,azaphilones,Monascus purpureus,4.479046242774566,3.948407643312102,CO
+181,cladochrome,CC(CC(=O)C(C)C1=C(C2=CC(=O)C3=C4C2=C5C1=CC(=O)C6=C5C(=C(C(=C6O)OC)OC)C4=C(C(=C3O)OC)OC)C(C)C(=O)CC(C)O)O,perylenequinones,Cladosporium cucumerinum,2.9021535580524342,2.122945205479452,CCO
+182,cochliodinol,CC(=CCC1=CC2=C(C=C1)NC=C2C3=C(C(=O)C(=C(C3=O)O)C4=CNC5=C4C=C(C=C5)CC=C(C)C)O)C,benzoquinones,Chaetomium globosum ,2.7099453551912567,2.6101052631578945,CO
+183,cochliodinol_diacetate,C/C(C)=C\CC1=CC2=C(NC=C2C3=C(OC(C)=O)C(C(C4=CNC5=C4C=C(C/C=C(C)\C)C=C5)=C(OC(C)=O)C3=O)=O)C=C1,benzoquinones,semisynthetic,3.2019628099173554,2.489558232931727,CO
+184,cochliodinone,C/C(C)=C\CC1=CC2=C(NC=C2C3=C(O4)C(OC3=O)=C(C5=CNC6=C5C=C(C/C=C(C)\C)C=C6)C4=O)C=C1,benzoquinones,Chaetomium globosum ,3.248951781970649,2.637872340425532,CO
+185,conioxanthone_A,COC(=O)C1=C2C(=CC(=C1)O)OC3=CC(=CC(=C3C2=O)O)CO,xanthones,Coniochaeta sp.,4.404262877442274,3.4728291316526607,CO
+186,corticin_A,COC1=CC2=C(C=C1O)OC3=C(C4=C(C(=C23)O)OC5=CC(=C(C=C54)O)OC)OC,benzoquinones,Corticium caeruleum,4.240082079343366,2.194336283185841,CCO
+187,crocin-1,C\C(\C=C\C=C(/C)C(=O)O[C@@H]1O[C@H](CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@H]1O)=C/C=C/C=C(\C)/C=C/C=C(\C)C(=O)O[C@@H]1O[C@H](CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@H]1O,carotenoids,Crocus sativus,3.0688118811881187,2.8177272727272724,O
+188,curcumin,OC1=C(OC)C=C(/C=C/C(/C=C(O)/C=C/C2=CC(OC)=C(C=C2)O)=O)C=C1,curcuminoids,Curcuma longa,3.6145772594752175,2.917176470588235,CCO
+189,cyanidin,C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2O)O)O)O)O,anthocyanins,Salix candida,3.0794833581718826,2.4309803921568625,CCO
+190,cyclodercitin,C[N+]1=C2C3=C(C=C1)C4=CC=CC=C4N5C3=C(CC5)C6=C2N=CS6,quinoline_heterocycles,Dercitus sp.,2.999758045003629,2.10135593220339,CO
+191,cycloleucomelone,O=C(C(C1=CC=C(O)C=C1)=C2O)C3=C(C4=CC(O)=C(O)C=C4O3)C2=O,terphenyls,Boletopsis leucomelaena,2.8953759925268567,2.951904761904762,CO
+192,cycloprodigiosin,CC1CCCC2=C(NC(=C12)/C=C\3/C(=CC(=N3)C4=CC=CN4)OC)C,pyrrol_heterocycles,Beneckea gazogenes,3.05294262496922,2.2959259259259257,CCO
+193,cynodontin,CC1=CC(=C2C(=C1O)C(=O)C3=C(C=CC(=C3C2=O)O)O)O,anthraquinones,Drechslera avenae,3.0469402801671173,2.225852782764812,C(Cl)(Cl)Cl
+194,cystodytine_A,CC(=CC(=O)NCCC1=CC(=O)C2=NC=CC3=C2C1=NC4=CC=CC=C34)C,quinoline_heterocycles,Cystodytes dellechiajei,3.954704944178628,3.262631578947368,CO
+195,cytosporacin,CCCCCCC[C@@H]1C2=C(C(=C(C=C2C(=C3C4=C(C(=CC3=O)O)C(=C5C(=C4)[C@H](C(=C)OC5=O)O)O)C(=O)O1)O)O)O,other_polyketides,Cytospora rhizophorae,3.268652781439493,3.443888888888889,O
+196,daidzein,C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O,flavonoids,Butea monosperma,4.999193548387097,3.999354838709677,CO
+197,damaurone_A,O=C(C1=CC(O)=C(OC)C=C1O/2)C2=C/C3=CC=C(C(C)=O)C=C3,aurones,Rosa damascena,3.665878178592549,3.5221590909090907,CO
+198,damaurone_B,O=C1OC2=CC(O)=C(O)C=C2/C1=C/C3=CC=C(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)C=C3,aurones,Rosa damascena,3.5915411355735807,3.178974358974359,CO
+199,damaurone_C,CC1(C)CC(C2=C(C=CC3=C2O/C(C3=O)=C\C4=CC=C(O)C=C4)O1)=O,aurones,Rosa damascena,3.976266837716485,3.5422857142857143,CO
+200,damaurone_D,CC1(CCC2=C(O1)C=CC3=C2O/C(=C\C4=CC=C(C=C4)O)/C3=O)C,aurones,Rosa damascena,3.9496654985664224,3.60406976744186,CO
+201,damaurone_E,OC(C=C1)=CC=C1/C=C(C2=O)\OC3=C2C=CC4=C3C(C=C(C)CO4)=O,aurones,Rosa damascena,3.940877304513668,3.3690217391304347,CO
+202,damncanthal,COC1=C2C(=CC(=C1C=O)O)C(=O)C3=CC=CC=C3C2=O,anthraquinones,Pentas micrantha,3.978818998716304,3.262631578947368,CO
+203,damncanthol,COC1=C2C(=CC(=C1CO)O)C(=O)C3=CC=CC=C3C2=O,anthraquinones,Pentas micrantha,4.037121458808206,3.396712328767124,CO
+204,danthrone,O=C1C2=C(C=CC=C2O)C(C3=CC=CC(O)=C31)=O,anthraquinones,Chromolaenicola sp. (HL-114-33-R04),3.64861683343143,2.876566125290023,C[S+]([O-])C
+205,daunorubicine,C[C@@H]1[C@@H](O)[C@H](N)C[C@H](O[C@H]2C[C@@](C(C)=O)(O)CC3=C(O)C4=C(C(O)=C32)C(C5=C(OC)C=CC=C5C4=O)=O)O1,anthracyclinones,Streptomyces peucetius,2.933743492664458,2.339245283018868,C(=O)N(C)C
+206,decarboxydehydrosanguinone_a,O=C1C2=NCN[C@H]3CCN4C=CC5=CNC1=C5C4=C23,indole_heterocycles,Mycena sanguinolenta,2.7544990002221725,2.7429203539823006,O
+207,defucogilvocarcin_V,COC1=CC(=CC2=C1C3=CC(=C4C(=C3OC2=O)C=CC=C4O)OC)C=C,other_polyketides,Streptomyces arenae 2064,3.8491151816206144,3.195360824742268,CO
+208,dehydrokuanoniamine_F,C/C=C(C)\C(NCCC1=C2C3=C(C4=CC=CC=C4N2)C=CN=C3C5=C1SC=N5)=O,quinoline_heterocycles,Cystodytes violatinctus,3.573940616892476,2.3481060606060606,CO
+209,dehydrorabelomycin,CC1=CC2=CC(=C3C(=C2C(=C1)O)C(=O)C4=C(C3=O)C(=CC=C4)O)O,angucyclinones,Streptomyces murayamaensis,2.887284583139264,2.637872340425532,C(Cl)(Cl)Cl
+210,deinoxanthin,CC1=C(C([C@@H](CC1=O)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C=C/CC(C)(C)O)/C)/C,carotenoids,Deinococcus radiodurans,2.78982898289829,2.450197628458498,CO
+211,delphinidin,C1=C(C=C(C(=C1O)O)O)C2=[O+]C3=CC(=CC(=C3C=C2O)O)O,anthocyanins,Hibiscus sabdariffa,3.0794833581718826,2.375095785440613,CCO
+212,demethylaaptamine,COC1=C(O)C2=NC=CC3=C2C(C=CN3)=C1,quinoline_heterocycles,Aaptos aaptos,3.8042344277385705,3.0995,O
+213,demethylaeruginosin_B,NC1=CC2=NC3=CC(S([O-])(=O)=O)=CC(C(O)=O)=C3N=C2C=C1,phenazines,pseudomonas sp.,3.3480961382662704,2.304460966542751,O
+214,demethyloxyaaptamine,COC(C(C1=NC=C2)=O)=CC3=C1C2=NC=C3,quinoline_heterocycles,Aaptos aaptos,3.533200341977772,2.987469879518072,O
+215,demethylspheroiden,CC(=CCC/C(=C/CC/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C=C/CC(C)(C)O)/C)/C)/C)C,carotenoids,Erwinia uredovora,2.911011974641935,2.5668737060041407,CC#N
+216,demethylstreptonigrin,CC1=C(C(=C(N=C1C(=O)O)C2=NC3=C(C=C2)C(=O)C(=C(C3=O)N)OC)N)C4=C(C(=C(C=C4)O)OC)O,quinoline_heterocycles,Streptomyces albus,3.08331260880378,3.22025974025974,CO
+217,deoxychromoviridan,C(C=C/1C2=CNC3=C2C=CC=C3)(C4=CNC5=C4C=CC=C5)=NC1=C/C6=C(C7=CNC8=C7C=CC=C8)C=C(C9=CNC%10=C9C=CC=C%10)N6,indole_heterocycles,Chromobacterium violaceum,2.7496118873364384,1.9341653666146643,CO
+218,deoxycochliodinol,C/C(C)=C\CC1=CC2=C(NC=C2C3=C(O)C(O)=C(C4=CNC5=C4C=C(C/C=C(C)\C)C=C5)C3=O)C=C1,benzoquinones,semisynthetic,3.7937576499388,2.6101052631578945,CO
+219,deoxyviolacein,O=C1NC(=C\C1=C1/C(=O)NC2=CC=CC=C12)C1=CNC2=CC=CC=C12,indole_heterocycles,Citrobacter freundii,2.690538194444444,2.2139285714285712,CCO
+220,dermocybin,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C(=C(C(=C3O)O)OC)O,anthraquinones,Cortinarius sanguineus,3.388357474719869,2.379654510556622,CCO
+221,dermolactone,C[C@H]1CC2=CC3=C(C(=C2C(=O)O1)O)C(=O)C4=C(C3=O)C=C(C=C4O)OC,anthraquinones,Dermocybe sanguinea,3.4515590200445434,2.755111111111111,C(Cl)(Cl)Cl
+222,dermolutein,CC1=C(C(O)=O)C(O)=C2C(C(C3=C(C(OC)=CC(O)=C3)C2=O)=O)=C1,anthraquinones,Cortinarius sp.,3.5936231884057968,2.8177272727272724,CO
+223,dermoquinone,CC(=O)CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)O,anthraquinones,Dermocybe sanguinea,3.561620224073541,2.8632794457274824,CCO
+224,dermorubin,CC1=C(C(=C2C(=C1O)C(=O)C3=C(C2=O)C(=CC(=C3)O)OC)O)C(=O)O,anthraquinones,Cortinarius sp.,2.9554231227651964,2.339245283018868,CO
+225,diacetyldioxyindigoidine,O=C(NC1=O)/C(C=C1OC(C)=O)=C2C=C(C(NC\2=O)=O)OC(C)=O,glutamine_heterocycles,semiartificial,3.640046975924838,3.170843989769821,C1CCCO1
+226,diacetylindigoidine,O=C(NC1=O)/C(C=C1NC(C)=O)=C2C=C(C(NC\2=O)=O)NC(C)=O,glutamine_heterocycles,semiartificial,2.985311822778714,2.4262230919765164,C(=O)N(C)C
+227,diadinoxanthin,CC1=C(C(C[C@@H](C1)O)(C)C)C#C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@]23[C@](O2)(C[C@H](CC3(C)C)O)C)/C)/C,carotenoids,Phaeodactylum tricornutum,2.941399762752076,2.59916142557652,CCCCCC
+228,diatoxanthin,CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C#CC2=C(C[C@H](CC2(C)C)O)C)/C)/C,carotenoids,Phaeodactylum tricornutum,2.8799070847851334,2.577546777546777,CCCCCC
+229,didemnimide_A,C1=CC=C2C(=C1)C(=CN2)C3=C(C(=O)NC3=O)C4=CN=CN4,indole_heterocycles,Didemnum conchyliatum,3.304371002132196,2.8832558139534883,CC#N
+230,didemnimide_B,C1=CC2=C(C=C1Br)NC=C2C3=C(C(=O)NC3=O)C4=CN=CN4,indole_heterocycles,Didemnum conchyliatum,3.2920870950610723,2.951904761904762,CC#N
+231,didemnimide_C,CN1C=NC=C1C2=C(C(=O)NC2=O)C3=CNC4=CC=CC=C43,indole_heterocycles,Didemnum conchyliatum,3.364450474898236,2.951904761904762,CC#N
+232,didemnimide_D,CN1C=NC=C1C2=C(C(=O)NC2=O)C3=CNC4=C3C=CC(=C4)Br,indole_heterocycles,Didemnum conchyliatum,3.3957819775404,2.980288461538461,CC#N
+233,dihydroxanthommatin,C1=CC(=C2C(=C1)OC3=C(N2)C4=C(C(=C3)O)NC(=CC4=O)C(=O)O)C(=O)CC(C(=O)O)N,phenoxazinones,Pieris brassicae,3.191248391248392,2.514807302231237,CCCCO
+234,dimethoxyindigoidine,O=C(NC1=O)/C(C=C1OC)=C2C=C(C(NC\2=O)=O)OC,glutamine_heterocycles,semiartificial,3.081013916500994,2.6548179871520343,C(=O)N(C)C
+235,dinor-curcumin,OC1=C(O)C=C(/C=C/C(/C=C(O)/C=C/C2=CC(O)=C(C=C2)O)=O)C=C1,curcuminoids,Curcuma longa,3.558553386911596,2.869907407407408,CCO
+236,dinorbikaverin,O=C1C2=C(C=C(O)C=C2C)OC(C1=C3O)=C(O)C4=C3C(C=C(O)C4=O)=O,naphthoquinones,Fusarium oxysporum,3.111947791164659,2.712910284463895,CC#N
+237,dinoxanthin,C/C(=C\C=C\C=C(/C)\C=C\C=C(/C)\C=C=C1[C@@](C[C@@H](CC1(C)C)OC(=O)C)(C)O)/C=C/C=C(\C)/C=C/[C@@]23[C@@](O2)(C[C@H](CC3(C)C)O)C,carotenoids,Gyrodinium resplendens,3.000484027105518,2.632271762208068,CC(=O)C
+238,diosindigo_A,CC1=CC(C(OC)=C/C2=C3C=C(C4=CC(C)=CC(O)=C4C/3=O)OC)=C(C(O)=C1)C2=O,naphthoquinones,Diospyros melanoxylon,2.1900724253665427,1.7787661406025823,C(Cl)(Cl)Cl
+239,diosindigo_B,COC(C(C(O)=CC(C)=C1)=C1C/2=O)=CC2=C3C=C(C4=C(O)C=C(C)C=C4C\3=O)OC,naphthoquinones,Diospyros melanoxylon,2.200567980120696,1.8340236686390528,C(Cl)(Cl)Cl
+240,diosndigo_quinone,COC1=CC2=C(OC(C(C3=C(O)C=C(C)C=C34)=O)=C2C4=O)C5=C1C(O)=CC(C)=C5,naphthoquinones,Diospyros melanoxylon,3.27556142668428,2.384230769230769,C(Cl)(Cl)Cl
+241,dioxyindigoidine,OC1=C/C(C(NC1=O)=O)=C2C=C(C(NC/2=O)=O)O,glutamine_heterocycles,semiartificail,3.009223300970873,1.913271604938272,C(=O)N(C)C
+242,diphenazithionin,COC(=O)C1=CC(=CC2=NC3=C(C=CC=C3N=C12)C(=O)O)SC4=C(C5=NC6=C(C=CC=C6N=C5C(=C4)C(=O)OC)C(=O)O)O,phenazines,Streptomyces griseus ISP 5236,2.680069174232598,2.8049773755656107,CO
+243,draconin_red,O=C1C=C(OC)C(C2=C(O)C(OC)=CC(O)=C21)=O,naphthoquinones,Scytalidium cuboideum,3.245549738219895,2.4357563850687622,C(Cl)Cl
+244,e_rhodomycinone,CC[C@]1(C[C@@H](C2=C([C@H]1C(=O)OC)C(=C3C(=C2O)C(=O)C4=C(C3=O)C=CC=C4O)O)O)O,anthracyclinones,Nonomuraea rhodomycinica NR4-ASC07,3.304371002132196,2.334839924670433,CO
+245,echinenone,CC(\C=C\C=C(C)\C=C\C1=C(C)CCCC1(C)C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)C(=O)CCC1(C)C,carotenoids,Kocuria rosea,2.894024276377217,2.7069868995633186,CCCCCC
+246,eleocharin_A,O=C1C2=C(O)C3=C(OC(C)(C)C=C3)C=C2OC(C4=CC=C(O)C(O)=C4)=C1,flavonoids,Eleocharis tuberosa,4.388672566371682,3.5221590909090907,CO
+247,eleocharin_F,O=C1C2=C(O3)C(C=CC3(C)C)=C(OC)C=C2O/C1=C\C4=CC=C(O)C(O)=C4,flavonoids,Eleocharis tuberosa,3.819470117067159,3.053694581280788,CO
+248,elloxazinone_B,C1=CC2=C(C=C1C(=O)O)N=C3C(=CC(=O)C(=C3C(=O)N)N)O2,phenoxazinones,Streptomyces griseus Acta 2871,3.3453858607663247,2.876566125290023,CO
+249,emodin,Cc1cc(O)c2C(=O)c3c(O)cc(O)cc3C(=O)c2c1,anthraquinones,Xanthoria sp.,3.558553386911596,2.843577981651376,CCO
+250,endophenazin_A,CC(=CCC1=C2C(=CC=C1)N=C3C=CC=C(C3=N2)C(=O)O)C,phenazines,Streptomyces anulatus,3.7914373088685016,3.396712328767124,CO
+251,endophenazin_B,CC(=CCC1=CC(=O)C=C2C1=NC3=C(C=CC=C3N2C)C(=O)O)C,phenazines,Streptomyces anulatus,3.1700332395806696,2.572199170124481,CO
+252,endophenazin_C,O=C(O)C1=C2C(N(C)C3=C(C(C/C=C(C)/C)=CC=C3)N2)=CC=C1,phenazines,Streptomyces anulatus,3.6304538799414345,2.9103286384976523,CO
+253,endophenazin_D,O=C(OCC(O)=O)C1=C2C(NC3=C(C=CC=C3)N2)=CC=C1,phenazines,Streptomyces anulatus,3.3828103683492494,3.532193732193732,CO
+254,epicocconone,C\C=C\C=C\C=C\C(=O)\C=C(O)\C1=C2C=C3C[C@@H](CO)OC=C3C(=O)[C@@]2(C)OC1=O,azaphilones,Epicoccum nigrum,3.371770465053032,2.2338738738738737,CO
+255,erabulenol_A,C[C@H]1C(C2=C(C3=C4C(=C2O1)C(=CC(=O)C4=C(C(=C3O)OC)O)C)O)(C)C,phenalenones,Penicillium sp. FO-5637,3.9209361163820367,2.8501149425287355,CO
+256,erabulenol_B,CC1C(C2(C(=C3C(=C(C(=O)C4=C3C(=C(C(=C4O)OC)O)C2=O)CC5=C(C(=CC(=C5O)C(=O)C)C)O)C)O1)O)(C)C,phenalenones,Penicillium sp. FO-5637,3.5432980851671907,3.0461916461916463,CO
+257,erythroglaucin,CC1=CC(=C2C(=C1O)C(=O)C3=C(C2=O)C(=CC(=C3)OC)O)O,anthraquinones,Xanthoria elegans,3.2920870950610723,2.37055449330784,CCO
+258,esmeraldin_B,CC1C2=C3C(=CC=C2)NC4=C(C=CC=C4N3C5=C1C6=NC7=C(C=CC=C7N=C6C(=C5)C(=O)O)C(C)OC(=O)C8=C(C=CC=C8O)C)C(=O)O,phenazines,Streptomyces antibioticus,3.0402157920549286,1.88419452887538,CCO
+259,exfoliazone,CC(=O)NC1=CC2=NC3=C(C=CC(=C3)CO)OC2=CC1=O,phenoxazinones,Streptomyces exfoliatus,3.4855215068878267,3.0995,CO
+260,exophialin,OC1=CC=CC(C(C(OC2=O)=C3)=C2C4=CNC5=CC=CC=C54)=C1C3=O,indole_heterocycles,Exophiala dermatitidis,3.049938499384994,2.3615238095238094,CO
+261,fallacinal,COC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)C=O,anthraquinones,Xanthoria fallax,3.5091989810359467,2.786067415730337,CCO
+262,farinamycin,C1=CC2=C(C(=C1)O)N=C(NC2=O)C3=CC(=C(C=C3)O)N[C@@H]4[C@H]([C@@H](C(=N)C(=C4O)C(=O)N)O)O,other_heterocycles,Streptomyces griseus,4.398013479957432,3.6145772594752175,CO
+263,fascaplysin,C1=CC=C2C(=C1)C3=C(N2)C4=[N+](C=C3)C5=CC=CC=C5C4=O,indole_heterocycles,Fascaplysinoplis sp.,3.2463995810421578,3.0019370460048425,CO
+264,fisetin,C1=CC(=C(C=C1C2=C(C(=O)C3=C(O2)C=C(C=C3)O)O)O)O,flavonoids,Elaeagnus indica,4.257554945054945,3.4248618784530387,CO
+265,flavasperone,CC1=CC(=O)C2=C(O1)C3=C(C=C(C=C3C=C2O)OC)OC,pyranones,Aspergillus niger,4.253173241852487,3.3508108108108106,CCO
+266,flaviolin,C1=C(C=C(C2=C1C(=O)C(=O)C=C2O)O)O,naphthoquinones,Aspergillus citricus,3.386506419011199,2.6266949152542374,O
+267,flavomannin,CC1(CC2=C(C(=O)C1)C(=C3C(=C2)C=C(C(=C3O)C4=C(C5=C(C6=C(CC(CC6=O)(C)O)C=C5C=C4O)O)O)O)O)O,pyranones,Penicillium wortmanni,3.7914373088685016,2.9731414868105515,CCO
+268,flavomentin_A,O=C(C(OC(/C=C\[C@H]1[C@@H](O1)C)=O)=C(C2=CC=C(O)C=C2)C3=O)C(C4=CC=C(O)C=C4)=C3OC(/C=C\[C@H]5[C@H](C)O5)=O,terphenyls,Paxillus atrotomentosus,3.4874824191279887,3.34177897574124,CCO
+269,flexirubin,CCCCCCCCCCCCC1=C(C=C(C=C1OC(=O)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C2=CC(=C(C=C2)O)C)C)O,polyenes,Chryseobacterium sp. UTM-3,2.911011974641935,2.755111111111111,CCCCCC
+270,fluviol_A,COC1=NNC2=C1N=CN=N2,other_heterocycles,Pseudomonas fluorescens,4.074268813670719,3.4248618784530387,CCO
+271,fomentariol,C1=CC2=C(C(=C(C(=C2C(=O)C(=C1/C=C/CO)O)O)O)O)/C=C/CO,tropolones,Fomes fomentarius,3.37360544217687,2.695217391304348,CO
+272,fonsecin,CC1(CC(=O)C2=C(C3=C(C=C(C=C3C=C2O1)O)OC)O)O,pyranones,Aspergillus niger,3.989060489060489,3.0995,CCO
+273,fonsecinone_A,CC1=CC(=O)C2=C(C=C3C=C(C(=C(C3=C2O1)OC)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)C=C(O5)C)OC)O,pyranones,Aspergillus niger,3.929635499207607,3.115075376884422,CCO
+274,fonsecinone_B,CC1=CC(=O)C2=C(O1)C=C3C=C(C(=C(C3=C2O)OC)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)CC(O5)(C)O)OC,pyranones,Aspergillus niger,3.9572294924992018,3.076426799007444,CCO
+275,fonsecinone_C,CC1=CC(=O)C2=C(C=C3C=C(C(=C(C3=C2O1)OC)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)CC(O5)(C)O)OC)O,pyranones,Aspergillus niger,3.9496654985664224,3.115075376884422,CCO
+276,fragilin,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C(=C(C=C3C2=O)O)Cl)O,anthraquinones,Anaptychia obscurata,3.587384259259259,2.379654510556622,CCO
+277,fredericamycin_A,C/C=C/C=C/C1=CC2=CC3=C([C@]4(C(C5=C(O)C(C(C=C(OC)C6=O)=O)=C6C(O)=C5C4=O)=O)CC3)C(O)=C2C(N1)=O,naphthoquinones,Sreptomyces griseus,3.1323900960080846,2.4599206349206346,O
+278,fredericamycin_B,CC=CC=CC1=CC2=CC3=C(C4=C(CC3)C(=C5C(=C4O)C(=O)C6=C(C5=O)C(=C(C=C6O)OC)O)O)C(=C2C(=O)N1)O,naphthoquinones,Sreptomyces griseus,2.94349477682811,2.1156996587030714,O
+279,fredericamycin_C,C/C=C/C=C/C(=O)CC1=C(C(=C2C(=C1)CCC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC(=C5O)OC)O)O)O)C(=O)O,naphthoquinones,Sreptomyces griseus,2.988910318225651,2.15993031358885,O
+280,fucoxanthin,[H]C(=C=C1C(C)(C)C[C@@H](C[C@@]1(C)O)OC(C)=O)C(\C)=C\C=C\C(C)=C\C=C\C=C(C)\C=C\C=C(/C)C(=O)C[C@@]12O[C@]1(C)C[C@@H](O)CC2(C)C,carotenoids,Sporochnus comosus,2.988910318225651,2.6777537796976243,CCCCCC
+281,fumigatin,CC1=CC(C(OC)=C(O)C1=O)=O,benzoquinones,Aspergillus fumigatus ,2.8626183329485104,2.755111111111111,C(Cl)(Cl)Cl
+282,funalenone,CC1=CC(=O)C2=C(C(=C(C3=C2C1=C(C=C3O)O)O)OC)O,phenalenones,Aspergillus niger,4.098512396694215,3.076426799007444,CO
+283,fusarubin,CC1(CC2=C(CO1)C(=C3C(=O)C=C(C(=O)C3=C2O)OC)O)O,naphthoquinones,Fusarium sp.,3.3390789119310527,2.3217228464419475,O
+284,galangin,C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,flavonoids,Alpinia officinarum,4.237183868762815,3.4534818941504177,CO
+285,galangin,C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,flavonoids,Alpinia officinarum,4.237183868762815,3.4534818941504177,CO
+286,quercetin,C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,flavonoids,Citrullus colocynthis,4.238632478632479,3.332795698924731,CO
+287,quercetin,C1=CC=C(C=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,flavonoids,Citrullus colocynthis,4.238632478632479,3.332795698924731,CO
+288,galtamycinone,C[C@@H]1[C@H]([C@@H](C[C@@H](O1)C2=C(C3=C(C=C2)C(=O)C4=C(C3=O)C=C5C(=CC(=CC5=C4O)C)O)O)O)O,angucyclinones,Micromonospora sp. Tu6368,3.3426799676462657,2.530204081632653,CCO
+289,genipocyanin_G1,CC1=C/C(=C\C2=C3C(=CN(C=C3C(=O)OC)CC(=O)[O-])C(=C2)C)/C4=C[N+](=CC(=C14)C(=O)OC)CC(=O)O,pyridine_heterocycles,Genipa americana,2.715881708652793,2.0836974789915965,O
+290,genistein,C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O)O,flavonoids,Genista tinctoria,4.715861544313428,3.874375,CO
+291,globosuxanthone_A,COC(=O)[C@@]1([C@@H](C=CC2=C1C(=O)C3=C(C=CC=C3O2)O)O)O,xanthones,Chaetomium globosum,4.479046242774566,3.60406976744186,CO
+292,globosuxanthone_C,COC1=C(C2=C(C=C1)OC3=CC=CC(=C3C2=O)O)O,xanthones,Chaetomium globosum,3.9496654985664224,3.0688118811881187,CO
+293,globosuxanthone_D,C1=CC(=C2C(=C1)OC3=CC=CC(=C3C2=O)O)C(=O)O,xanthones,Chaetomium globosum,4.291450328833506,3.415426997245179,CO
+294,gomphidic_acid,C1=CC(=CC=C1/C(=C/2\C(=C(C(=O)O2)C3=CC(=C(C(=C3)O)O)O)O)/C(=O)O)O,pulvinones,Gomphidius glutinosus,4.165994623655913,3.115075376884422,CCO
+295,gomphilactone,O=C(/C1=C2C=CC(O\2)=O)OC3=C1C=C(O)C(O)=C3,pulvinones,Cortinarius violaceus,3.343581445523193,2.604621848739496,CO
+296,granaticin_B,C[C@H]1[C@H](CC[C@@H](O1)O[C@@H]2C[C@@H]3C4=C([C@]2([C@H](O3)C)O)C(=C5C(=C4O)C(=O)C6=C(C5=O)[C@@H](O[C@@H]7[C@H]6OC(=O)C7)C)O)O,naphthoquinones,Sterptomices lateritius,3.164369576314446,2.375095785440613,CCO
+297,grevillin_A,O=C(/C(O1)=C/C2=CC=C(O)C=C2)C(C3=CC=C(O)C=C3)=C(O)C1=O,pulvinones,Suillus grevillei,3.817118226600985,3.1871465295629817,CO
+298,grevillin_B,O=C(/C(O1)=C/C2=CC(O)=C(O)C=C2)C(C3=CC=C(O)C=C3)=C(O)C1=O,pulvinones,Suillus grevillei,3.7729762629336574,3.1308080808080807,CO
+299,grevillin_C,O=C(/C(O1)=C/C2=CC(O)=C(O)C=C2)C(C3=CC(O)=C(O)C=C3)=C(O)C1=O,pulvinones,Suillus grevillei,3.774124809741248,3.053694581280788,CO
+300,grevillin_D,O=C(/C(O1)=C/C2=CC(O)=C(O)C=C2)C(C3=CC(O)=CC=C3O)=C(O)C1=O,pulvinones,Suillus grevillei,3.758108517732647,3.031295843520782,CO
+301,griseolutein_A,COC1=CC=C(C2=NC3=CC=CC(=C3N=C12)C(=O)O)COC(=O)CO,phenazines,Sreptomyces griseoluteus,3.5291773413037286,3.3690217391304347,CO
+302,griseolutein_B,COC1=CC=C(CO)C2=C1NC3=C(C(O)=O)C=CC=C3N2C(CO)=O,phenazines,Sreptomyces griseoluteus,4.264877880976952,3.60406976744186,CO
+303,griseorhodin_A,OC1=C(O2)C([C@H](O)[C@@]32[C@@H](O4)[C@@H]4C(C=C(C=C(C)OC5=O)C5=C6O)=C6O3)=C(O)C7=C1C(C(OC)=CC7=O)=O,naphthoquinones,Streptomyces griseus (FCRC-57),3.304371002132196,2.1750877192982454,CO
+304,griseulin,CC1=C(C=C(OC1=O)/C(=C/C(=C/C2=CC=C(C=C2)[N+](=O)[O-])/C)/C)OC,pyranones,Streptomyces griseus,3.687685901249256,3.378201634877384,CCO
+305,grixazone_A,CC(=O)N[C@@H](CSC1=C(C(=O)C=C2C1=NC3=C(O2)C=CC(=C3)C=O)N)C(=O)O,phenoxazinones,Streptomyces griseus,3.262631578947368,2.843577981651376,CO
+306,guaiazulene,CC1=CC=C2C1=CC(C(C)C)=CC=C2C,azulenes,Matricaria sp.,2.540053267772997,1.913271604938272,CC#N
+307,gymnochrome_A,CCCC(CC1=C2C3=C(C(=C(C4=C3C5=C6C2=C(C(=C1Br)O)C(=O)C7=C(C(=C(C(=C67)C8=C5C(=C(C(=C8O)Br)O)C4=O)O)Br)O)O)Br)CC(C)O)O,naphthodianthrones,Gymnocrinus richeri,2.9089629282027216,2.080201342281879,CO
+308,gymnochrome_B,CCC[C@H](CC1=C2C3=C(C(=C(C4=C(C5=C6C(=C7C8=C(C2=C(C(=C1Br)O)C(=O)C8=C(C(=C7O)Br)O)C6=C34)C(=O)C=C5O)O)O)Br)C[C@H](C)O)O,naphthodianthrones,Gymnocrinus richeri,2.839670178653229,2.076716917922948,CO
+309,haematopodin,C1CN2C(CC3=CNC4=C3C2=CC(=O)C4=O)OC1,indole_heterocycles,Mycena haematopus,3.088689586447434,2.4120622568093384,CO
+310,haematoventosin,COC1=CC(=O)C2=C(O)C3=C(C[C@H](C)OC3=O)C(O)=C2C1=O,naphthoquinones,Haematomma ventosum,3.072614622057001,2.455049504950495,CCO
+311,halxazone,COC1=CC(=O)C=C2C1=NC3=C(O2)C=CC(=C3)CO,phenoxazinones,Streptomyces halstedii,3.3617136659436007,2.7188596491228068,CO
+312,hamilcone,COC1=C(C(=C(C(=C1)O)C(=O)/C=C/C2=CC(=C(C=C2)O)O)OC)OC,chalcones,Uvaria hamiltonii,4.034493979824275,3.2036175710594312,CO
+313,hamiltrone,COC1=C(C(=C2C(=C1)O/C(=C\C3=CC(=C(C=C3)O)O)/C2=O)OC)OC,aurones,Uvaria hamiltonii,3.8719550281074326,3.0612345679012343,CO
+314,helminthosporin,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C=CC(=C3C2=O)O)O,anthraquinones,Aloe saponaria,3.321189391909992,2.186596119929453,CO
+315,herqueiazole,C[C@H]1C([C@@]2(C(=C3C(=CC(=C4C3=C(C2=O)C(=O)C5=C4C=C(N5)C)O)C)O1)O)(C)C,phenalenones,Penicillium sp.,3.761529126213592,2.843577981651376,CO
+316,herqueidiketal,C[C@@H]1C([C@@]2([C@](O1)(C3=C(O2)C(=C(C4=C3C(=O)C(=CC4=O)C)O)OC)O)O)(C)C,phenalenones,Penicillium sp.,3.500282326369283,2.830593607305936,CO
+317,herqueinone,C[C@@H]1C([C@@]2(C(=C3C(=CC(=O)C4=C3C(=C(C(=C4O)OC)O)C2=O)C)O1)O)(C)C,phenalenones,Penicillium atrovenetum G. Smith,3.6379107981220655,2.980288461538461,CCO
+318,herqueioxazole,CC1C(C2(C(=C3C(=CC(=C4C3=C(C2=O)C(=O)C5=C4OC(=N5)C)O)C)O1)O)(C)C,phenalenones,Penicillium sp.,3.790278202384592,2.9731414868105515,CO
+319,hispidin,C1=CC(=C(C=C1/C=C/C2=CC(=CC(=O)O2)O)O)O,pyranones,Cylindrocarpon ianthothele,3.874375,3.34177897574124,CO
+320,hispidol,C1=CC(=CC=C1/C=C\2/C(=O)C3=C(O2)C=C(C=C3)O)O,aurones,Soja hispida,3.96736,3.211917098445596,CCO
+321,hyaluromycin,COC1=C(C2=C(C(=C1)O)C(=O)C3=C(C2=O)O[C@]4(C3)CCC5=C(O4)C(=C6C(=C5)C=C(OC6=O)C(=O)NC7=C(CCC7=O)O)O)O,naphthoquinones,Streptomyces sp. strain MB-PO13,3.236230749151657,2.2790441176470586,CO
+322,hydroxydebromomarinone,CC(=CCC[C@]1([C@@H]2CC[C@](C=C2C3=C(O1)C(=O)C4=C(C3=O)C=C(C=C4O)O)(C)O)C)C,naphthoquinones,Actinomycete #CNH-099,3.270377209179636,2.695217391304348,CO
+323,hydroxydermolactone,C[C@H]1CC2=C(O)C3=C(C(C4=C(C=C(OC)C=C4O)C3=O)=O)C(O)=C2C(O1)=O,anthraquinones,Dermocybe sanguinea,3.1339737108190087,2.304460966542751,C(Cl)(Cl)Cl
+324,hydroxysafflower_yellow_a,C1=CC(=CC=C1/C=C/C(=C\2/C(=C(C(=O)C(C2=O)([C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)/O)O,chalcones,Carthamus tinctorius,3.689880952380952,3.107268170426065,CO
+325,hypericin,Cc1cc(O)c2c3c1c1c(C)cc(O)c4c1c1c5c(c(O)cc(O)c5c4=O)c4c(O)cc(O)c(c4c31)c2=O,naphthodianthrones,Hypericum perforatum,2.913063909774436,2.0942567567567565,CCO
+326,hypocrellin_A,CC(=O)C1C2=C3C4=C(CC1(C)O)C(=C(C5=C4C(=C6C3=C(C(=O)C=C6OC)C(=C2OC)O)C(=CC5=O)OC)O)OC,perylenequinones,Shiraia bambusicola,3.144306365711387,2.122945205479452,C(Cl)(Cl)Cl
+327,hypoxyxylerone,OC1=CC(O)=C2C(OC3=CC4=C(C(C3=C5)=O)C(O)=CC(O)=C4)=C5C(CO)=CC2=C1,other_polyketides,Hypoxylon fragiforme(Pers.: Fries) Kickx,2.762477718360071,2.0324590163934424,CC#N
+328,hyrtimomine_A,C1=CC2=C(C=C1O)C3=C(N2)OC4=C5C3=NC=CC6=CNC(=C65)C=C4,indole_heterocycles,Plakortis lita,2.957538167938931,3.211917098445596,CO
+329,hyrtimomine_B,C1[C@H](NC2=C3C(=CC=C4C3=C1C=N4)OC5=C2C6=C(N5)C=CC(=C6)O)C(=O)O,indole_heterocycles,Plakortis lita,3.819470117067159,3.1871465295629817,CO
+330,hyrtimomine_C,C1C(=O)C2=CNC3=C2C(=C(C=C3)O)C(=N1)C4=CNC5=C4C=C(C=C5)O,indole_heterocycles,Plakortis lita,4.37010927035601,2.6156118143459914,CO
+331,hyrtioerectine_D,OC1=CC=C(NC2=C3C(C(O)=O)=C(C4=CNC5=C4C=CC(O)=C5)N=C2)C3=C1,indole_heterocycles,Hyrtios sp,3.999354838709677,3.2036175710594312,CO
+332,hyrtioerectine_E,OC1=CC2=C(C=C1)C(C3=C(C(O)=O)C4=C(C=N3)NC5=CC=C(OC)C=C54)=CN2,indole_heterocycles,Hyrtios sp,4.070256073539067,2.951904761904762,CO
+333,hyrtioerectine_F,OC1=CC=C(NC2=C3C(C(N)=O)=C(C4=CNC5=C4C=CC(O)=C5)N=C2)C3=C1,indole_heterocycles,Hyrtios sp,4.099867724867725,3.262631578947368,CO
+334,indigo,C1=CC=C2C(=C1)C(=C(N2)C3=NC4=CC=CC=C4C3=O)O,indole_heterocycles,microbial,2.7075780738152435,2.0391447368421054,C(Cl)(Cl)Cl
+335,indigoidine,NC1=C\C(C(=O)NC1=O)=C1\C=C(N)C(=O)NC1=O,glutamine_heterocycles,Streptomyces lavendulae,2.4262230919765164,2.059468438538206,C(=O)N(C)C
+336,indirubin,C1=CC=C2C(=C1)C(=C(N2)O)C3=NC4=CC=CC=C4C3=O,indole_heterocycles,Folium isatidis,2.929584120982987,2.2959259259259257,C(Cl)(Cl)C(Cl)Cl
+337,indochrome_A,C1[C@H]([C@H]([C@H]([C@@H](O1)C2=CC(=NC3=CC(=C(NC3=O)O)[C@H]4[C@@H]([C@@H]([C@@H](CO4)O)O)O)C(=O)NC2=O)O)O)O,glutamine_heterocycles,Arthrobacter sp.,2.6497114768112846,2.1750877192982454,O
+338,iodinin,C1=CC2=C(C(=C1)O)[N+](=C3C=CC=C(C3=[N+]2[O-])O)[O-],phenazines,Pseudomonas iodina,2.814528944381385,2.3481060606060606,C(Cl)(Cl)Cl
+339,isoaurosperone_A,CC1=CC(=O)C2=C(O1)C=C3C=C(C(=C(C3=C2O)OC)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)C=C(O5)C)OC,pyranones,Aspergillus niger,3.927146024707001,3.2036175710594312,CCO
+340,isobatzelline_A,CN1C2=C3C(=C1SC)CCN=C3C(=C(C2=O)N)Cl,indole_heterocycles,Batzella sp.,3.1814216063638696,2.8832558139534883,CO
+341,isobatzelline_B,CN1C2=C3C(=C1SC)CCN=C3C=C(C2=O)N,indole_heterocycles,Batzella sp.,3.2540682414698163,3.08407960199005,CO
+342,isobatzelline_C,CN1C=C2CCN=C3C2=C1C(=O)C(=C3Cl)N,indole_heterocycles,Batzella sp.,3.21691748832382,3.146700507614213,CO
+343,isobatzelline_D,CN1C2=C3C(=C1SC)C=CN=C3C(=C(C2=O)N)Cl,indole_heterocycles,Batzella sp.,3.160336477185827,2.824145785876993,CO
+344,isogranulatimide,O=C(C1=C2C3=CN=CN3C4=C1C5=CC=CC=C5N4)NC2=O,indole_heterocycles,Didemnum granulatum,3.1724667349027635,2.637872340425532,CO
+345,isoindigo,O=C1/C(C2=CC=CC=C2N1)=C3C4=C(NC\3=O)C=CC=C4,indole_heterocycles,synthetic,3.023165081687393,2.5829166666666667,C(Cl)(Cl)C(Cl)Cl
+346,isoliquiritigenin,C1=CC(=CC=C1/C=C/C(=O)C2=C(C=C(C=C2)O)O)O,chalcones,Glycyrrhiza uralensis,4.012297734627832,3.323860589812332,CO
+347,isomarinone,CC1=C[C@H]2[C@@H](CC1)[C@](OC3=C2C(=O)C4=CC(=C(C(=C4C3=O)O)Br)O)(C)CCC=C(C)C,naphthoquinones,Actinomycete #CNH-099,3.447719688542825,3.178974358974359,CO
+348,isonigerone,CC1=CC(=O)C2=C(O1)C3=C(C=C(C=C3OC)OC)C(=C2O)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)C=C(O5)C,pyranones,Aspergillus niger,3.851506679092886,3.178974358974359,CO
+349,isophleichrome,C[C@@H](CC1=C2C3=C(C(=C(C4=C3C(=C5C2=C(C(=O)C=C5OC)C(=C1OC)O)C(=CC4=O)OC)O)OC)C[C@H](C)O)O,perylenequinones,Cladosporium phlei,3.0424539877300614,2.122945205479452,CCO
+350,isoprekinamycin,CC1=CC2=C(C(=C1)O)C3=C(C4=C(C3=O)C=CC=C4O)C(=O)C2=[N+]=[N-],angucyclinones,Streptomyces murayamaensis,2.4716905901116424,2.556288659793814,O
+351,isotolypocladin,CC1=CC2=C(C=N1)C(=O)C3=C(C2=O)C(=CC(=C3O)O)O,pyridine_heterocycles,Topylocladium inflatum,3.4220259453491577,2.398065764023211,CO
+352,isoxanthorin,CC1=CC2=C(C(C3=C(C(O)=CC(OC)=C3O)C2=O)=O)C(O)=C1,anthraquinones,Aloe saponaria,3.3453858607663247,2.2139285714285712,CO
+353,jadomycin_B,CCC(C)C1C(=O)OC2N1C3=C(C4=C2C=C(C=C4O)C)C(=O)C5=C(C3=O)C(=CC=C5)OC6CC(C(C(O6)C)O)O,angucyclinones,Streptomyces venezuelae ISP5230,3.03203717290291,2.326078799249531,CO
+354,javanicin,CC1=C(C(=C2C(=C1O)C(=O)C=C(C2=O)OC)O)CC(=O)C,naphthoquinones,Fusarium javanicum,3.2903397027600847,2.455049504950495,CCO
+355,juglone,Oc1cccc2C(=O)C=CC(=O)c12,naphthoquinones,Juglans nigra,3.726480312593929,2.8967289719626166,CCCCCC
+356,kaempferol,C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O,flavonoids,Dactylopius coccus,4.168796234028245,3.387431693989071,CCO
+357,katorazone,CC1=CC(/C(C2=CC=CC(O)=C23)=N/NC4=CC=CC=C4C(OC)=O)=C(C(C)=N1)C3=O,pyridine_heterocycles,Sterptomyces sp. IFM 11299,3.478675645342312,2.8177272727272724,CO
+358,kermesic_acid,C=1C(=C2C(C3=C(C=C(O)C(C(O)=O)=C3C)C(C2=C(O)C1O)=O)=O)O,anthraquinones,Laccifer lacca,3.340878469415252,2.3130597014925374,CCO
+359,kinamycin_E,CC(=O)O[C@@H]1C2=C([C@@H]([C@H]([C@@]1(C)O)O)O)C3=C(C2=[N+]=[N-])C(=O)C4=C(C3=O)C=CC=C4O,benzofluorenes,Streptomyces murayamaensis,3.359891598915989,2.7798206278026907,CCO
+360,kinobscurinone,CC1=CC2=C(C(=C1)O)C3=C(C2=O)C(=O)C4=C(C3=O)C=CC=C4O,benzofluorenes,Streptomyces murayamaensis,2.5754050685500625,2.137586206896552,CO
+361,kuanoniamine_A,C1=CC=C2C(=C1)C3=C4C(=NC=C3)C5=C(C(=O)C4=N2)SC=N5,quinoline_heterocycles,Chelynotus semperi,3.709754637941352,3.146700507614213,CO
+362,kuanoniamine_D,CC(=O)NCCC1=C2C3=C(C=CN=C3C4=C1SC=N4)C5=CC=CC=C5N2,quinoline_heterocycles,Chelynotus semperi,3.5698243593435066,2.7429203539823006,CO
+363,kyanomycin,OCCNC1=C2C(C(O)=C3C(C(C4=C(C=CC=C4O)C3=O)=O)=C2O)=C(C(OC)=O)C(CC)=C1,benzanthraquinones,Nonomuria sp. NN 22303,2.7194560210572494,2.156173913043478,CO
+364,laccaic_acid_F,COC(=O)CCC1=CC(=C(C=C1)O)C2=C(C3=C(C(=C2O)O)C(=O)C4=CC(=C(C(=C4C3=O)C(=O)O)C(=O)O)O)O,anthraquinones,Dactylopius coccus,3.3580715059588297,2.530204081632653,CO
+365,lactarazulene,CC1=CC=C2C1=CC(C(C)=C)=CC=C2C,azulenes,Matricaria sp.,2.508193404814889,2.0526490066225165,CO
+366,laetiporic_acid,O=C(C)/C(C)=C/C=C/C=C\C=C\C=C\C=C\C=C\C=C\C=C/C=C/C[C@@H](O)CC(O)=O,polyenes,Laetiporus sulfureus,2.8919990669465827,2.8049773755656107,CO
+367,lambertellin,CC1=CC2=C(C(=O)C3=C(C2=O)C=CC=C3O)OC1=O,naphthoquinones,Lambertella corni-maris,3.580132832803927,2.8832558139534883,CO
+368,lavanducyanin,CC1=C(CCC(C)(C)C1)CN2C3=C(C=CC=C3)N=C4C2=CC=CC4=O,phenazines,Streptomyces aeriouvifer,2.508193404814889,1.7585815602836878,CO
+369,lawsone,OC1=CC(=O)c2ccccc2C1=O,naphthoquinones,Lawsonia inermis,3.8707461754605057,2.6835497835497835,CCO
+370,lemonnierin,O=C(NCCCCCCC)C(C(NC1=O)=O)=C2C1=NC(C2=C3C(NCCCCCCC)=O)=C(O)NC3=O,glutamine_heterocycles,Pseudomonas Lemonieri,2.814528944381385,1.98368,C(=O)N(C)C
+371,lenticulone,CC1=CC2=CC3=C(C(=C2C(=O)O1)O)OC4(CC3)C(=O)C5=C(C6=C(C(=C5C(=O)O4)O)C(=O)C(=CC6=O)OC)O,naphthoquinones,Streptomyces sp. JP95,3.094857713429855,2.5097165991902832,CC#N
+372,leptosidin,COC1=C(C=CC2=C1O/C(=C\C3=CC(=C(C=C3)O)O)/C2=O)O,aurones,Antirrhinum majus,3.769534813013074,3.0612345679012343,CCO
+373,lilacinone,COC1=CC2(C3=C(C=CC(=C3C(=O)O2)NC4=CC(=O)C(=N)C(=C4O)C(=O)O)O)C(=C(C1=N)C(=O)O)O,benzoquinones,Lactarius lilacinus,3.229486845532691,2.3888246628131022,CO
+374,limamycin_B,CC1=CC2=C3C(=C1)N4C(C5=C(C4=C3C(=O)C=C2)C=CC=C5OC)O,angucyclinones,Streptomyces sp. ICBB8309,3.5790993071593533,2.6777537796976243,CO
+375,limocrocin,C1C(=C(C(=O)C1)NC(=O)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(=O)NC2=C(CCC2=O)O)O,polyenes,Streptomyces limosus,3.069571676157465,2.8049773755656107,O
+376,lomofungin,O=CC1=C(O)C(C)=C(O)C2=C1N=C3C(O)=CC=C(C(OC)=O)C3=N2,phenazines,Streptomyces lomondensis,3.819470117067159,2.811337868480725,CO
+377,loroxanthin,CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H]2C(=C[C@@H](CC2(C)C)O)C)/C)/CO,carotenoids,Chlorella vulgaris,2.965319301602487,2.649145299145299,CCOCC
+378,lucidin,C1=CC=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)CO)O,anthraquinones,Rubia tinctoria,3.751285930408472,3.0239024390243903,CO
+379,lucidin-omega-methylether,O=C(C1=CC(O)=C(COC)C(O)=C12)C3=CC=CC=C3C2=O,anthraquinones,Pentas micrantha,3.7524213075060535,3.0239024390243903,CO
+380,lutein,CC1=C(C(C[C@@H](C1)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H]2C(=C[C@@H](CC2(C)C)O)C)/C)/C,carotenoids,Chlorella vulgaris,2.958949880668257,2.5937238493723846,CCO
+381,luteolin,Oc1cc(O)c2c(c1)oc(cc2=O)-c1ccc(O)c(O)c1,flavonoids,Cirsium japonicum,4.413670345318619,3.55243553008596,CO
+382,luteosporin,C[C@@H]1CC2=CC3=C(C(=C2C(=O)O1)O)C(=C(C(=O)C3=O)C4=C(C5=C(C=C6C[C@H](OC(=O)C6=C5O)C)C(=O)C4=O)O)O,naphthoquinones,Penicillium chermesinum,3.4229707344008835,3.195360824742268,O
+383,lycopene,CC(C)=CCC\C(C)=C\C=C\C(C)=C\C=C\C(C)=C\C=C\C=C(C)\C=C\C=C(C)\C=C\C=C(/C)CCC=C(C)C,carotenoids,Solanum licypersicum,2.81197550464958,2.455049504950495,CCO
+384,lymphostin,CC(=O)N=C1C=C(C2=NC=C3C2=C1NC(=C3)C(=O)/C=C/OC)N,indole_heterocycles,Streptomyces sp. KY11783,3.221933471933472,2.6548179871520343,CC#N
+385,macrosporin,CC1=CC2=C(C=C1O)C(=O)C3=C(C2=O)C=C(C=C3O)OC,anthraquinones,Macrosporium porri Elliott,3.7130877508236,3.2540682414698163,CCO
+386,makaluvamine_A,CN1C=C2CCN=C3C2=C1C(=O)C(=C3)N,indole_heterocycles,Zyzzya marsailis,3.2851086380498145,3.5626436781609194,CO
+387,makaluvamine_B,CN1C=C2C=CN=C3C2=C1C(=O)C(=C3)N,indole_heterocycles,Zyzzya marsailis,2.8960523242233123,2.811337868480725,CO
+388,makaluvamine_C,O=C1C(N)=CC2=C3C1=NC=C3CCN2C,indole_heterocycles,Zyzzya marsailis,3.1244959677419355,3.4728291316526607,CO
+389,makaluvamine_D,C1CN=C2C=C(C(=C3C2=C1C=N3)O)NCCC4=CC=C(C=C4)O,indole_heterocycles,Zyzzya marsailis,3.106489601603608,3.572910662824208,CO
+390,makaluvamine_E,CN1C=C2CCN=C3C2=C1C(=O)C(=C3)NC=CC4=CC=C(C=C4)O,indole_heterocycles,Zyzzya marsailis,2.599706437408262,1.980511182108626,CO
+391,malasseziazole_A,C1=CC=C2C(=C1)C3=CC4=C(C5=CC=CC=C5N4)C(=C3N2)C(=O)C(=O)O,indole_heterocycles,Malassezia furfur,3.380965366784838,2.773601789709172,CC#N
+392,malasseziazole_B,C1=CC=C2C(=C1)C3=C(C4=C(C5=CC=CC=C5N4)C(=C3N2)C(=O)C(=O)O)C=O,indole_heterocycles,Malassezia furfur,3.05294262496922,2.572199170124481,CO
+393,malasseziazole_C,C1=CC=C2C(=C1)C3=C(C4=C(C5=CC=CC=C5N4)C(=C3N2)C(=O)O)C=O,indole_heterocycles,Malassezia furfur,3.222770990382116,2.6662365591397847,CO
+394,malvidin,COC1=CC(=CC(=C1O)OC)C2=[O+]C3=CC(=CC(=C3C=C2O)O)O,anthocyanins,Vaccinium myrtillus,3.0402157920549286,2.384230769230769,CCO
+395,malvidin_3-glucoside,COC1=CC(=CC(=C1O)OC)C2=[O+]C3=CC(=CC(=C3C=C2O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O,anthocyanins,Vaccinium myrtillus,3.0604788941002217,2.343667296786389,CO
+396,mangiferin,C1=C2C(=CC(=C1O)O)OC3=C(C2=O)C(=C(C(=C3)O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,xanthones,Mangifera indica L.,4.333449842712338,3.396712328767124,O
+397,marinone,CC1=C[C@H]2[C@@H](CC1)[C@](OC3=C2C(=O)C4=C(C3=O)C(=CC(=C4Br)O)O)(C)CCC=C(C)C,naphthoquinones,Actinomycete #CNH-099,3.4865016872890884,2.8501149425287355,CO
+398,maritimetin,C1=CC(=C(C=C1/C=C\2/C(=O)C3=C(O2)C(=C(C=C3)O)O)O)O,aurones,Coreopsis maritima,3.783338419285932,3.0019370460048425,CCO
+399,marmycin_A,C[C@@H]1[C@H](C2(C[C@@H](O1)C3=C(N2)C4=C(C=C3)C(=O)C5=C(C4=O)C=CC6=C5C=CC(=C6)C)C)O,angucyclinones,Streptomyces sp. CNH990,3.2413071895424834,2.37055449330784,CO
+400,marmycin_B,C[C@@H]1[C@H](C2(C[C@@H](O1)C3=CC(=C4C(=C3N2)C(=O)C5=C(C4=O)C6=C(C=C5)C=C(C=C6)C)Cl)C)O,angucyclinones,Streptomyces sp. CNH990,3.258344283837056,2.4357563850687622,CO
+401,maroxazinone,O=C1C=C2OC3=CC=C(C(OC)=O)C=C3N=C2C=C1N,phenoxazinones,Streptomyces sp. Eg25,3.1595310907237515,3.009223300970873,CO
+402,me-oxo-prebikaverin,O=C1C2=C(C=C(OC)C=C2C)OC(C1=C3O)=CC4=C3C(C=C(O)C4=O)=O,naphthoquinones,Fusarium oxysporum,3.4845418774592467,2.8177272727272724,CC#N
+403,melanocrocin,O=C(OC)[C@@H](CC1=CC=CC=C1)NC(C/C=C/C=C/C=C/C=C/C=C/C=C/C=C(C)/C(C)=O)=O,polyenes,Melanogaster broomeianus,3.170843989769821,3.0688118811881187,CO
+404,methoxydebromomarinone,CC(=CCC[C@]1([C@@H]2CC[C@](C=C2C3=C(O1)C(=O)C4=C(C3=O)C=C(C=C4O)O)(C)OC)C)C,naphthoquinones,Actinomycete #CNH-099,3.299095263437999,2.7248351648351647,CO
+405,michigazone,COC1=CC2=NC3=C(C=CC(=C3)CO)OC2=C(C1=O)OC,phenoxazinones,Streptomyces michiganensis,3.374523679912901,2.695217391304348,CO
+406,mitorubrin,C/C=C/C1=CC2=CC(=O)[C@@](C(=O)C2=CO1)(C)OC(=O)C3=C(C=C(C=C3C)O)O,azaphilones,PenicillIum rubrum,3.834828332817816,3.583236994219653,CO
+407,monankarin_A,CC1CC(=O)C=C(O1)C2=CC3=C(C=C(C(=C3[C@@H](C)[C@@H](C)O)C)O)OC2=O,pyranones,Monascus anka,3.969900736471341,2.7010893246187364,CO
+408,monaphilol_A,CCCCCCCC(=O)C1=C2C=C3C=C(OC=C3[C@@H]([C@@]2(OC1=O)C)O)/C=C/C,azaphilones,Monascus purpureus NTU 568,3.2695147679324896,2.6434968017057567,CO
+409,monaphilol_C,CCCCCCCC(=O)C1=C2C=C3C=C(OC=C3[C@@]([C@@]2(OC1=O)C)(CC(=O)C)O)/C=C/C,azaphilones,Monascus purpureus NTU 568,3.2379211282319145,2.637872340425532,CO
+410,monascin,CCCCCC(=O)[C@@H]1[C@H]2CC3=C(COC(\C=C\C)=C3)C(=O)[C@]2(C)OC1=O,azaphilones,Monascus purpurea,3.67893175074184,3.22025974025974,CC#N
+411,monascorubramine,O=C(C1=C2C=C3C(C([C@@]2(OC1=O)C)=O)=CNC(/C=C/C)=C3)CCCCCCC,azaphilones,Monascus purpurea,2.985311822778714,2.334839924670433,CC#N
+412,monascorubrin,CCCCCCCC(=O)C1=C2C=C3C=C(OC=C3C(=O)[C@]2(C)OC1=O)\C=C\C,azaphilones,Monascus purpurea,3.204445593176532,2.649145299145299,CC#N
+413,monascusazaphilone_A,CCCCCCCC1(C[C@@H]2C3=COC(=CC3=CC(=O)[C@@]2(O1)C)/C=C/C)OC,azaphilones,Monascus purpureus BCRC 38108,4.072930354796321,3.3690217391304347,CO
+414,monascusazaphilone_B,CCCCCCCC(=O)C[C@H]1C2=COC(=CC2=CC(=O)[C@@]1(C)O)/C=C/C,azaphilones,Monascus purpureus BCRC 38108,4.043705153294194,3.443888888888889,CO
+415,monascusazaphilone_C,CCCCCC(=O)C1[C@@H]2C3=COC(=CC3=CC(=O)[C@@]2(OC1=O)C)CC(C)OC(=O)C,azaphilones,Monascus purpureus BCRC 38108,4.225630538513975,3.5936231884057968,CO
+416,morin,Oc1ccc(c(O)c1)-c1oc2cc(O)cc(O)c2c(=O)c1O,flavonoids,Morus alba,4.303366886497743,3.3508108108108106,CO
+417,munjistin,C1=CC=C2C(=C1)C(=O)C3=CC(=C(C(=C3C2=O)O)C(=O)O)O,anthraquinones,Rubia cordifolia,3.666962437148772,2.944893111638955,CCO
+418,muscaaurin_I,C\1[C@H](NC(=C/C1=C/C=N[C@@H](C2=CC(=O)NO2)C(=O)O)C(=O)O)C(=O)O,tyrosine_heterocycles,Amanita muscaria,3.726480312593929,2.6101052631578945,O
+419,muscaflavin,C1C(NC(=CC=C1C=O)C(=O)[O-])C(=O)[O-],tyrosine_heterocycles,Amanita muscaria,3.646470588235294,2.951904761904762,O
+420,muscapurpurin,C\1[C@H](NC(=C/C1=C/C=[N+]2[C@@H](CC3=C2C(=O)OC(=C3)C(=O)O)C(=O)[O-])C(=O)O)C(=O)O,tyrosine_heterocycles,Amanita muscaria,2.976710684273709,2.2959259259259257,O
+421,mycenaaurin_a,C[C@H](C/C=C/CC[C@H](C/C=C/C=C/C=C/C=C/C=C/C=C/C1=CC(=C(C(=O)O1)CC[C@@H](C(=O)O)N)O)O)OCC[C@@H](C(=O)O)NC(=O)C,polyenes,Mycena aurantiomarginata,3.1724667349027635,2.843577981651376,CO
+422,mycenarubin_A,C1[C@H](N(C2=CC(=O)C(=O)C3=C2C1=CN3)CCCN)C(=O)O,indole_heterocycles,Mycena rosea,3.08407960199005,2.3001855287569573,O
+423,mycoxanthone,COC1=C(C2=C(C=C1)OC3=CC=CC(=C3C2=O)O)C(=O)OC,xanthones,Mycosphaerella rosigena,4.075608152531229,3.211917098445596,CCO
+424,myricetin,C1=C(C=C(C(=C1O)O)O)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O,flavonoids,Myrica rubra,4.129913391072618,3.314973262032085,CO
+425,myxin,COC1=CC=CC2=[N+](C3=C(C=CC=C3O)[N+](=C21)[O-])[O-],phenazines,Sorangium sp.,2.96673845417564,2.455049504950495,O
+426,naphtopurpurin,O=C(C(O)=CC1=O)C2=C1C(O)=CC=C2O,naphthoquinones,Aspergillus citricus,3.312316323804435,2.440551181102362,O
+427,natronochrome,CC1=C(C=CC=C1O)/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(=O)OC,polyenes,Thialkalivibrio versutus strain ALJ 15,3.0779543197616683,2.786067415730337,CO
+428,necatarone,OC1=CC2=CC=NC3=C2C(C1=O)=NC4=C3C=C(O)C=C4,quinoline_heterocycles,Lactarius necator,3.474775784753363,3.0019370460048425,CO
+429,neochaetomicyn,O=C1C2=C(C=C(O)C(Cl)=C2O)C(C3=CC=CC(O)=C31)=O,anthraquinones,engineered product,3.620911214953271,2.869907407407408,O
+430,neomarinone,C[C@@H]1CCC=C([C@@]1(C)CC[C@@]2([C@H](OC3=C2C=CC4=C3C(=C(C(=O)C4=O)C)O)C)C)C,naphthoquinones,Actinomycete #CNH-099,3.6680473372781055,3.115075376884422,CO
+431,neomedicamycin,O=C1C2=C(C=C(O)C=C2O)C(C3=CC=CC(OC)=C31)=O,anthraquinones,engineered product,3.6475433951162106,2.8967289719626166,O
+432,nesocodin,COC1=C(O)C(OC)=CC(/C=C/C=[N+]2CCCC\2C(O)=O)=C1,other_heterocycles,Nesocodon mauritianus,3.6593860684769774,2.455049504950495,O
+433,nigeglanine,CC1=CC(=O)C2=CN3CCCCN3C2=C1,other_heterocycles,Nigella glandulifera,3.7949188858279768,3.874375,CO
+434,nigellicine,CC1=CC(=O)C2=C(N3CCCCN3C2=C1)C(=O)O,other_heterocycles,Nigella sativa,3.640046975924838,3.512181303116148,CO
+435,nigellidine,CC1=CC(=O)C2=C(N3CCCCN3C2=C1)C4=CC=C(C=C4)O,other_heterocycles,Nigella sativa,3.785648854961832,3.779878048780488,CO
+436,nigerone,CC1=CC(=O)C2=C(C3=C(C=C(C=C3OC)OC)C(=C2O1)C4=C5C(=C(C6=C4C=C(C=C6OC)OC)O)C(=O)C=C(O5)C)O,pyranones,Aspergillus niger,3.8443410852713176,3.0461916461916463,CO
+437,norbadione_A,C1=CC(=CC=C1/C(=C\2/C(=C(C(=O)O2)C3=CC4=C5C(=C3)C(=O)OC5=C(C=C4C6=C(/C(=C(/C7=CC=C(C=C7)O)\C(=O)O)/OC6=O)O)O)O)/C(=O)O)O,pulvinones,Pisolithus arrhizus (Scop.) Rauschert,3.771828414968056,3.053694581280788,CO
+438,norbikaverin,CC1=CC(=CC2=C1C(=O)C3=C(O2)C(=O)C4=C(C3=O)C(=CC(=C4O)O)O)OC,naphthoquinones,Fusarium oxysporum,3.0327788649706457,2.4357563850687622,CC#N
+439,nordracorubin,COC1=CC(O2)=C(C3=C1CC[C@@H](c4ccccc4)O3)C5=C6C2=CC(C=C6OC(c7ccccc7)=C5)=O,benzoquinones,Dracaena draco,3.32921589688507,2.4796,CO
+440,norprodigiosin,CCCCCC1=C(NC(=C1)/C=C\2/C(=O)C=C(N2)C3=CC=CN3)C,pyrrol_heterocycles,Serratia marcescens strain Nima,3.148298628745556,2.3615238095238094,CO
+441,nostocine_A,CN1C2=NNC(=O)C2=NC=N1,other_heterocycles,Nostoc spongiaeforme TISTR 8169,2.951904761904762,2.262408759124088,CO
+442,nostoxanthin,CC1=C(C([C@H]([C@@H](C1)O)O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/C2=C(C[C@H]([C@@H](C2(C)C)O)O)C)\C)\C)/C)/C,carotenoids,Sphingomonas sp. SG73,2.929584120982987,2.5829166666666667,CO
+443,obtusin,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)O,anthraquinones,Cassia tora L.,3.728721804511278,3.1871465295629817,CO
+444,ochromycinone,C[C@H]1CC2=C(C(=O)C1)C3=C(C=C2)C(=O)C4=C(C3=O)C=CC=C4O,angucyclinones,Streptomyces sp.,3.594665120324732,3.0612345679012343,C(Cl)(Cl)Cl
+445,ophiuroidine,C1=CC2=C(C(=C1)O)N=C3C(=O)C4=CC(=C(C=C4N3C2=O)O)O,indole_heterocycles,Ophiocoma risei,3.534207525655644,3.107268170426065,CCO
+446,orlandin,CC1=CC(=C(C2=C1C(=CC(=O)O2)OC)C3=C(C=C(C4=C3OC(=O)C=C4OC)C)O)O,pyranones,Aspergillus niger,4.865777080062794,3.862305295950156,CCO
+447,oviedomycin,CC1=C(C2=CC(=C3C(=C2C(=O)C1=O)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O,angucyclinones,Streptomyces antibioticus ATCC11891,3.536223616657159,2.6211416490486257,CO
+448,oxindigo,O=C1C2=C(C=CC=C2)O/C1=C3C(C4=CC=CC=C4O\3)=O,synthetic_indigo_analogs,synthetic,3.616686114352392,2.951904761904762,C(Cl)(Cl)Cl
+449,oxo-prebikaverin,O=C1C2=C(C=C(O)C=C2C)OC(C1=C3O)=CC4=C3C(C=C(O)C4=O)=O,naphthoquinones,Fusarium oxysporum,3.482584269662921,2.811337868480725,CC#N
+450,oxyblepharismin_A,CCC1=C(C2=C3C4=C5C6=C(C(=CC7=C6C8=C(C=C(C(=C84)C(=O)C3=C1O)O)OC(O7)C9=CC=C(C=C9)O)O)C(=O)C1=C(C(=C(C2=C51)O)CC)O)O,naphthodianthrones,Blepharisma japonicum,2.919924634950541,2.0942567567567565,CCO
+451,oxyviolacein,O=C1NC(C2=CNC3=CC=C(O)C=C23)=C/C1=C4C(NC5=CC=C(O)C=C\45)=O,indole_heterocycles,Citrob    acter freundii,2.678910976663785,2.202131438721137,CO
+452,pachybasin,CC1=CC2=C(C(=C1)O)C(=O)C3=CC=CC=C3C2=O,anthraquinones,Pachybasium candidum Saccardo,3.862305295950156,3.0612345679012343,CO
+453,paepalantine,CC1=CC2=C(C(=C3C(=CC(=CC3=C2OC)OC)O)O)C(=O)O1,other_polyketides,Paepalanthus bromelioides,3.9371228961575104,3.178974358974359,CCO
+454,parietin,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)OC,anthraquinones,Xanthoria parietin,3.5504009163802976,2.8632794457274824,CO
+455,parietinic_acid_methyl_ester,COC1=CC2=C(C(C3=C(C=C(C(OC)=O)C=C3O)C2=O)=O)C(O)=C1,anthraquinones,Senna didymobotrya,3.5432980851671907,2.8501149425287355,CC#N
+456,pauciaurone_A,O=C1C2=CC(O)=C(OC)C=C2O/C1=C\C3=CC=C(C/C=C(C)/C)C=C3,aurones,Garcinia paucinervis,3.855099502487562,3.5626436781609194,CO
+457,pelargonidin,C1=CC(=CC=C1C2=[O+]C3=CC(=CC(=C3C=C2O)O)O)O,anthocyanins,Eleocharis dulcis,3.1135107985936714,2.455049504950495,CCO
+458,peniophorin,O=C1C(C2=CC=CC=C2)=C(C(C(C3=CC=C(O)C=C3)=C1O)=C4C5=CC=C(O)C=C5)OC4=O,terphenyls,Peniophora affinis Burt,2.9617773530817004,2.736865342163356,C1COCCO1
+459,peonidin,COC1=C(C=CC(=C1)C2=[O+]C3=CC(=CC(=C3C=C2O)O)O)O,anthocyanins,Vitis vinifera,3.059723593287265,2.4262230919765164,CCO
+460,peridinin,C/C(=C\C=C\C=C\C=C(/C)\C=C/1\C=C(C(=O)O1)/C=C/[C@]23[C@](O2)(C[C@H](CC3(C)C)O)C)/C=C=C4[C@](C[C@H](CC4(C)C)OC(=O)C)(C)O,carotenoids,Tridacna gigas,2.8712366836498378,2.6211416490486257,CCO
+461,pestalone,CC1=C(C(=C(C(=C1Cl)OC)C(=O)C2=C(C(=CC(=C2C=O)O)O)CC=C(C)C)O)Cl,other_polyketides,Rosenvingea sp.,4.32891061452514,3.646470588235294,C(Cl)Cl
+462,phaitanthrin_A,CC(=O)C[C@@]1(C2=CC=CC=C2N3C1=NC4=CC=CC=C4C3=O)O,indole_heterocycles,Phaius mishmensis,4.712276700874192,3.756969696969697,C(Cl)(Cl)Cl
+463,phaitanthrin_C,C1=CC=C2C(=C1)C(=O)N3C4=C(C(=CC=C4)O)C(=O)C3=N2,indole_heterocycles,Phaius mishmensis,3.808909370199693,2.951904761904762,C(Cl)(Cl)Cl
+464,phaitanthrin_D,C1[C@]23[C@@H](C4=CC=CC=C4N2C(=O)C5=CC=CC=C5N3)C(=O)O1,indole_heterocycles,Phaius mishmensis,4.490402028250633,3.08407960199005,CO
+465,phaitanthrin_E,COC(=O)C1=C2NC3=CC=CC=C3C(=O)N2C4=CC=CC=C41,indole_heterocycles,Phaius mishmensis,4.295911295911296,4.304861111111111,CO
+466,phenacein,C1=CC2=NC3=C(C=C(C=C3N=C2C(=C1)O)O)C(=O)O,phenazines,Streptomyces tanashiensiszaomyceticus,3.498306997742664,2.695217391304348,CO
+467,phenazine,c1ccc2nc3ccccc3nc2c1,phenazines,"STREPTOMYCES ANTIBIOTICUS, STRAIN TÜ 2706",3.9496654985664224,3.443888888888889,CC#N
+468,phenazinomycin,C/C(=C\CN1C2=C(C=CC=C2)N=C3C1=CC=CC3=O)/CC[C@H]4C(=C)CCCC4(C)C,phenazines,Streptomyces sp.,2.502119071644803,1.6641610738255033,CO
+469,phencomycin,COC(=O)C1=CC=CC2=NC3=C(C=CC=C3N=C21)C(=O)O,phenazines,Streptomyces Species HIL Y-9031725,3.950924155513065,3.3690217391304347,CO
+470,phlebiarubrone,C1OC2=C(C(=O)C(=O)C(=C2O1)C3=CC=CC=C3)C4=CC=CC=C4,terphenyls,Phlebia strigozonata,3.271240105540897,2.6662365591397847,CCO
+471,phlebopyrone,OC1=CC=C(C2=C(O)C(C3=CC=C(O)C=C3)=COC2=O)C=C1,pulvinones,Phlebopus portentosus,4.939442231075697,3.779878048780488,CO
+472,phoenicein,CC1=C(C(=O)C(=C(C)C)O1)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O)O)O,terpenoids,Juniperus phoenicea,4.636499626028422,3.850310559006211,CO
+473,phoenicoxanthin,CC1=C(C(CCC1=O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C2=C(C(=O)[C@H](CC2(C)C)O)C)/C)/C,carotenoids,Micrococcus roseus,2.8494598942771776,2.6719827586206897,CCO
+474,phomaligin_a,CCC(C)C(=O)C1=C(C(C(=O)C(=C1OC)C)(C)O)NCCO,other_polyketides,Phoma lingam,3.843149411035337,2.987469879518072,C(Cl)(Cl)Cl
+475,phomoxanthone_A,C[C@@H]1CC(O)=C2C(=O)c3c(O)ccc(-c4ccc(O)c5C(=O)C6=C(O)C[C@@H](C)[C@@H](OC(C)=O)[C@@]6(COC(C)=O)Oc45)c3O[C@]2(COC(C)=O)[C@@H]1OC(C)=O,xanthones,Phomopsis sp.,4.090399208182117,3.5936231884057968,C(Cl)Cl
+476,phthiocol,CC1=C(C2=CC=CC=C2C(=O)C1=O)O,naphthoquinones,Micobacterium tuberculosis,3.686589354742789,3.22025974025974,CCO
+477,phycocyanobilin,C/C=C1C(C(NC\1=C/C2=C(C(CCC(O)=O)=C(N2)/C=C3C(CCC(O)=O)=C(C(/C=C4C(C)=C(C(N/4)=O)CC)=N/3)C)C)=O)C,pyrrol_heterocycles,Spirulina platensis,2.276951331496786,2.0526490066225165,CO
+478,phycoerythrobilin,C/C=C\1/C(C(=O)N=C1/C=C/2\C(=C(/C(=C\C3=C(C(=C(N3)CC4C(=C(C(=O)N4)C=C)C)C)CCC(=O)O)/N2)CCC(=O)O)C)C,pyrrol_heterocycles,Ceramium rubrum,2.777329749103943,2.455049504950495,C(Cl)(Cl)Cl
+479,phycourobilin,CCC1=C(C(=O)N[C@H]1CC2=C(C(=C(N2)/C=C\3/C(=C(C(=N3)C[C@@H]4C(=C(C(=O)N4)CC)C)C)CCC(=O)O)CCC(=O)O)C)C,pyrrol_heterocycles,Ceramium rubrum,3.27989417989418,2.4995967741935483,C(Cl)(Cl)Cl
+480,piceamycin,CC1CNC(=O)/C=C\C=C/C=C\C2(CC(=O)C(=C2C(=O)/C=C\C=C/C=C\C=C/C=C1)O)C,polyenes,Streptomyces sp. GB 4-2,3.0454433800049125,3.0239024390243903,CO
+481,piloquinone,CC1=C(C=C2C3=C(C(=CC=C3)O)C(=O)C(=O)C2=C1O)C(=O)CCC(C)C,other_polyketides,Streptomyces pilosus,3.27989417989418,2.407378640776699,CCO
+482,pinastric_acid,COC1=CC=C(C=C1)C2=C(/C(=C(/C3=CC=CC=C3)\C(=O)OC)/OC2=O)O,pulvinones,Parmelia caperata (L.) Arch.,3.886520376175549,3.237075718015665,CO
+483,pityriacitrin_B,C1=CC=C2C(=C1)C3=C(N2)C(=NC=C3)C(=O)C4=CNC5=CC=CC=C54,indole_heterocycles,Malassezia furfur,4.012297734627832,3.170843989769821,CO
+484,pityrialactone,C1=CC=C2C(=C1)C(=CN2)C3=C(OC(=O)C3=O)C4=CNC5=CC=CC=C54,indole_heterocycles,Malassezia furfur,3.129227662796567,3.482584269662921,CO
+485,plastatin,C[C@@H]1CC2=CC3=C(C(C(C(C(C4=C5C=C6C[C@@H](C)OC(C6=C4O)=O)=O)=C(O)C5=O)=C(N)C3=O)=O)C(O)=C2C(O1)=O,naphthoquinones,Penicillium chermesinum,3.1692229038854807,3.115075376884422,O
+486,plectaniaxanthin,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@H](C(C)(C)O)O)/C)/C,carotenoids,Cryptococcus laurentii,2.799909665763324,2.4453648915187376,CC(=O)C
+487,plumbagin,CC1=CC(=O)c2c(O)cccc2C1=O,naphthoquinones,Plumbago rosea,3.751285930408472,3.053694581280788,CO
+488,portisin_A,COC1=CC(=CC(=C1O)OC)C2=[O+]C3=CC(=CC4=C3C(=C2O[C@H]5[C@@H]([C@H]([C@@H]([C@@H](CO)O5)O)O)O)C=C(/C=C/C6=C(C=C(C7=C6O[C@H](C8=CC(=C(C=C8)O)O)[C@H](C7)O)O)O)O4)O,anthocyanins,wine,2.9137485311398352,2.112095400340716,CO
+489,prasinoxanthin,CC1=C[C@@H](CC([C@H]1/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C(=O)C[C@]2(C(=C)C[C@H](CC2(C)C)O)O)/C)/C)(C)C)O,carotenoids,microbial,2.954718779790276,2.7798206278026907,CCOCC
+490,prebikaverin,O=C1C2=C(C=C(O)C=C2C)OC3=CC4=CC(O)=CC(O)=C4C(O)=C31,naphthoquinones,Fusarium oxysporum,3.8265432098765433,2.830593607305936,CC#N
+491,precarthamin,O=C(C1=C(O)[C@@]([C@H]2[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O2)(O)C(O)=C(C(C(O)=O)C3=C(O)[C@@]([C@H]4[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO)O4)(O)C(O)=C(C(/C=C/C5=CC=C(O)C=C5)=O)C3=O)C1=O)/C=C/C6=CC=C(O)C=C6,chalcones,Carthamus tinctorius,3.651840942562592,3.0239024390243903,CO
+492,prekinamycin,CC1=CC2=C(C(=C1)O)C3=C(C2=[N+]=[N-])C(=O)C4=C(C3=O)C=CC=C4O,benzofluorenes,Streptomyces murayamaensis,2.8364218714253027,2.15993031358885,C(Cl)(Cl)Cl
+493,prekinamycin_diacetate,CC1=CC2=C(C3=C(C(C4=C(C=CC=C4OC(C)=O)C3=O)=O)C2=[N+]=[N-])C(OC(C)=O)=C1,benzofluorenes,Streptomyces murayamaensis,3.268652781439493,2.514807302231237,C(Cl)(Cl)Cl
+494,prodeoxyviolacein,C1=CC=C2C(=C1)C(=CN2)C3=CC(=NC3=O)C4=CNC5=CC=CC=C54,indole_heterocycles,Chromobacterium violaceum,3.148298628745556,2.0357963875205254,CCO
+495,prodeoxyviolacein,O=C1N=C(C2=CNC3=C2C=CC=C3)C=C1C4=CNC5=C4C=CC=C5,indole_heterocycles,Chromobacterium violaceum,3.148298628745556,2.0357963875205254,CCO
+496,prodigiosin,CCCCCC1=C\C(=C\c2[nH]c(cc2OC)-c2ccc[nH]2)N=C1C,pyrrol_heterocycles,Serratia marcescens,3.134766118836916,2.3173831775700933,CCO
+497,proviolacein,OC=1C=C2C(C3=NC(C(C=4C=5C(NC4)=CC=CC5)=C3)=O)=CNC2=CC1,indole_heterocycles,Chromobacterium violaceum,3.1308080808080807,2.059468438538206,CO
+498,prunetin,COC1=CC(=C2C(=C1)OC=C(C2=O)C3=CC=C(C=C3)O)O,flavonoids,Pisum sativum,4.66616484757245,3.814769230769232,CO
+499,pseudoiodinin,CN1C2=NN=C(C2=NC=N1)OC,other_heterocycles,Pseudomonas mosselii,2.953311100524059,2.384230769230769,CCO
+500,pseudoviolacein,O=C(C(C1=CNC2=C1C=CC=C2)=C/3)NC3=C4C(NC5=CC=C(O)C=C/45)=O,indole_heterocycles,Chromobacterium violaceum,3.175717213114754,2.6266949152542374,CCO
+501,purple_pigment_prodigiosine_derivative,COC1=CC(=NC1=CC2=C(C=C(N2)C3=CC=CN3)OC)C4=CC=CN4,pyrrol_heterocycles,Serratia marcescens XII-114,2.5658112582781456,2.108503401360544,CCO
+502,purpurin,Oc1cc(O)c2C(=O)c3ccccc3C(=O)c2c1O,anthraquinones,Rubia tinctorum,3.22528616024974,2.604621848739496,CC#N
+503,purpurogallin,C1=CC2=CC(=C(C(=C2C(=O)C(=C1)O)O)O)O,tropolones,Quercus robur,3.192892093741952,2.8177272727272724,O
+504,purpurogenone,O=C1C2=C(C(O)=CC(C)=C2O)C(C(C3C(O)=C([C@@]4(C5)[C@]6(O)[C@@H]3O)C(C7=C(O)C=C(C)C=C7C4=O)=O)=C1[C@@H]6C5=O)=O,naphthoquinones,Penicillium purpurogenum,3.2036175710594312,2.182746478873239,C(Cl)(Cl)Cl
+505,pyocyanine,[O-]C1=CC=CC=2[N+](=C3C(=NC12)C=CC=C3)C,phenazines,Pseudomonas aeruginosa,2.5224821973550355,1.7942112879884224,O
+506,pyranonigrin_A,C/C=C/C1=C(C(=O)C2=C(O1)[C@H](NC2=O)O)O,pyranones,Aspergillus niger,4.566482504604052,3.9234177215189874,CO
+507,pyrrhoxanthin,CC1=C(C(C[C@@H](C1)OC(=O)C)(C)C)C#C/C(=C/C=C/C=C/C=C(\C)/C=C\2/C=C(C(=O)O2)/C=C/[C@]34[C@](O3)(C[C@H](CC4(C)C)O)C)/C,carotenoids,Amphidinium carterae,2.7093531468531467,2.7069868995633186,CC(=O)C
+508,questin,COc1cc(O)cc2C(=O)c3cc(C)cc(O)c3C(=O)c12,anthraquinones,Penicillium frequentans,3.6230274693161895,2.917176470588235,CCO
+509,questinol,COC1=CC(=CC2=C1C(=O)C3=C(C2=O)C=C(C=C3O)CO)O,anthraquinones,Penicillium frequentans,3.605117766792672,2.869907407407408,CCO
+510,questiomycin_A,C1=CC=C2C(=C1)N=C3C=C(C(=O)C=C3O2)N,phenoxazinones,Waksmania aerata sp,3.1700332395806696,2.8501149425287355,O
+511,questiomycin_C,CS(=O)C1=C(C(=O)C=C2C1=NC3=CC=CC=C3O2)N,phenoxazinones,Alteromonas sp. D,3.245549738219895,2.8967289719626166,C[S+]([O-])C
+512,questiomycin_D,CSC1=C(C(=O)C=C2C1=NC3=CC=CC=C3O2)N,phenoxazinones,sAlteromonas sp. D,3.1830551989730425,2.8967289719626166,C[S+]([O-])C
+513,questiomycin_E,C1=CC=C2C(=C1)N=C3C(=CC(=O)C(=C3Br)N)O2,phenoxazinones,Alteromonas sp. D,3.1684129823664704,2.9103286384976523,C[S+]([O-])C
+514,quinizarin,O=C1C2=C(C(O)=CC=C2O)C(C3=CC=CC=C31)=O,anthraquinones,Rhizophora mucronata Lam,3.380965366784838,2.087205387205388,C[S+]([O-])C
+515,ravenelin,CC1=CC(=C2C(=C1O)OC3=CC=CC(=C3C2=O)O)O,xanthones,Exserohilum rostratum,3.977542508822586,3.1229219143576823,O
+516,reduced_scytonemin,O=C(/C(C1=C/2NC3=C1C=CC=C3)=C4C5=C(/C(C\4=O)=C\C6=CC=C(O)C=C6)NC7=C5C=CC=C7)C2=C\C8=CC=C(O)C=C8,indole_heterocycles,Scytonema sp.,2.7058053251855085,2.1674825174825174,C1CCCO1
+517,rengasin,COC1=CC(O)=CC2=C1C(/C(O2)=C/C3=CC=C(O)C(O)=C3)=O,aurones,Melanorhea sp.,3.9283903675538654,3.076426799007444,CO
+518,resistomycin,CC1=CC(=O)C2=C(C3=C4C5=C2C1=C(C=C5C(C(=C4C(=O)C=C3O)O)(C)C)O)O,other_polyketides,Streptomyces griseoincarnatus,3.646470588235294,2.712910284463895,CCO
+519,resomycin_A,C[C@]1(CCC2=C(C3=C(C=C2[C@@H]1C(=O)OC)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O,anthracyclinones,Streptomyces sp. GW71/2497,3.6357771260997054,2.8501149425287355,C(Cl)(Cl)Cl
+520,resomycin_B,CC1=C(C2=CC3=C(C(=C2CC1)O)C(=O)C4=C(C3=O)C=CC=C4O)C(=O)OC,anthracyclinones,Streptomyces sp. GW71/2497,3.5301822323462413,2.786067415730337,C(Cl)(Cl)Cl
+521,resomycin_C,CC1=C(C2=CC3=C(C(=C2C=C1)O)C(=O)C4=C(C3=O)C=CC=C4O)C(=O)OC,anthracyclinones,Streptomyces sp. GW71/2497,3.4933784164553394,2.7490022172949,C(Cl)(Cl)Cl
+522,rhein,C1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)C(=O)O,anthraquinones,Rheum palpatum,3.6357771260997054,2.8501149425287355,CO
+523,rhizocarpic_acid,COC(=O)[C@H](CC1=CC=CC=C1)NC(=O)/C(=C\2/C(=C(C(=O)O2)C3=CC=CC=C3)O)/C4=CC=CC=C4,pulvinones,Acarospora schleicheri,4.464530068419157,3.3508108108108106,CC#N
+524,rhopaladin_A,OC1=CC(NC=C2/C=C3C(NC(C(C4=CNC5=C4C=C(Br)C=C5)=O)=N/3)=O)=C2C=C1,indole_heterocycles,Rhopalaea sp.,3.2152489626556013,2.540573770491803,CO
+525,rhopaladin_B,OC1=CC(NC=C2/C=C3C(NC(C(C4=CNC5=C4C=CC=C5)=O)=N/3)=O)=C2C=C1,indole_heterocycles,Rhopalaea sp.,3.239613274105043,2.556288659793814,CO
+526,rhopaladin_C,O=C(C1=CNC2=C1C=C(Br)C=C2)C3=N/C(C(N3)=O)=C\C4=CNC5=C4C=CC=C5,indole_heterocycles,Rhopalaea sp.,3.2609153077327724,2.632271762208068,CO
+527,rhopaladin_D,O=C(C1=CNC2=C1C=CC=C2)C3=N/C(C(N3)=O)=C\C4=CNC5=C4C=CC=C5,indole_heterocycles,Rhopalaea sp.,3.2695147679324896,2.649145299145299,CO
+528,riboflavin,Cc1cc2nc3c(nc(=O)[nH]c3=O)n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1C,pterins/flavins,Escherichia coli,3.615631379410907,2.7612472160356347,O
+529,riccionidin_A,OC1=C2C3=[O+]C4=CC(O)=C(O)C=C4C=C3OC2=CC(O)=C1,anthocyanins,Rhus javanica,3.331900026874496,2.49456740442656,CO
+530,rosacyanin_B,OC(C(O)=C1O2)=CC(C(O3)=O)=C1C4=C3C(C5=CC(O)=C(O)C=C5)=[O+]C6=CC(O)=CC2=C46,anthocyanins,Rosa hybrida,3.1315988886082344,2.334839924670433,CCO
+531,roseoflavin,CN(C)c1cc2n(C[C@H](O)[C@H](O)[C@H](O)CO)c3nc(=O)[nH]c(=O)c3nc2cc1C,pterins/flavins,Streptomyces davawensis,3.3140871424752736,2.455049504950495,O
+532,roseophilin,CC(C)[C@@H]1[C@H]2CCCCCCCCC3=NC(=C2C4=C(C=C(O4)C5=C(C=CN5)Cl)OC)C1=C3,pyrrol_heterocycles,Streptomyces griseoviridis,3.176530873686908,2.326078799249531,CO
+533,rubellin_A,CC1=CC2=C(C(=C1)O)C(=O)O[C@@H]3[C@@H](C=C[C@H]4[C@]3([C@H]2O)CC5=CC(=C6C(=C45)C(=O)C7=C(C6=O)C(=CC=C7)O)O)O,anthraquinones,Mycosphaerella rubella,3.5091989810359467,2.8177272727272724,CCO
+534,rubellin_B,CC1=CC2=C(C(=C1)O)C(=O)O[C@@H]3[C@@H](C=C[C@H]4[C@]3([C@H]2O)CC5=CC(=C6C(=C45)C(=O)C7=C(C=CC(=C7C6=O)O)O)O)O,anthraquinones,Mycosphaerella rubella,3.247249869041383,2.339245283018868,CCO
+535,rubiadin,CC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O,anthraquinones,Rubia tinctoria,3.76838905775076,3.0239024390243903,CO
+536,rubiadin,CC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O,anthraquinones,Rubia tinctoria,3.76838905775076,3.0239024390243903,CO
+537,rubiadin,CC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O,anthraquinones,Pentas micrantha,3.76838905775076,3.0612345679012343,CO
+538,rubiadin,CC1=C(C=C2C(=C1O)C(=O)C3=CC=CC=C3C2=O)O,anthraquinones,Pentas micrantha,3.76838905775076,3.0612345679012343,CO
+539,rubicordifolin,C[C@@]1(C[C@H]2[C@@H](OC(=O)C3=C(C4=CC=CC=C4C(=C23)O1)O)C(C)(C)O)C5=CC6=C(O5)C7=CC=CC=C7C(=C6C(=O)OC)O,other_polyketides,Rubia cordifolia,4.000645369474024,3.3061333333333334,C(Cl)(Cl)Cl
+540,rubixanthin,CC(C)=CCC\C(C)=C\C=C\C(C)=C\C=C\C(C)=C\C=C\C=C(C)\C=C\C=C(C)\C=C\C1=C(C)C[C@@H](O)CC1(C)C,carotenoids,unidentified,2.867252543940796,2.530204081632653,CCCCCC
+541,rubrocristin,CC1=CC(=C2C(=C1O)C(=O)C3=C(C2=O)C(=CC(=C3)O)OC)O,anthraquinones,Aspergillus glaucus,2.9838748495788208,2.3481060606060606,CCO
+542,rubroflavin,CSC1=C(C(=CC(=C1)O)[S@@](=O)C)N=NC(=O)N,diazo_compounds,Calvatia rubro-flava,4.578286558345642,2.8501149425287355,CO
+543,rubrofusarin,CC1=CC(=O)C2=C(C3=C(C=C(C=C3C=C2O1)OC)O)O,pyranones,Aspergillus niger,3.950924155513065,3.138734177215189,CCO
+544,rubrolone,CCCC1=NC(=CC2=C1C(=O)C3=CC(=O)C4=C(C(=C32)O)O[C@H]5[C@@]4([C@H]([C@H]([C@H](O5)C)O)O)O)C,other_heterocycles,Sterptomyces echinoruber,2.810063463281958,2.37055449330784,O
+545,rubterolone_C,CC(N(CC(O)=O)C(C)=C1)=C(C(C2=CC(C3=C4O[C@H]5[C@]3(O)[C@H](O)[C@@H](O)[C@@H](C)O5)=O)=O)C1=C2C4=O,other_heterocycles,Actinomadura sp. 5-2,2.8177272727272724,2.3173831775700933,O
+546,rumbrin,CC1=C(C=C(OC1=O)/C(=C\C=C\C=C\C=C\C2=C(C=CN2)Cl)/C)OC,pyrrol_heterocycles,Auxarthron umbrinum,3.1403242147923,2.8049773755656107,CO
+547,safflor_yellow_B,C1=CC(=CC=C1/C=C/C(=C/2\C(=O)C(C(=O)C(=C2O)C(C(O)C(O)C(O)C(O)CO)C3=C(/C(=C(\O)/C=C/C4=CC=C(C=C4)O)/C(=O)C(C3=O)(O)C5OC(C(C(C5O)O)O)CO)O)(O)C6OC(C(C(C6O)O)O)CO)/O)O,chalcones,Carthamus tinctorius,3.75924802910855,2.9731414868105515,CO
+548,sakyomycin_A,C[C@@H]1[C@@H](CC[C@H](O1)O[C@]23C(=O)[C@H]([C@](C[C@]2(C=CC4=C3C(=O)C5=C(C4=O)C(=CC=C5)O)O)(C)O)O)O,angucyclinones,Nocardia sp. M-53,3.662629246676514,2.987469879518072,CO
+549,salinixanthin,CC1=C(C(CCC1=O)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C=C/[C@@H](C(C)(C)O[C@H]2[C@@H]([C@H]([C@@H]([C@@H](O2)COC(=O)CCCCCCCCCCCC(C)C)O)O)O)O)/C)/C,carotenoids,Salinibacter ruber,2.727832783278328,2.5829166666666667,CCO
+550,sanguinolentaquinone,O=C1C=C(NCCCO)C2=C(NC=C2CCO)C1=O,indole_heterocycles,Mycena sanguinolenta,3.012879708383961,2.334839924670433,O
+551,sanguinone_a,C1CN2[C@@H](CC3=C4C2=C5[C@H]1NCN=C5C(=C4N=C3)O)C(=O)O,indole_heterocycles,Mycena sanguinolenta,3.0012103606874847,2.144982698961938,O
+552,sanguinone_b,OC1=C(N=C2)C3=C2C[C@@H](C(O)=O)N4CC[C@H](N[C@H](C)N=C51)C5=C34,indole_heterocycles,Mycena sanguinolenta,2.986750180679354,2.171278458844133,O
+553,sarcinaxanthin,C/C(=C\C[C@@H]1C([C@@H](C(=C)CC1)/C=C/C(=C/C=C/C(=C/C=C/C=C(/C=C/C=C(/C=C/[C@H]2C([C@H](CCC2=C)C/C=C(/CO)\C)(C)C)\C)\C)/C)/C)(C)C)/CO,carotenoids,Micrococcus yunnanensis,2.9975822050290133,2.712910284463895,CO
+554,schleroquinone,O=C(C(C1=C2OC(C)C1(C)C)=O)C3=C2C(C)=CC(O)=C3C(OC)=O,naphthoquinones,Gremmeniella abietina,3.0402157920549286,2.15993031358885,CO
+555,scleroderolide,C[C@H]1C(C2=C(O1)C3=C4C(=C2O)C(=O)C(=O)OC4=C(C=C3C)O)(C)C,phenalenones,Penicillium sp. FO-5637,3.711976047904192,2.917176470588235,CO
+556,scleroderris_blue,CC1=CC(O)=C2C3=C(C(C(C2=O)=NC4=C(O)C5=C6C(C7=C(C(C)([C@@H](O7)C)C)C(O)=C6C4=O)=C(C=C5O)C)=O)C(O)=C8C([C@@H](OC8=C13)C)(C)C,phenalenones,Gremmeniella abietina,2.497079556898288,2.025816993464052,C(Cl)Cl
+557,scorpinone,CC1=CC2=C(C=N1)C(=O)C3=C(C2=O)C=C(C=C3OC)OC,pyridine_heterocycles,marine fungi,3.7960808328230247,3.0612345679012343,CO
+558,scytonemin,C1(C2=C3C(=NC4=C3C=CC=C4)\C(\C2=O)=C/C5=CC=C(C=C5)O)=C6C(=NC7=C6C=CC=C7)\C(\C1=O)=C/C8=CC=C(C=C8)O,indole_heterocycles,Scytonema sp.,2.843577981651376,3.332795698924731,C1CCCO1
+559,semivioxanthin,C[C@@H]1CC2=CC3=CC(=CC(=C3C(=C2C(=O)O1)O)O)OC,other_polyketides,Cryptosporiopsis abietina,4.208418194161575,3.323860589812332,CO
+560,senacarcin_A,CN(C)[C@@H](CO)C(=O)OCC1=CC=C(C2=NC3=C(C=CC=C3N=C12)C(=O)NC4=C(CCC4=O)O)OC,phenoxazinones,Streptomyces endus susp. aureus,3.433397950706176,2.755111111111111,CCO
+561,seongomycin,CC1=CC2=C(C(=C1)O)C3=C(C4=C(C(=CC=C4)O)C(=O)C3=C2SC[C@@H](C(=O)O)NC(=O)C)O,benzofluorenes,Streptomyces murayamaensis,2.831240009134506,2.604621848739496,CO
+562,shermilamine_A,CC(=O)NCCC1=C2C3=C(C=CN=C3C4=C1SCC(=O)N4)C5=C(N2)C=C(C=C5)Br,quinoline_heterocycles,Trididemnum sp,3.380965366784838,2.649145299145299,CO
+563,shermilamine_B,CC(=O)NCCC1=C2C3=C(C=CN=C3C4=C1SCC(=O)N4)C5=CC=CC=C5N2,quinoline_heterocycles,Trididemnum sp,3.405108486679483,2.649145299145299,CO
+564,shermilamine_F,CC=C(C)C(=O)NCCC1=C2C3=C(C=CN=C3C4=C1SCC(=O)N4)C5=CC=CC=C5N2,quinoline_heterocycles,Cystodytes violatinctus,3.414486367391903,2.366030534351145,CO
+565,sinapaldehyde,COC1=C(O)C(OC)=CC(/C=C/C=O)=C1,tyrosine_heterocycles,Nesocodon mauritianus,4.298890429958392,3.60406976744186,O
+566,siphonaxanthin,CC1=C(C(CC(C1)O)(C)C)CC(=O)/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C2C(=CC(CC2(C)C)O)C)/C)/CO,carotenoids,Nephroselmis gilva,2.980288461538461,2.5937238493723846,CCCCCC
+567,skyrin,CC1=CC2=C(C(=C1)O)C(C3=C(C=C(C(C=4C(=CC(=C5C4C(C=6C=C(C)C=C(C6C5=O)O)=O)O)O)=C3C2=O)O)O)=O,anthraquinones,Cyanodermella asteris,3.3526230394808003,2.6835497835497835,CCO
+568,sorbicillin,C/C=C/C=C/C(=O)C1=C(C(=C(C(=C1)C)O)C)O,other_polyketides,Penicillium notatum,4.13404468156052,3.9234177215189874,CCO
+569,sphagnorubin_A,OC1=C(O)C=C2C=CC3=C4C=CC(C5=CC(O)=C(O)C=C5)=[O+]C4=CC(O)=C3C2=C1,anthocyanins,Sphagnum plants,3.137939762085548,2.26654478976234,CO
+570,sphagnorubin_B,OC1=C(O)C=C2C=CC3=C4C=CC(C5=CC(O)=C(O)C=C5)=[O+]C4=CC(OC)=C3C2=C1,anthocyanins,Sphagnum plants,3.152301042461225,2.2959259259259257,CO
+571,sphagnorubin_C,OC1=C(O)C=C2C=CC3=C4C=CC(C5=CC(OC)=C(O)C=C5)=[O+]C4=CC(OC)=C3C2=C1,anthocyanins,Sphagnum plants,3.1323900960080846,2.308752327746741,CO
+572,spiromentin_A,O=C(C(C(C1=CC=C(O)C=C1)=C2O3)=O)C(C4=CC=C(O)C=C4)=C2OC3(O/5)C=CC5=C\C,terphenyls,Paxillus atrotomentosus,2.900116959064327,2.2541818181818183,CCO
+573,staphyloxanthin,CCC(C)CCCCCCCCCCC(=O)OC[C@H]1O[C@@H](OC(=O)C(\C)=C\C=C\C(C)=C\C=C\C(C)=C\C=C\C=C(C)\C=C\C=C(/C)CCC=C(C)C)[C@H](O)[C@@H](O)[C@@H]1O,carotenoids,Staphylococcus aureus,2.9123796100540287,2.530204081632653,CC(=O)C
+574,stealthin_C,CC1=CC2=C(C(C3=C2N)=C(O)C(C=CC=C4O)=C4C3=O)C(O)=C1,benzofluorenes,Streptomyces viridochromogenes,3.0771903698188137,2.2959259259259257,CC#N
+575,stellettamine,CN(C)C1=NC2=C(S1)C3=C4C5=C(C=CN=C52)C6=CC=CC=C6N4C=C3,quinoline_heterocycles,Stelletta sp.,3.8455334987593055,2.695217391304348,CO
+576,stellettin_N,C/C(=C\C=C\C(=C\1/C(=O)C[C@@H]2[C@@]1(CC[C@@H]3[C@@]2(CC[C@@H](C3(C)C)O)C)C)\C)/C=C/C=C(\C)/C(=O)O,carotenoids,Stelletta sp.,3.3580715059588297,3.0239024390243903,C(Cl)(Cl)Cl
+577,stemphyperylenol,C1[C@@H]([C@H]2C3=C4[C@@H]([C@H](CC(=O)C4=C(C=C3)O)O)C5=C2C(=C(C=C5)O)C1=O)O,perylenequinones,Alternaria cassiae,4.44054441260745,3.646470588235294,CO
+578,streptazone_E,C/C=C/C=C/1\C=CC2=C1C(=O)CCN2,other_heterocycles,Streptomyces sp. NEAU-Z4,3.495348181561883,3.387431693989071,CO
+579,streptazone_F,C/C=C/C=C/1\C=CC2=C1C(=O)C=CN2,other_heterocycles,Streptomyces sp. NEAU-Z4,4.189929030077729,3.67893175074184,CO
+580,streptovertimycin_A,CC1=CC(=CC(=C1C2=C3C(=CC(=C2)O)C=C4C(=C3O)C(=O)C5=C(C(=C(C=C5C4(C)C)OC)Cl)O)O)OC,other_polyketides,Streptomyces morookaense,3.786805131337813,2.88997668997669,CO
+581,sulfuretin,C1=CC(=C(C=C1/C=C\2/C(=O)C3=C(O2)C=C(C=C3)O)O)O,aurones,Rhus verniciflua,3.914745816229871,3.107268170426065,CCO
+582,talaroderxine_A,CCC[C@H]1CC2=CC3=C(C(=CC(=C3C4=C(C=C(C5=C4C=C6C[C@@H](OC(=O)C6=C5O)CCC)O)O)O)O)C(=C2C(=O)O1)O,other_polyketides,Talaromyces derxii,4.164595230097413,3.27989417989418,CO
+583,tambjamine_A,COC1=C(NC(=C1)C2=CC=CN2)C=N,pyrrol_heterocycles,Tambje eliora,4.147875543660087,3.1229219143576823,CO
+584,tambjamine_B,COC(C=C(N1)C2=CC=C(Br)N2)=C1C=N,pyrrol_heterocycles,Tambje eliora,4.318355973528387,3.1229219143576823,CO
+585,tambjamine_C,CC(C)CN=CC1=C(C=C(N1)C2=CC=CN2)OC,pyrrol_heterocycles,Atapozoa sp.,4.163196776359973,3.0612345679012343,CO
+586,tambjamine_D,CC(C)CN=CC1=C(C=C(N1)C2=C(C=CN2)Br)OC,pyrrol_heterocycles,Tambje eliora,4.339516975848793,3.0917705735660848,CO
+587,tambjamine_E,CCN=CC1=C(C=C(N1)C2=CC=CN2)OC,pyrrol_heterocycles,Atapozoa sp.,4.054283845650752,3.0612345679012343,CO
+588,tambjamine_F,COC1=C(NC(=C1)C2=CC=CN2)C=NCCC3=CC=CC=C3,pyrrol_heterocycles,Atapozoa sp.,4.143716577540107,3.0461916461916463,CO
+589,tambjamine_K,CC(C)CCN=CC1=C(C=C(N1)C2=CC=CN2)OC,pyrrol_heterocycles,Tambja ceutae,4.160402684563758,3.009223300970873,CO
+590,teloschistin,COC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C=C(C=C3O)CO,anthraquinones,Xanthoria sp.,3.5504009163802976,2.8370709382151027,CO
+591,tetrangulol,CC1=CC2=C(C(=C1)O)C3=C(C=C2)C(=O)C4=C(C3=O)C=CC=C4O,angucyclinones,Streptomyces rimosus,3.148298628745556,2.917176470588235,CO
+592,thelephoric_acid,C1=C2C(=CC(=C1O)O)OC3=C2C(=O)C4=C(C3=O)C5=CC(=C(C=C5O4)O)O,terphenyls,Suillus grevillei,3.697584252907844,2.504646464646465,c1cccnc1
+593,thermorubin,COC1=C2C(=CC3=CC(=C(C(=C31)OC)C(=O)/C=C(/C4=CC=CC=C4O)\O)CC(=O)O)C=C5C=C(OC(=O)C5=C2O)C(=O)OC,other_polyketides,Thermoactinomyces antibioticus,3.37360544217687,2.8501149425287355,CCO
+594,thiaplakortone_A,O=S1(C=CNC2=C1C(C3=C(C2=O)NC=C3CCN)=O)=O,indole_heterocycles,Zyzzya fuliginosa,3.276427061310782,3.3061333333333334,CO
+595,thiaplakortone_B,O=S1(CCNC2=C1C(C3=C(C2=O)NC=C3CCN)=O)=O,indole_heterocycles,Zyzzya fuliginosa,4.039752362333008,3.4728291316526607,CO
+596,thiaplakortone_D,O=C1C2=C(C(C[C@@H](C(O)=O)NC)=CN2)C(C3=C1S(C=CN3)(=O)=O)=O,indole_heterocycles,Zyzzya fuliginosa,3.2379211282319145,2.6719827586206897,CO
+597,thioindigo,O=C1C2=C(C=CC=C2)S/C1=C3C(C4=CC=CC=C4S\3)=O,synthetic_indigo_analogs,synthetic,2.9795722182167745,2.2541818181818183,C(Cl)(Cl)Cl
+598,tolypocladin,CC1=CC2=C(C=N1)C(=O)C3=C(C2=O)C(=C(O)C(=C3O))O,pyridine_heterocycles,Topylocladium inflatum,3.2077619663648123,2.343667296786389,CO
+599,toralactone,CC1=CC2=CC3=CC(=CC(=C3C(=C2C(=O)O1)O)O)OC,other_polyketides,Cassia tora L. (Leguminosae),4.021407719753487,3.162755102040816,CO
+600,torularhodin,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C=C/C=C(\C)/C(=O)O)/C)/C,carotenoids,Rhodotorula sp.,2.7010893246187364,2.384230769230769,CCO
+601,toxoflavin,CN1C2=NC(=O)N(C(=O)C2=NC=N1)C,other_heterocycles,Pseudomonas cocovenenans,3.934623928911456,3.138734177215189,O
+602,trichotomine,C1[C@H](N2C(=C/C(=C\3/C=C4C5=C(C[C@H](N4C3=O)C(=O)O)C6=CC=CC=C6N5)/C2=O)C7=C1C8=CC=CC=C8N7)C(=O)O,indole_heterocycles,Clerodendron trichotomum,2.371915056437727,1.88419452887538,C(Cl)(Cl)Cl
+603,trikendiol,CCc1c(C)c2c([C@@H](C)C[C@@]2(C)O)c(C)c1C1=C\C(C(=O)N1)=C1\C=C(NC1=O)c1c(C)c2[C@H](C)C[C@](C)(O)c2c(C)c1CC,pyrrol_heterocycles,Trikentrion laeve,2.967448539971278,2.4309803921568625,CO
+604,trimethylflaviolin,O=C(C(OC)=CC1=O)C2=C1C(OC)=CC(OC)=C2,anthraquinones,Aspergillus citricus,3.5657175726200747,2.9240566037735847,O
+605,trypetelone,CC1C(C2=C(O1)C3=C(C=C(C=C3C)O)C(=O)C2=O)(C)C,naphthoquinones,Gremmeniella abietina,3.0327788649706457,2.3615238095238094,CO
+606,tryptanthrin,C1=CC=C2C(=C1)C(=O)N3C4=CC=CC=C4C(=O)C3=N2,other_heterocycles,Wrightia tomentosa,3.8707461754605057,3.115075376884422,C(Cl)(Cl)Cl
+607,tubermycin,O=C(O)C1=CC=CC2=C1N=C3C=CC=CC3=N2,phenazines,Streptomyces misakiensis,3.948407643312102,3.406043956043956,CO
+608,undecylprodigiosin,CCCCCCCCCCCC1=CC=C(N1)/C=C\2/C(=CC(=N2)C3=CC=CN3)OC,pyrrol_heterocycles,Actinomadura madurae,2.928200283419934,2.3615238095238094,CCO
+609,urdamycin_C,C[C@H]1O[C@H](C[C@@H](O)[C@@H]1O)C1=CC2=C(C(=O)OC3=C2C(=C1O)C(=O)C1=C3[C@@]2(O)C(=O)C[C@](C)(O)C[C@@]2(O)C=C1)C1=CC=C(O)C=C1,angucyclinones,Streptomyces fradiae Tu2717,3.145902055315909,2.4309803921568625,CO
+610,urdamycin_D,C[C@H]1O[C@H](C[C@@H](O)[C@@H]1O)C1=CC2=C(C3=CNC4=CC=CC=C34)C(=O)OC3=C2C(=C1O)C(=O)C1=C3[C@@]2(O)C(=O)C[C@](C)(O)C[C@@]2(O)C=C1,angucyclinones,Streptomyces fradiae Tu2717,2.8725671918443,2.156173913043478,CO
+611,urdamycin_H,C[C@H]1O[C@H](C[C@@H](O)[C@@H]1O)C1=CC2=C(OC3=C2C(=C1O)C(=O)C1=C3[C@@]2(O)C(=O)C[C@](C)(O)C[C@@]2(O)C=C1)C1=CC=C(O)C=C1,angucyclinones,Streptomyces fradiae Tu2717,3.262631578947368,2.530204081632653,CO
+612,urothion,CSC1=C(SC2=C1N=C3C(=O)NC(=NC3=N2)N)[C@@H](CO)O,pterins/flavins,Homo sapiens,4.009702457956015,3.5022598870056494,O
+613,utahmycin_A,CC1=CC2=C(C(=N1)C)C(=O)C3=C(C2=O)C=CC=C3O,pyridine_heterocycles,Sterptomices albus,3.819470117067159,3.009223300970873,C(Cl)Cl
+614,utahmycin_B,CC1=CC2=C(N1)C(=O)C3=C(C2=O)C=CC=C3O,pyrrol_heterocycles,Sterptomyces albus,3.4602288584984646,2.830593607305936,CCO
+615,varamine_A,CCC(=O)NCCC1=C2C3=C(C=CN=C3C(=C1SC)OC)C4=CC=CC=C4N2,quinoline_heterocycles,Lissoclinum vareau,3.478675645342312,2.6719827586206897,CO
+616,variecolorquinone_A,CC1=CC2=C(C(=C1C(=O)OC[C@H](CO)O)O)C(=O)C3=C(C2=O)C=C(C=C3OC)O,anthraquinones,Aspergillus variecolor,3.597794544399304,2.8177272727272724,CO
+617,variegatic_acid,C1=CC(=C(C=C1C2=C(/C(=C(/C3=CC(=C(C=C3)O)O)\C(=O)O)/OC2=O)O)O)O,pulvinones,Caloboletus calopus,4.234289617486339,3.0387254901960783,CCO
+618,variegatic_acid_oxidized,O=C(C(O)=C/1)C=CC1=C2C(/C(OC/2=O)=C(C(O)=O)/C3=CC(O)=C(O)C=C3)=O,pulvinones,Suillus variegatus,2.994685990338164,2.049256198347108,O
+619,variegatorubin,OC1=C(C(O/C1=C2C(OC3=CC(O)=C(C=C3/2)O)=O)=O)C4=CC(O)=C(O)C=C4,pulvinones,Serpula lacrymans S7.9,3.2738315289147084,2.4309803921568625,CCO
+620,ventilein_A,C[C@H]1CC2=C3C4=C(C(O)=C2[C@H](O1)C)C(C=C5C4=C6C(O3)=CC(C7=C6C(O5)=C8C[C@@H](O[C@@H](C8=C7O)C)C)=O)=O,other_polyketides,Ventilago calyculata,2.6339494370087104,1.9221705426356588,CO
+621,viocristin,CC1=CC(=O)C2=C(C3=C(C=C(C=C3C=C2C1=O)O)OC)O,naphthoquinones,Aspergillus glaucus,2.963901506096103,2.352561669829222,CCO
+622,violacein,OC1=CC=C2NC=C(C3=C\C(C(=O)N3)=C3/C(=O)NC4=CC=CC=C34)C2=C1,indole_heterocycles,Chromobacterium violaceum,2.589390142021721,2.137586206896552,CCO
+623,viomellin,C[C@@H]1CC2=CC3=C(C(=C2C(=O)O1)O)C(=O)C(=C(C3=O)OC)C4=C(C5=C(C6=C(C[C@H](OC6=O)C)C=C5C=C4OC)O)O,naphthoquinones,Penicillium citreo-viride,3.333691852648561,3.237075718015665,CO
+624,viopurpurin,C[C@@H]1CC2=CC3=C(C(=C2C(=O)O1)O)C4=C(C5=C(O4)C(=O)C6=C(C5=O)C(=C7C(=C6)C[C@H](OC7=O)C)O)C(=C3O)OC,naphthoquinones,Aspergillus sulphureus,3.331900026874496,2.4796,C(Cl)(Cl)Cl
+625,vioxanthin,C[C@@H]1CC2=C(C(=C3C(=C2)C=C(C(=C3O)C4=C(C5=C(C6=C(C[C@H](OC6=O)C)C=C5C=C4OC)O)O)OC)O)C(=O)O1,other_polyketides,Penicillium citreo-viride,4.153433835845896,3.271240105540897,CO
+626,vulgaxanthin_II,C\1C(NC(=C/C1=C\C=NC(CCC(=O)O)C(=O)O)C(=O)O)C(=O)O,tyrosine_heterocycles,Beta vulgaris,3.832457496136012,2.6101052631578945,O
+627,xanosporolactone,C[C@@H]1CC2=C(C(=O)O1)OC3=C4C2=C5C(=C(C(=C6C5=C7C4=C(C=C3O)OCOC7=CC6=O)O)OC)C[C@@H](C)O,perylenequinones,Xanthomonas campestris,2.7798206278026907,2.137586206896552,CO
+628,xanthoherquein,CC1=CC(=O)C2=C(C(=C(C3=C2C1=C(C(=C3O)O)O)O)C)O,phenalenones,Penicillium atrovenetum G. Smith,3.919696490673411,3.2036175710594312,CCO
+629,xantholipin_B,CC1=CC2=C(C(=C3C(=C2O)C[C@@H]4C5=C3C(=C6C(=C5OCO4)OC7=C(C6=O)C=CC(=C7OC)Cl)O)O)C(=O)N1,xanthones,Streptomyces flavogriseus,3.7729762629336574,3.146700507614213,CO
+630,xanthomegnin,CC1CC2=CC3=C(C(=C2C(=O)O1)O)C(=O)C(=C(C3=O)OC)C4=C(C(=O)C5=C(C4=O)C(=C6C(=C5)CC(OC6=O)C)O)OC,naphthoquinones,Penicillium citreo-viride,3.356253383865728,3.138734177215189,CO
+631,xanthommatin,C1=CC(=C2C(=C1)OC3=CC(=O)C4=C(C3=N2)C(=O)C=C(N4)C(=O)O)C(=O)CC(C(=O)O)N,phenoxazinones,Pieris brassicae,3.400438837081733,2.843577981651376,O
+632,xanthomonadin,COC1=C(C=CC(=C1)/C(=C/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(=O)O)/Br)Br,polyenes,Xanthomonas juglandis,2.9427961072869686,2.572199170124481,C(Cl)(Cl)Cl
+633,xanthomonasin_A,CCCCCC(=O)C1=C2C3=C(C[C@]([C@]2(OC1=O)C)(/C=C/C)O)C(=C(O3)O)C=O,azaphilones,Monascus pilosus,3.5687967760506623,2.695217391304348,CO
+634,xanthopurpurin,C1=CC=C2C(=C1)C(=O)C3=C(C2=O)C(=CC(=C3)O)O,anthraquinones,Rubia tinctoria,3.7821842586943255,3.009223300970873,CO
+635,xanthoradone_A,C[C@@H]1CC2=C(C(=C3C(=C2)C=C(C(=C3O)C4=C(C5=C(C=C4C)C(=O)C(=CC5=O)OC)O)OC)O)C(=O)O1,naphthoquinones,Penicillium radicum FKI-3765-2 II.,3.6114185843285753,3.3061333333333334,CO
+636,xanthoradone_B,C[C@@H]1CC2=C(C(=C3C(=C2)C=C(C(=C3O)C4=C(C=C5C(=C4O)C(=O)C=C(C5=O)C)OC)OC)O)C(=O)O1,naphthoquinones,Penicillium radicum FKI-3765-2 II.,3.53824200913242,3.323860589812332,CO
+637,xanthoradone_C,CC1=CC2=C(C(O1)=O)C(O)=C3C(C=C(OC)C(C4=C(O)C5=C(C(C(OC)=CC5=O)=O)C=C4C)=C3O)=C2,naphthoquinones,Penicillium radicum FKI-3765-2 II,3.4602288584984646,3.443888888888889,CO
+638,xanthorin,CC1=CC2=C(C(=C1)O)C(=O)C3=C(C2=O)C(=C(C=C3O)OC)O,anthraquinones,Aloe saponaria,3.2885941644562333,2.2178890876565296,CO
+639,xanthoviridicatin_D,CC1CC2=C(C(O1)=O)C(O)=C3C(C=C(OC)C(C(C(C4=C5C=CC=C4O)=O)=C(OC)C5=O)=C3O)=C2,naphthoquinones,Penicillium viridicatum,3.43530063729565,3.228645833333333,CO
+640,xanthoviridicatin_E,CC1=CC2=C(C(O)=C3C(C=C(C(C(C(C4=C5C=C(C)C=C4O)=O)=C(C5=O)OC)=C3O)OC)=C2)C(O1)=O,naphthoquinones,Penicillium chrysogenum,3.4229707344008835,3.162755102040816,C(Cl)(Cl)Cl
+641,xanthoviridicatin_F,CC1=CC2=C(C(O)=C3C(C=C(C(C(C(C4=C5C=C(OC)C=C4O)=O)=C(C5=O)C)=C3O)OC)=C2)C(O1)=O,naphthoquinones,Penicillium chrysogenum,3.5453245639119246,3.178974358974359,C(Cl)(Cl)Cl
+642,xanthoviridicatin_G,CC1CC2=C(C(=C3C(=C2)C=C(C4=C3OC5=C4C(=O)C6=C(C5=O)C=CC=C6O)OC)O)C(=O)O1,naphthoquinones,Penicillium viridicatum,3.5101925254813136,2.8177272727272724,CO
+643,xerocomic_acid,OC(/C(C1=CC=C(O)C=C1)=C2OC(C(C3=CC=C(O)C(O)=C3)=C/2O)=O)=O,pulvinones,Suillus Gary,3.859900373599004,3.0612345679012343,CCO
+644,xerocomorubin,OC1=C(C(O/C1=C2C(OC3=CC(O)=C(C=C3/2)O)=O)=O)C4=CC=C(O)C=C4,pulvinones,Serpula lacrymans S7.9,3.315859855576357,2.484569138276553,CCO
+645,xerulin,C/C=C/C#CC#C/C=C/C=C/C=C/C=C\1/C=CC(=O)O1,polyenes,Xerula melanotricha,3.03203717290291,3.009223300970873,CO
+646,xerulinic_acid,C\1=CC(=O)O/C1=C\C=C\C=C\C=C\C#CC#C/C=C/C(=O)O,polyenes,Xerula melanotricha,2.9717162032598274,2.869907407407408,CO
+647,xylerythrin,O=C1C(C2=CC=CC=C2)=C(C(C(C3=CC=CC=C3)=C1O)=C4C5=CC=C(O)C=C5)OC4=O,terphenyls,Peniophora sanguinea,3.031295843520782,2.8370709382151027,C1COCCO1
+648,xylindein,CCC[C@H]1CC2=C(C(=C3C(=O)C=C4C5=C6C(=CC(=O)C7=C(C8=C(C[C@@H](OC8=O)CCC)C(=C67)O4)O)OC2=C53)O)C(=O)O1,other_polyketides,Chlorociboria aeruginosa,2.541615416154161,1.889939024390244,C(Cl)(Cl)Cl
+649,zeaxanthin,CC(\C=C\C=C(C)\C=C\C1=C(C)C[C@@H](O)CC1(C)C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)C[C@@H](O)CC1(C)C,carotenoids,Oscillatoria sp.,2.9192371085472097,2.5883089770354903,CCO
+650,zyzzyanone_B,CNCCC1=CNC2=C1C(=O)C3=C(C2=O)NC=C3C4=CC=C(C=C4)O,indole_heterocycles,Zyzzya fuliginosa,3.221933471933472,2.5668737060041407,CO
+651,zyzzyanone_C,CN1C=C(C2=C1C(=O)C3=C(C2=O)C(=CN3)C4=CC=C(C=C4)O)CCN(C)C=O,indole_heterocycles,Zyzzya fuliginosa,3.244700340225072,2.551028806584362,CO

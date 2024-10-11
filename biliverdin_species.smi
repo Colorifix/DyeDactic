@@ -1,0 +1,8 @@
+C=Cc4c(C)c(=Cc3[nH+]c(=Cc2[nH]c(C=c1[nH]c(=O)c(C)c1C=C)c(C)c2CCC(=O)O)c(CCC(=O)O)c3C)[nH]c4=O S11111
+C=Cc4c(C)c(=Cc3[nH+]c(=Cc2[nH]c(C=c1[nH]c(=O)c(C)c1C=C)c(C)c2CCC(=O)[O-])c(CCC(=O)O)c3C)[nH]c4=O S11011
+C=Cc4c(C)c(=Cc3[nH+]c(=Cc2[nH]c(C=c1[nH]c(=O)c(C)c1C=C)c(C)c2CCC(=O)O)c(CCC(=O)[O-])c3C)[nH]c4=O S10111
+C=Cc4c(C)c(=Cc3[nH+]c(=Cc2[nH]c(C=c1[nH]c(=O)c(C)c1C=C)c(C)c2CCC(=O)[O-])c(CCC(=O)[O-])c3C)[nH]c4=O S10011
+C=Cc4c(C)c(=Cc3nc(=Cc2[nH]c(C=c1[nH]c(=O)c(C)c1C=C)c(C)c2CCC(=O)[O-])c(CCC(=O)[O-])c3C)[nH]c4=O S10001
+C=Cc4c(C)c(=Cc3nc(=Cc2[nH]c(C=c1[n-]c(=O)c(C)c1C=C)c(C)c2CCC(=O)[O-])c(CCC(=O)[O-])c3C)[nH]c4=O S00001
+C=Cc4c(C)c(=Cc3nc(=Cc2[nH]c(C=c1[nH]c(=O)c(C)c1C=C)c(C)c2CCC(=O)[O-])c(CCC(=O)[O-])c3C)[n-]c4=O S10000
+C=Cc4c(C)c(=Cc3nc(=Cc2[nH]c(C=c1[n-]c(=O)c(C)c1C=C)c(C)c2CCC(=O)[O-])c(CCC(=O)[O-])c3C)[n-]c4=O S00000
