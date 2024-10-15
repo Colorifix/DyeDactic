@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from src.utils import wavelength2float, nm2ev
 
 
-data = pd.read_csv("../data/pigments_with_hlgap.csv")
+data = pd.read_csv("data/pigments_with_hlgap.csv")
 
 data["lambda_max"] = data["lambda_max"].apply(wavelength2float)
 data["lambda_max"] = data["lambda_max"].apply(nm2ev)

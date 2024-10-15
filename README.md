@@ -176,7 +176,7 @@ A code repository to reproduce the results published by [Karlov et al.]()
 ```
 ### Description of important files
 - `tests/spectrum2colour` several experimental absorption spectrum of several anthraquinone, indigo, and biliverdin derivatives
-- 
+- ``
 - `src/` directory contains all functions and classes from 3D structure generation to colour estimation. 
 - `src/convert_spectrum_to_colour.py` contains functions to convert absorption spectra to RGB colours together with a test run
 - `src/optimize_xtb.py` has wrapping functions to use XTB external program to optimise geometry, calculate energies, and HOMO-LUMO gaps  
@@ -193,4 +193,18 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - `mpnn_training/` a specified folder for chemprop based neural network model to predict absorption lowest light absorption energies
 - `mpnn_training/data/` a directory for raw and clean training data 
 - `mpnn_training/data/` a directory for raw and clean training data 
-- `mpnn_training/data/20`
+- `mpnn_training/data/20210205_all_expt_data_no_duplicates_solvent_calcs.csv` a training set provided by Greenman et al.
+- `mpnn_training/data/pigments_wb97xd4_tda_solv.csv` a csv file with calculated transition energies (wB97XD4) for outlier deletion and solvents in SMILES format 
+- `mpnn_training/data/train_all.csv` a csv file for MPNN training data (90% of natural and 90% of artificial colourants together after split) set with transitions and solvent
+- `mpnn_training/data/test_artificial.csv` a validation set consisted of the artificial colourants (10% of the initial set) to select the best model parameters
+- `mpnn_training/data/test_natural.csv` a natural colourant test set (10% of the collected set) solely to estimate prediction error
+- `mpnn_training/data/preds_artificial_....csv` - prediction results for the validation set using a single MPNN trained on the best found parameter set
+- `mpnn_training/data/preds_natural_....csv`- prediction results for the natural colourant set using a single MPNN trained on the best found parameter set
+- `mpnn_training/data/preds_natural_fold?_....csv`- prediction results for the natural colourant set using an enemble of models trained during 5-fold CV
+- `mpnn_training/hyperopt` - parameters and NN weights
+- `mpnn_training/chemprop_hyperopt.py` a script to run hyperparameter optimisation (training is done using GPU)
+- `mpnn_training/predict.py` - a prediction script which runs with test_natural.csv by default
+- `mpnn_training/visualize_training.py` - prepare a Figure visualising training process prediction performance for paper
+- `mpnn_training/prepare_dataset.ipynb` - prepare a train/test spilt for MPNN training and clean the initial data from outliers
+- `tests` csv files for colour prediction test
+- 

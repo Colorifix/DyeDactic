@@ -14,7 +14,7 @@ INPUT_DIR = "inputs"           # a directory to generate ORCA input files in sub
 
 if __name__ == "__main__":
     # read pigment database
-    pigments = pd.read_csv(PIGMENTS).iloc[557:558]
+    pigments = pd.read_csv(PIGMENTS)
     pigments.reset_index(inplace = True)
     pigment_smiles = pigments["smiles"]
 

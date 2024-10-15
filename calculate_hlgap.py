@@ -8,14 +8,14 @@ import pandas as pd
 # does single point calculation yielding HOMO-LUMO gaps which will be further visualised
 
 data = pd.read_csv("data/pigments.csv")
-data_dirname = "../inputs"
+data_dirname = "inputs"
 
 hlgap_list = []
 
 # then create a set of directories with names from molecular titles
 for row in data.iterrows():
 
-    name, smiles, solvent = row[['name', 'smiles', 'solvent']]
+    name, smiles, solvent = row[1]["name"], row[1]["smiles"], row[1]["solvent"]
 
     # a path to xyz file with optimized geometry
     path2xyz = os.path.join(data_dirname, name, name + "_xtb.xyz")
@@ -33,4 +33,4 @@ for row in data.iterrows():
     hlgap_list.append(hlgap)
 
 data["hlgap"] = hlgap_list
-data.to_csv("../data/pigments_with_hlgap.csv")
+data.to_csv("data/pigments_with_hlgap.csv")
