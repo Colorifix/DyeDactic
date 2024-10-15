@@ -43,7 +43,7 @@ if __name__ == "__main__":
                                           (3, [1.19]), (4, [0.86, 0.31])],
 
                     pKa=[(0, -0.49), (1, 6.04), (2, 9.78), (3, 13.73)]
-                   )
+                )
     mol1.epsilon_from_osc_strength()
     mol1.hydroxyorcein_protonated_species()
     mol1.generate_colour_vs_pH()

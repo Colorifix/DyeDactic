@@ -1,0 +1,6 @@
+! RI-SCS-wPBEPP86 ma-def2-TZVP/C ma-def2-TZVP def2/J RIJCOSX TightSCF
+%maxcore 1000
+%base "muscaflavin_ri-scs-wpbepp86_nosolv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile -2 1 muscaflavin_gs_opt.xyz

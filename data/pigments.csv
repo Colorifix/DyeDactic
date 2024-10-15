@@ -556,7 +556,7 @@ phoenicein,terpenoids,Juniperus phoenicea,CC1=C(C(=O)C(=C(C)C)O1)O[C@H]2[C@@H]([
 phthiocol,naphthoquinones,Micobacterium tuberculosis,CC1=C(C2=CC=CC=C2C(=O)C1=O)O,385,1412,Ethanol,https://doi.org/10.1016/S0021-9258(18)74730-3,
 chimaphilin,naphthoquinones,Pyrola rotundifolia L.,CC1=CC2=C(C=C1)C(=O)C=C(C2=O)C,339,3311,Methanol,https://doi.org/10.1248/cpb.33.5355,
 7-isopropenyl-4-methylazulen-1-ylmethyl_stearate,azulenes,Lactarius indigo,C(CCCCCCCCCCCCCCCCC)(=O)OCC1=CC=C2C(=CC=C(C=C12)C(=C)C)C,580,18200,THF,https://doi.org/10.1021/acs.jafc.3c02387,spectrum+
-purpurogenone,naphthoquinones,Penicillium purpurogenum,O=C1C2=C(C(O)=CC(C)=C2O)C(C(C3C(O)=C([C@@]4(C5)[C@]6(O)[C@@H]3O)C(C7=C(O)C=C(C)C=C7C4=O)=O)=C1[C@@H]6C5=O)=O,498; 528; 568,2630;  2951; 1862,Chloroform,https://doi.org/10.1039/JR9550002992,
+purpurogenone,naphthoquinones,Penicillium purpurogenum,O=C1C2=C(C(O)=CC(C)=C2O)C(C(C3C(O)=C([C@@]4(C5)[C@]6(O)[C@@H]3O)C(C7=C(O)C=C(C)C=C7C4=O)=O)=C1[C@@H]6C5=O)=O,498; 528; 568,2630; 2951; 1862,Chloroform,https://doi.org/10.1039/JR9550002992,
 xanthoherquein,phenalenones,Penicillium atrovenetum G. Smith,CC1=CC(=O)C2=C(C(=C(C3=C2C1=C(C(=C3O)O)O)O)C)O,387,16982,Ethanol,https://doi.org/10.1042/bj0650166,
 herqueinone,phenalenones,Penicillium atrovenetum G. Smith,C[C@@H]1C([C@@]2(C(=C3C(=CC(=O)C4=C3C(=C(C(=C4O)OC)O)C2=O)C)O1)O)(C)C,416,4570,Ethanol,https://doi.org/10.1042/bj0650166,
 kyanomycin,benzanthraquinones,Nonomuria sp. NN 22303,OCCNC1=C2C(C(O)=C3C(C(C4=C(C=CC=C4O)C3=O)=O)=C2O)=C(C(OC)=O)C(CC)=C1,575,11750,Methanol,https://doi.org/10.1021/np9904408,

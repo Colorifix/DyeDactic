@@ -10,12 +10,11 @@ PIGMENTS = "data/pigments.csv" # a csv file with pigment SMILES and other relate
 INPUT_DIR = "inputs"           # a directory to generate ORCA input files in sub dirs with colourants names
 
 # conformation generation algorithm has problems with certain large molecules:
-# salinixanthin,
-# in this case xyz files can be downloaded from pubchem
+# salinixanthin, purpurogenone where structure generation were done with obabel
 
 if __name__ == "__main__":
     # read pigment database
-    pigments = pd.read_csv(PIGMENTS).iloc[524:]
+    pigments = pd.read_csv(PIGMENTS).iloc[557:558]
     pigments.reset_index(inplace = True)
     pigment_smiles = pigments["smiles"]
 

@@ -1,0 +1,6 @@
+! CAM-B3LYP def2-TZVP def2/J RIJCOSX CPCM(Pyridine) TightSCF
+%maxcore 1000
+%base "cinnabarinic_acid_cam-b3lyp_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 cinnabarinic_acid_gs_opt.xyz

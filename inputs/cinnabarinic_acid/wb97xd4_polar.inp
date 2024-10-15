@@ -1,0 +1,6 @@
+! wB97X-D4 def2-TZVP def2/J RIJCOSX CPCM(Pyridine) TightSCF
+%maxcore 1000
+%base "cinnabarinic_acid_wb97x-d4_solv_polar"
+%pal nprocs 16 end
+%elprop Polar 1 end
+*xyzfile 0 1 cinnabarinic_acid_gs_opt.xyz
