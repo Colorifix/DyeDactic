@@ -14,8 +14,8 @@ def objective_fun(params):
     params["id"] = param_id
 
     # make sure max learning rate is bigger than init_lr and final_lr
-    params['init_lr'] = params['init_lr'] * params['max_lr']
-    params['final_lr'] = params['final_lr'] * params['max_lr']
+    params['init-lr'] = params['init-lr'] * params['max-lr']
+    params['final-lr'] = params['final-lr'] * params['max-lr']
 
     trial_directory = os.path.join(SAVE_DIR, param_id)
     hyperopt_config_dir = os.path.join(trial_directory, "hyperopt.json")
@@ -26,38 +26,34 @@ def objective_fun(params):
     with open(hyperopt_config_dir, "w") as outfile:
         json.dump(params, outfile)
 
-    run_command = f"""python chemprop_train  \
-                     --data_path data/train_all.csv \
-                     --smiles_columns smiles solvent \
-                     --dataset_type regression \
-                     --target_columns peakwavs_max \
-                     --loss_function mse \
-                     --separate_val_path data/test_artificial.csv \
-                     --separate_test_path data/test_natural.csv \
-                     --seed 123 \
-                     --pytorch_seed 42 \
-                     --metric mae \
-                     --extra_metrics rmse \
-                     --cache_cutoff inf \
-                     --save_dir {trial_directory} \
-                     --batch_size {params["batch_size"]} \
-                     --hidden_size {params["hidden_size"]} \
+    run_command = f"""python chemprop train  \
+                     --data-path data/train_all.csv \
+                     --smiles-columns smiles solvent \
+                     --task-type regression \
+                     --target-columns peakwavs_max \
+                     --loss-function mse \
+                     --separate-val-path data/test_artificial.csv \
+                     --separate-test-path data/test_natural.csv \
+                     --data-seed 123 \
+                     --pytorch-seed 42 \
+                     --metric mae rmse \
+                     --save-dir {trial_directory} \
+                     --batch-size {params["batch-size"]} \
+                     --message-hidden-dim {params["message-hidden-dim"]} \
                      --activation {params["activation"]} \
                      --aggregation {params["aggregation"]} \
                      --depth {params["depth"]} \
                      --dropout {params["dropout"]} \
-                     --ffn_num_layers {params["ffn_num_layers"]} \
-                     --ffn_hidden_size {params["ffn_hidden_size"]} \
-                     --warmup_epochs {params["warmup_epochs"]} \
-                     --init_lr {params["init_lr"]} \
-                     --max_lr {params["max_lr"]} \
-                     --final_lr {params["final_lr"]} \
-                     --adding_h \
-                     --number_of_molecules 2 \
+                     --ffn-num-layers {params["ffn-num-layers"]} \
+                     --ffn-hidden-dim {params["ffn-hidden-dim"]} \
+                     --warmup-epochs {params["warmup-epochs"]} \
+                     --init-lr {params["init-lr"]} \
+                     --max-lr {params["max-lr"]} \
+                     --final-lr {params["final-lr"]} \
+                     --add-h \
                      --epochs 30 \
-                     --gpu 0 \
-                     {params["bias"]} \
-                     {params["atom_messages"]} \
+                     --devices 0 \
+                     {params["message-bias"]} \
                      --ensemble_size 1"""
 
     process = subprocess.Popen(run_command.split(),
@@ -76,20 +72,19 @@ def objective_fun(params):
 
 
 param_space = {
-    'bias': hp.choice('bias', ['--bias', '']),
-    'hidden_size': hp.choice('hidden_size', range(100, 420, 20)),
+    'message-bias': hp.choice('message-bias', ['--message-bias', '']),
+    'message-hidden-dim': hp.choice('message-hidden-dim', range(100, 420, 20)),
     'activation': hp.choice('activation', ['ReLU', 'LeakyReLU', 'PReLU', 'tanh', 'SELU', 'ELU']),
     'aggregation': hp.choice('aggregation', ['mean', 'sum', 'norm']),
     'depth': hp.choice('depth', [3, 4, 5, 6]),
-    'atom_messages': hp.choice('atom_messages', ['--atom_messages', '']),
     'dropout': hp.uniform('dropout', 0.0, 0.4),
-    'ffn_num_layers': hp.choice('ffn_num_layers', [1, 2, 3]),
-    'ffn_hidden_size': hp.choice('ffn_hidden_size', range(100, 420, 20)),
-    'warmup_epochs': hp.choice('warmup_epochs', [2, 3, 4, 5, 6]),
-    'batch_size': hp.choice('batch_size', range(10, 110, 20)),
-    'init_lr': hp.loguniform('init_lr', -3, -1),
-    'max_lr': hp.loguniform('max_lr', -5, -2),
-    'final_lr': hp.loguniform('final_lr', -3, -1)}
+    'ffn-num-layers': hp.choice('ffn-num-layers', [1, 2, 3]),
+    'ffn-hidden-dim': hp.choice('ffn-hidden-dim', range(100, 420, 20)),
+    'warmup-epochs': hp.choice('warmup-epochs', [2, 3, 4, 5, 6]),
+    'batch-size': hp.choice('batch-size', range(10, 110, 20)),
+    'init-lr': hp.loguniform('init-lr', -3, -1),
+    'max-lr': hp.loguniform('max-lr', -5, -2),
+    'final-lr': hp.loguniform('final-lr', -3, -1)}
 
 trials = Trials()
 
