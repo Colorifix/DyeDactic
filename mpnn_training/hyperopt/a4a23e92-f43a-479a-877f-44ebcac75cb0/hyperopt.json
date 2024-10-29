@@ -1,0 +1,1 @@
+{"activation": "LeakyReLU", "aggregation": "norm", "batch-size": 10, "depth": 5, "dropout": 0.0714895672183328, "ffn-hidden-dim": 380, "ffn-num-layers": 1, "final-lr": 0.004670032591604472, "init-lr": 0.0027519340772311877, "max-lr": 0.015372150693144746, "message-bias": "--message-bias", "message-hidden-dim": 280, "warmup-epochs": 5, "id": "a4a23e92-f43a-479a-877f-44ebcac75cb0"}

@@ -26,14 +26,13 @@ def objective_fun(params):
     with open(hyperopt_config_dir, "w") as outfile:
         json.dump(params, outfile)
 
-    run_command = f"""python chemprop train  \
-                     --data-path data/train_all.csv \
+    run_command = f"""chemprop train \
+                     --data-path data/data_all.csv \
                      --smiles-columns smiles solvent \
                      --task-type regression \
                      --target-columns peakwavs_max \
                      --loss-function mse \
-                     --separate-val-path data/test_artificial.csv \
-                     --separate-test-path data/test_natural.csv \
+                     --splits-column split \
                      --data-seed 123 \
                      --pytorch-seed 42 \
                      --metric mae rmse \
@@ -52,9 +51,11 @@ def objective_fun(params):
                      --final-lr {params["final-lr"]} \
                      --add-h \
                      --epochs 30 \
-                     --devices 0 \
+                     --accelerator cpu \
+                     --devices auto \
+                     --multi-hot-atom-featurizer-mode v1 \
                      {params["message-bias"]} \
-                     --ensemble_size 1"""
+                     --ensemble-size 1"""
 
     process = subprocess.Popen(run_command.split(),
                                stdout=subprocess.PIPE,
@@ -62,7 +63,7 @@ def objective_fun(params):
                                )
     
     stdout, stderr = process.communicate()
-
+    print(stderr)
     results_file = os.path.join(trial_directory, "verbose.log")
     with open(results_file, 'r') as f:
         results = f.readlines()

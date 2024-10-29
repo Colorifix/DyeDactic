@@ -106,7 +106,8 @@ pred_test_fold2 = pd.read_csv('data/preds_natural_fold2_f8f937d8-e7f3-4073-a91c-
 #pred_test_fold3 = pd.read_csv('preds_natural_fold3_f8f937d8-e7f3-4073-a91c-e50fa78313d7.csv')
 pred_test_fold4 = pd.read_csv('data/preds_natural_fold4_f8f937d8-e7f3-4073-a91c-e50fa78313d7.csv')
 
-s = pd.DataFrame([pred_test_fold0.peakwavs_max, pred_test_fold1.peakwavs_max, pred_test_fold2.peakwavs_max, pred_test_fold4.peakwavs_max])
+#s = pd.DataFrame([pred_test_fold0.peakwavs_max, pred_test_fold1.peakwavs_max, pred_test_fold2.peakwavs_max, pred_test_fold4.peakwavs_max])
+s = pd.DataFrame([pred_test_fold0.pred_0, pred_test_fold1.pred_0, pred_test_fold2.pred_0, pred_test_fold4.pred_0])
 
 
 fig = plt.figure()
@@ -182,7 +183,7 @@ ax[2].plot([2., 3.7], [2., 3.7], c = "black", linewidth = 2)
 #plt.subplots_adjust(wspace=0.4, hspace=0.3)
 fig = plt.gcf()
 fig.set_size_inches(8, 15)
-plt.savefig("nn_fig_v3.png", dpi=300)
+plt.savefig("../figs/nn_fig_v3.png", dpi=300)
 plt.show()
 
 
