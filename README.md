@@ -11,7 +11,6 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - Download a release of XTB executable (6.6.1 was tested) and make sure executable is in your $PATH
 - Make sure you are in the root directory `cd dyedactic`
 - Please run `poetry install` to install dependencies
-- `bash get_nn_weights.sh` will download the Chemprop model files and xyz coordinates from zenodo 
 - Then any script can be launched using `poetry run python /path/to/script.py`
 
 ## Description of package files

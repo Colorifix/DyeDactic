@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "si-data"
+name = "DyeDactic"
 version = "0.1.0"
 description = "Data and scripts essential for reproduction of Karlov et al."
 authors = ["Dmitry Karlov <dmitry.karlov@colorifix.com>"]
-license = "MIT"
+license = "AGPL v3"
 readme = "README.md"
 
 [tool.poetry.dependencies]
