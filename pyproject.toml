@@ -15,8 +15,10 @@ pandas = "2.0"
 scikit-learn = "1.3.2"
 scipy = "1.10"
 matplotlib = "3.7"
-chemprop = "2.0.5"
+chemprop = { git = "https://github.com/KnathanM/chemprop.git", branch = "better_v1_v2_conversion" }
 hyperopt = "^0.2.7"
+jupyter = "^1.1.1"
+notebook = "^7.2.2"
 
 
 [build-system]

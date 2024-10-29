@@ -1,7 +1,6 @@
-## DyeDactic
+## DyeDactic: learning colours
 --- -
-[//]: (Badges)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 A colour prediction workflow for biosynthetically produced dyes and pigments.  
 A code repository to reproduce the results published by [Karlov et al.]()
@@ -65,4 +64,4 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - `tddft_fosc_in_groups.py` - A table of Pearson r for oscillator strength for groups of colourants
 - `tddft_fosc_SI_figures.py` - Figures for correlation plot for oscillator strength vs extinction coefficients for SI
 - `calculate_hlgap.py` - calculates HOMO-LUMO gap on the GFN2-xTB level for precalculated conformations of natural colourants
-- `visualise_hlgap.py` - Baseline correlation for HOMO-LUMO gap (GFN2-xTB) and experimental transition energies
+- `visualize_hlgap.py` - Baseline correlation for HOMO-LUMO gap (GFN2-xTB) and experimental transition energies
