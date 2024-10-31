@@ -1,0 +1,6 @@
+! BMK def2-TZVP def2/J RIJCOSX CPCM(Toluene) TightSCF
+%maxcore 1000
+%base "1-hydroxy-9,10-anthraquinone_bmk_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 1-hydroxy-9,10-anthraquinone_gs_opt.xyz

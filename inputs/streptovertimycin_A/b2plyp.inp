@@ -1,0 +1,6 @@
+! RI-B2PLYP def2-TZVP/C def2-TZVP def2/J RIJCOSX CPCM(Methanol) TightSCF
+%maxcore 1000
+%base "streptovertimycin_A_ri-b2plyp_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 streptovertimycin_A_gs_opt.xyz

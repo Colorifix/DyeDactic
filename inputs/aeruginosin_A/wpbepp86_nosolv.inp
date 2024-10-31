@@ -1,0 +1,6 @@
+! RI-SCS-wPBEPP86 def2-TZVP/C def2-TZVP def2/J RIJCOSX TightSCF
+%maxcore 1000
+%base "aeruginosin_A_ri-scs-wpbepp86_nosolv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 1 1 aeruginosin_A_gs_opt.xyz
