@@ -1,0 +1,7 @@
+! RI-SCS-PBE-QIDH def2-TZVP/C def2-TZVP def2/J RIJCOSX CPCM TightSCF
+%cpcm epsilon 7.8 refrac 1.3993 end
+%maxcore 1000
+%base "dihydroxanthommatin_ri-scs-pbe-qidh_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 dihydroxanthommatin_gs_opt.xyz

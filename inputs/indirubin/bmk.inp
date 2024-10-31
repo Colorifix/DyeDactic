@@ -1,0 +1,8 @@
+! RKS def2/J  def2-TZVP RIJCOSX CPCM TightSCF
+%cpcm epsilon 8.42 refrac 1.494 end
+%method method dft functional hyb_gga_xc_b97_k end
+%maxcore 1000
+%base "indirubin_bmk_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 indirubin_gs_opt.xyz

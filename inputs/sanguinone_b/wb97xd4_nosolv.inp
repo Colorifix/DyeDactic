@@ -1,0 +1,6 @@
+! wB97X-D4 def2-TZVP def2/J RIJCOSX TightSCF
+%maxcore 1000
+%base "sanguinone_b_wb97x-d4_nosolv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 sanguinone_b_gs_opt.xyz

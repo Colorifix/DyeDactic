@@ -1,0 +1,6 @@
+! wB97X-D4 def2-TZVP def2/J RIJCOSX TightSCF
+%maxcore 1000
+%base "globosuxanthone_D_wb97x-d4_nosolv_polar"
+%pal nprocs 16 end
+%elprop Polar 1 end
+*xyzfile 0 1 globosuxanthone_D_gs_opt.xyz
