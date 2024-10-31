@@ -1,0 +1,13 @@
+! PBEh-3c def2/J RIJCOSX CPCM(Methanol) NormalSCF NormalOpt
+%maxcore 1000
+%base "baicalein_gs_opt"
+%pal nprocs 16 end
+*xyzfile 0 1 baicalein_xtb.xyz
+
+$new_job
+! PBE0 def2-TZVP def2/J RIJCOSX TIGHTSCF CPCM(Methanol)
+%maxcore 1000
+%base "baicalein_pbe0_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 baicalein_gs_opt.xyz

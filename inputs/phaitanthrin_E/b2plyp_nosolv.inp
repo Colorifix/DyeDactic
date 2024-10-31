@@ -1,0 +1,6 @@
+! RI-B2PLYP def2-TZVP/C def2-TZVP def2/J RIJCOSX TightSCF
+%maxcore 1000
+%base "phaitanthrin_E_ri-b2plyp_nosolv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 phaitanthrin_E_gs_opt.xyz

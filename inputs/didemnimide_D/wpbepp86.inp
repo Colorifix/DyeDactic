@@ -1,0 +1,6 @@
+! RI-SCS-wPBEPP86 def2-TZVP/C def2-TZVP def2/J RIJCOSX CPCM(Acetonitrile) TightSCF
+%maxcore 1000
+%base "didemnimide_D_ri-scs-wpbepp86_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 didemnimide_D_gs_opt.xyz

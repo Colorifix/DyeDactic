@@ -1,0 +1,6 @@
+! CAM-B3LYP def2-TZVP def2/J RIJCOSX CPCM(Hexane) TightSCF
+%maxcore 1000
+%base "6Z,6Z-rhodoxanthin_cam-b3lyp_solv_tddft"
+%pal nprocs 16 end
+%TDDFT nroots 5 tda False end
+*xyzfile 0 1 6Z,6Z-rhodoxanthin_gs_opt.xyz
