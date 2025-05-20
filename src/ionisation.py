@@ -345,7 +345,10 @@ class Molecule:
         for osc in self.oscillator_strengths:
             current_osc = []
             for j in osc[1]:
-                current_osc.append(11451.73 / self.empirical_broadening * j)
+                current_osc.append(
+
+
+                )
             self.extinction_coefficients.append((osc[0], current_osc))
 
     def read_vibronic_spectra_from_files(self, mol: str, num_spec_points: int = 500) -> None:
