@@ -25,9 +25,17 @@ if __name__ == "__main__":
                                          (0, "CC1=CC2=C(C(=C1)[O-])C(=O)C3=C(C2=O)C=C(C=C3[O-])[O-]")], # trihydroxy deprotonated    (S000)
                    oscillator_strengths = [(4, [0.35]),  (3, [0.28, 0.12]), (2, [0.25, 0.08]),
                                            (1, [0.28, 0.04, 0.03]), (0, [0.26, 0.03, 0.02, 0.10])],
-                   pKa = [(0, 7.39), (1, 9.34), (2, 10.13)]
+                   pKa = [(0, 7.39), (1, 9.34), (2, 10.13)],
+                   vg_osc_str = {"S000": [0.3366, 0.0001, 0.0747, 0.2032, 0.0002, 0.00003, 0.1229, 0.0002, 0.8388, 0.00062],
+                                 "S010": [0.2448, 0.0009, 0.7829, 0.0034, 0.3146, 0.0145, 0.0023, 0.8423, 0.0169, 0.00023],
+                                 "S100": [0.3769, 0.1433, 0.00004, 0.00007, 0.1410, 0.00007, 0.1896, 0.6587, 0.00006, 0.4146],
+                                 "S110": [0.4492, 0.00008, 0.2440, 0.0243, 0.00003, 0.5527, 0.00006, 0.6713, 0.1790, 0.0676],
+                                 "S111": [0.5301, 0.0001, 0.0123, 0.0610, 0.00004, 0.5725, 0.4055, 0.4171, 0.6198, 0.4583]},
                    )
+
+    mol.read_vibronic_spectra_from_files("emodin")
     mol.epsilon_from_osc_strength()
     mol.emodin_protonated_species()
     mol.generate_colour_vs_pH()
-    mol.visualize_species_distribution()
+    mol.generate_colour_vs_pH_from_vibronic("emodin")
+    mol.visualize_species_distribution(vibronic=True)

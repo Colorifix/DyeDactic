@@ -7,7 +7,7 @@ A code repository to reproduce the results published by [Karlov et al.]()
 
 ## Command line set up
 - [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) is required to run the package I used version (1.8.3)
-- Clone the repo `git clone git@github.com:Colorifix/dyedactic_public.git`
+- Clone the repo `git clone https://github.com/Colorifix/DyeDactic.git`
 - Download a release of [XTB executable](https://xtb-docs.readthedocs.io/en/latest/setup.html) (6.6.1 was tested) and make sure executable is in your $PATH
 - Make sure you are in the root directory `cd DyeDactic_public`
 - Please run `poetry install` to install dependencies
@@ -27,6 +27,7 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - `data/pigments.csv` - a csv file containing the database of collected natural compounds with experimental data and references
 - `data/pigment_pH_SI.csv` - contains experimental absorption spectra for 4 colourants explored in the paper (*emodin*, *quinalizarin*, *biliverdin*, and *orcein*) at different pH levels
 - `data/biliverdin_pH_dependence_MD.csv` - a csv file containing transition energy / oscillator strength for conformational ensembles of different protonated forms of biliverdin
+- `data/vg_spectra` - a directory with calculated vibronic spectra for *emodin*, *quinalizarin*, and *orcein* 
 - `inputs/` - directory for input files for ORCA calculations
 - `mpnn_training/` - a specified folder for chemprop based neural network model to predict absorption lowest light absorption energies
 - `mpnn_training/data/` - a directory for raw and clean training data

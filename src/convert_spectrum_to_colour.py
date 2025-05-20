@@ -23,6 +23,7 @@ def gaussian_broadening(x, y, sigma):
     xj = np.repeat(np.transpose(x), repeats = x.shape[0], axis = 0)
     gaussian_matrix = np.exp(-(xi - xj)**2 / sigma **2)
     spec = np.sum(gaussian_matrix * np.array(y), axis = 1)
+
     return spec / np.max(spec)
     
     
@@ -161,6 +162,38 @@ class Spectrum:
         hex_rgb = (255 * self.generate_RGB()).astype(int)
         return '#{:02x}{:02x}{:02x}'.format(*hex_rgb)
     
+    
+if __name__ == "__main__":
+
+    prefix = "../tests/spectrum2colour/"
+    # visualize colours for 6 experimental spectra from Tirri et al.
+    filenames = ["IN1_exp.csv", "IN10_exp.csv", "AQ1_exp.csv", "AQ2_exp.csv", "AQ3_exp.csv", "biliverdin_exp.csv"]
+    files = [pd.read_csv(prefix + fname) for fname in filenames]
+    spectra = [Spectrum(sp['x'], sp['y']) for sp in files]
+        
+    fig, ax = plt.subplots()
+    
+    for i in range(len(filenames)):
+        hex_rgb = spectra[i].rgb_to_hex()
+        
+        # Place and label a circle with the colour of a black body at temperature T
+        x, y = i % 3, -(i // 3)
+        circle = Circle(xy=(x, y*1.2), radius=0.4, fc=hex_rgb)
+        ax.add_patch(circle)
+        ax.annotate(filenames[i].split("_")[0], xy=(x, y*1.2-0.5), va='center',
+                    ha='center', color='white')
+ 
+    # Set the limits and background colour; remove the ticks
+    ax.set_xlim(-0.5, 2.6)
+    ax.set_ylim(-2, 0.5)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    ax.set_facecolor('k')
+    # Make sure our circles are circular!
+    ax.set_aspect("equal")
+    plt.show()
+
+
 
 
 

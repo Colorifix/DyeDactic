@@ -19,6 +19,9 @@ chemprop = { git = "https://github.com/KnathanM/chemprop.git", branch = "better_
 hyperopt = "^0.2.7"
 jupyter = "^1.1.1"
 notebook = "^7.2.2"
+mdanalysis = "^2.8.0"
+parmed = "^4.3.0"
+pyscf = "^2.8.0"
 
 
 [build-system]

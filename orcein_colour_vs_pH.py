@@ -29,7 +29,7 @@ if __name__ == "__main__":
     """
 
 
-    mol1 = Molecule("hydroxyorcein",
+    mol1 = Molecule("orcein",
                     transition_energies=[(0, [2.304, 2.794]),  (2, [2.679]), (1, [2.308]),
                                          (3, [2.246]), (4, [2.198, 2.44])],
                                                                                                          # See Scheme S4 for more info
@@ -42,12 +42,21 @@ if __name__ == "__main__":
                     oscillator_strengths=[(0, [0.59, 0.28]), (1, [0.85]), (2, [1.15]),
                                           (3, [1.19]), (4, [0.86, 0.31])],
 
-                    pKa=[(0, -0.49), (1, 6.04), (2, 9.78), (3, 13.73)]
+                    pKa=[(0, -0.49), (1, 6.04), (2, 9.78), (3, 13.73)],
+                    vg_osc_str={
+                        "S0000": [0.4689, 0.0037, 0.0954, 0.4506, 0.8235, 0.0032, 0.0042, 0.0656, 0.2163, 0.3834],
+                        "S0100": [1.4760, 0.0014, 0.0105, 0.0021, 0.0006, 0.2620, 0.0334, 0.0446, 0.2879, 0.0981],
+                        "S1100": [1.4276, 0.0018, 0.0019, 0.0007, 0.0242, 0.0256, 0.2668, 0.1039, 0.1881, 0.1020],
+                        "S1101": [1.1231, 0.1994, 0.0011, 0.0023, 0.0014, 0.00014, 0.1983, 0.1010, 0.6484, 0.0009],
+                        "S1111": [0.8065, 0.3058, 0.00005, 0.0006, 0.0121, 0.00016, 0.1182, 0.3560, 0.4382, 0.1079]}
                 )
+
+    mol1.read_vibronic_spectra_from_files("orcein")
     mol1.epsilon_from_osc_strength()
     mol1.hydroxyorcein_protonated_species()
     mol1.generate_colour_vs_pH()
-    mol1.visualize_species_distribution()
+    mol1.generate_colour_vs_pH_from_vibronic("orcein")
+    mol1.visualize_species_distribution(vibronic=True)
 
 
     mol2 = Molecule("aminoorcein",
@@ -64,15 +73,28 @@ if __name__ == "__main__":
                     oscillator_strengths=[(0, [0.24, 0.55]),  (1, [0.52]), (2, [1.07]),
                                           (3, [1.09]), (4, [1.11]), (5, [1.05, 0.03])],
 
-                    pKa=[(0, -0.99), (1, 2.64), (2, 9.23), (3, 10.54)]
+                    pKa=[(0, -0.99), (1, 2.64), (2, 9.23), (3, 10.54)],
+                    vg_osc_str={
+                        "S0000": [1.3460, 0.0263, 0.0250, 0.0025, 0.0015, 0.0011, 0.0003, 0.0183, 0.0196, 0.3487],
+                        "S1000": [1.3460, 0.0005, 0.0279, 0.0013, 0.0015, 0.0155, 0.2691, 0.0015, 0.0013, 0.0331],
+                        "S0100": [1.3715, 0.0001, 0.0308, 0.0012, 0.0017, 0.0130, 0.1940, 0.0035, 0.0167, 0.0931],
+                        "S1100": [1.3483, 0.0372, 0.0008, 0.0020, 0.0155, 0.0026, 0.0309, 0.7020, 0.0695, 0.0020],
+                        "S1101": [0.7527, 0.0001, 0.5436, 0.0022, 0.0464, 0.0066, 0.6931, 0.4726, 0.0125, 0.0070],
+                        "S1111": [0.3725, 0.00003, 0.6778, 0.0427, 0.0182, 0.0005, 0.8450, 0.1995, 0.1430, 0.0326]}
                     )
+
+    mol2.read_vibronic_spectra_from_files("aminoorcein")
     mol2.epsilon_from_osc_strength()
     mol2.aminoorcein_protonated_species()
     mol2.generate_colour_vs_pH()
-    mol2.visualize_species_distribution()
+    mol2.generate_colour_vs_pH_from_vibronic("aminoorcein")
+    mol2.visualize_species_distribution(vibronic=True)
 
     # add two spectra together and then convert to colour
+    print(mol1.spectra, mol2.spectra)
     mol2.spectra = [0.5 * (sp[0] + sp[1]) for sp in zip(mol1.spectra, mol2.spectra)]
     mol2.colours_vs_pH = [Spectrum(np.linspace(380, 780, 81), sp).rgb_to_hex() for sp in mol2.spectra]
-
-    mol2.visualize_species_distribution()
+    print(mol2.spectra)
+    mol2.interpolated_spectra = [0.5 * (sp[0] + sp[1]) for sp in zip(mol1.interpolated_spectra, mol2.interpolated_spectra)]
+    mol2.colours_vs_pH_vibronic = [Spectrum(np.linspace(380, 780, 81), sp).rgb_to_hex() for sp in mol2.interpolated_spectra]
+    mol2.visualize_species_distribution(vibronic=True)

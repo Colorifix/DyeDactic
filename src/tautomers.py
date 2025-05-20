@@ -5,7 +5,7 @@ from rdkit.Chem.MolStandardize import rdMolStandardize
 from rdkit.Chem.rdchem import Mol
 from src.utils import DrawTautsFromList
 from typing import Type, List
-from src.optimize_xtb import get_lowest_energies_xtb
+from src.optimize_xtb import get_lowest_energies_xtb, pyscf_energy
 import numpy as np
 from loguru import logger
 
@@ -58,7 +58,10 @@ def get_max_sp2_path_length(mol: Type[Mol]) -> int:
             num_c -= 1
     return num_c
 
-def enumerate_tautomers(mol: Type[Mol], solvent = "h2o", filter_sp2: bool = True) -> List[Type[Mol]]:
+def enumerate_tautomers(mol: Type[Mol],
+                        solvent = "h2o",
+                        filter_sp2: bool = True,
+                        use_pyscf: bool = False) -> List[Type[Mol]]:
     """
     Enumerate tautomers using rdkit rules and rank them based on xtb energy
     The following euristics are used to avoid energy calculation of all possible tautomers (a huge number!):
@@ -81,58 +84,89 @@ def enumerate_tautomers(mol: Type[Mol], solvent = "h2o", filter_sp2: bool = True
     enumerator = rdMolStandardize.TautomerEnumerator(tautomer_params)
     tautomers = []
     min_energy = 0.
+    min_dft_energy = 0.
     largest_mol_sp2_substructure = get_max_sp2_path_length(mol)
 
     for taut in enumerator.Enumerate(mol):
         if filter_sp2:
             # first check if we have all sp2 carbons in place
             if sp2_filtering_rule_match(taut, mol):
-                energy = get_lowest_energies_xtb(taut, solvent = solvent)
+                energy, conf = get_lowest_energies_xtb(taut, solvent = solvent)
                 if energy < min_energy:
                     min_energy = energy
                 taut.SetProp("energy", str(energy))
+
+                # in case a comparison with ab initio calculations are required
+                if use_pyscf:
+                    dft_energy = pyscf_energy(conf)
+                    if dft_energy < min_dft_energy:
+                        min_dft_energy = dft_energy
+                    taut.SetProp("dft_energy", str(dft_energy))
+
                 tautomers.append(taut)
 
             # if they are not in place check if the transformation extends the pi-system in the tautomer and the sp2 carbons in rings are intact
             elif sp2_filtering_rule_subset(taut, mol) and (get_max_sp2_path_length(taut) >= 1.3 * largest_mol_sp2_substructure):
-                energy = get_lowest_energies_xtb(taut, solvent = solvent)
+                energy, conf = get_lowest_energies_xtb(taut, solvent = solvent)
                 if energy < min_energy:
                     min_energy = energy
                 taut.SetProp("energy", str(energy))
+
+                # in case a comparison with ab initio calculations are required
+                if use_pyscf:
+                    dft_energy = pyscf_energy(conf)
+                    if dft_energy < min_dft_energy:
+                        min_dft_energy = dft_energy
+                    taut.SetProp("dft_energy", str(dft_energy))
+
                 tautomers.append(taut)
         #estimate energies for all possible tautomers which we do not want by default
         else:
-            energy = get_lowest_energies_xtb(taut, solvent=solvent)
+            energy, conf = get_lowest_energies_xtb(taut, solvent=solvent)
             if energy < min_energy:
                 min_energy = energy
             taut.SetProp("energy", str(energy))
+
+            # in case a comparison with ab initio calculations are required
+            if use_pyscf:
+                dft_energy = pyscf_energy(conf)
+                if dft_energy < min_dft_energy:
+                    min_dft_energy = dft_energy
+                taut.SetProp("dft_energy", str(dft_energy))
+
             tautomers.append(taut)
 
     # convert energies to kcal/mol
     for taut in tautomers:
         taut.SetProp("energy", str(np.round((float(taut.GetProp("energy")) - min_energy) * 627.5, decimals=1)))
+        if use_pyscf:
+            taut.SetProp("dft_energy", str(np.round((float(taut.GetProp("dft_energy")) - min_dft_energy) * 627.5, decimals=1)))
 
-    # sort tautomers energy
+    # sort tautomers energy by XTB values
     tautomers = sorted(tautomers, key = lambda mol: float(mol.GetProp("energy")))
 
     return tautomers
 
 
 if __name__ == "__main__":
-    start = timer()
-    # Two observable tautomers of curcumin: enol curcumin is more stable  and this is reproduced
+
+    # Two observable tautomers of curcumin: enol curcumin is more stable and this is reproduced
     # but keto-curcumin cannot be generated using the defined euristics
     keto_curcumin = Chem.MolFromSmiles('O=C(\\C=C\\c1ccc(O)c(OC)c1)CC(=O)C=Cc2cc(OC)c(O)cc2')
     enol_curcumin = Chem.MolFromSmiles('O=C(/C=C(/C=C/c1ccc(O)c(OC)c1)O)/C=C/c2cc(OC)c(O)cc2')
+    # several larger colourants
+    resistomycin = Chem.MolFromSmiles('CC1=CC(=O)C2=C(C3=C4C5=C2C1=C(C=C5C(C(=C4C(=O)C=C3O)O)(C)C)O)O')
+    prodigiosin = Chem.MolFromSmiles('CCCCCC1=C(NC(=C1)/C=C\\2/C(=CC(=N2)C3=CC=CN3)OC)C')
+    bikaverin = Chem.MolFromSmiles('COc4cc(C)c3c(=O)c2c(O)c1c(=O)cc(OC)c(=O)c1c(O)c2oc3c4')
 
-    start = timer()
-    DrawTautsFromList(enumerate_tautomers(keto_curcumin), "keto_curcumin")
-    end = timer()
-    print(f'Elapsed time : {end - start}')
-    
-    start = timer()
-    DrawTautsFromList(enumerate_tautomers(enol_curcumin), "enol_curcumin")
-    end = timer()
-    print(f'Elapsed time: {end - start}')
+    mols = {'prodigiosin': prodigiosin,
+            'keto_curcumin': keto_curcumin,
+            'enol_curcumin': enol_curcumin,
+            'resistomycin': resistomycin,
+            'bikaverin': bikaverin}
 
-
+    for name, mol in mols.items():
+        start = timer()
+        DrawTautsFromList(enumerate_tautomers(mol, use_pyscf=True), name)
+        end = timer()
+        logger.info(f'Elapsed time for {name}: {end - start}')

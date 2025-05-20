@@ -5,6 +5,8 @@ from typing import Tuple, Union, Type
 from rdkit import Chem
 from rdkit.Chem.rdchem import Mol
 from rdkit.Chem import AllChem, rdDistGeom
+from pyscf import gto, dft
+from pyscf.lib import with_omp_threads
 
 logger.add("../logs/optimization.log", format="{time} {level} {message}",
            filter="my_module", level="INFO", rotation="10 MB")
@@ -130,7 +132,7 @@ def run_xtb_energy(input: Union[str, Mol],
 
 def get_lowest_energies_xtb(mol: Mol,
                             solvent: str = "h2o",
-                            num_conf: int = 10) -> float:
+                            num_conf: int = 3) -> float:
     """
     A high level function for of tautomer energies estimation. it should be noted the passed Mol instance
     will be modified to accomodate multiple conformers
@@ -159,8 +161,12 @@ def get_lowest_energies_xtb(mol: Mol,
         energy, hlgap = run_xtb_energy("temp.xyz", solvent=solvent, charge=charge)
         os.remove('temp.xyz')
         conf_energies.append(energy)
+        confs.append(conf_copy)
 
-    return min(conf_energies)
+    min_energy = min(conf_energies)
+    best_conf = confs[conf_energies.index(min_energy)]
+
+    return min(conf_energies), best_conf
 
 def confgen(name: str,
             mol: Type[Mol]) -> Tuple[int, Type[Mol]]:
@@ -204,3 +210,24 @@ def confgen(name: str,
     return min_energy, best_conf_xtb
 
 
+def pyscf_energy(mol: Mol,
+                 method: str = 'pbe0',
+                 basis_set: str = 'def2-svp',
+                 omp_threads: int = 8) -> float:
+
+    input = []
+    # prepare input coordinates and symbols
+    for i, atom in enumerate(mol.GetAtoms()):
+        positions = mol.GetConformer().GetAtomPosition(i)
+        input.append([atom.GetSymbol(), (positions.x, positions.y, positions.z)])
+
+    pyscf_mol = gto.Mole()
+    pyscf_mol.atom = input
+    pyscf_mol.basis = basis_set
+    pyscf_mol.charge = sum([atom.GetFormalCharge() for atom in mol.GetAtoms()])
+    #pyscf_mol.spin = 0
+    logger.info(f"Running {method}/{basis_set} calculation with {omp_threads} threads")
+    with with_omp_threads(omp_threads):
+        mf = dft.RKS(pyscf_mol, xc=method).density_fit().run()
+
+    return mf.e_tot

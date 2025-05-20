@@ -1,10 +1,13 @@
-from typing import List, Tuple
+from typing import List, Tuple, Dict
 from rdkit import Chem
 from src.convert_spectrum_to_colour import *
-from src.utils import DrawMol, gauss_spec_with_extinction
+from src.utils import DrawMol, gauss_spec_with_extinction, vibronic_spec_with_extinction, cm2ev
+from src.convert_spectrum_to_colour import gaussian_broadening
 import matplotlib.pyplot as plt
 from typing import Dict
 from tqdm import tqdm
+import numpy as np
+
 
 class Molecule:
 
@@ -20,11 +23,13 @@ class Molecule:
                  transition_energies: List[Tuple[int, List[float]]],
                  protonated_species: List[Tuple[int, str]],
                  pKa: List[Tuple[int, float]],
+                 vg_osc_str: Dict,
                  concentration: float = 1e-4,
                  empirical_broadening: float = 0.4,
                  pH_low: float = 1.,
                  pH_high: float = 14.,
                  num_points: int = 200
+
     ) -> None:
 
         self.name = name                                    # mol name
@@ -52,6 +57,9 @@ class Molecule:
                                                             # for each pH value
         self.spectra_from_sampling = {}                     # dict of modeled absorption spectra
         self.extinction_coefficients = []                   # will be calculated from oscillator strengths
+
+        self.vg_osc_str = vg_osc_str                        # osc strength for first 10 transitions (used to scale vibronic spectra)
+        self.vg_scaled_spectra = {}                         # scaled spectra after reading and adding first 10 transitions together
 
         # some checks to perform
         if not len(self.oscillator_strengths) == len(self.transition_energies) == len(self.protonated_species):
@@ -282,8 +290,39 @@ class Molecule:
         for osc in self.oscillator_strengths:
             current_osc = []
             for j in osc[1]:
-                current_osc.append(11451.73 / self.empirical_broadening * j)
+                current_osc.append(
+
+
+                )
             self.extinction_coefficients.append((osc[0], current_osc))
+
+    def read_vibronic_spectra_from_files(self, mol: str, num_spec_points: int = 500) -> None:
+        """
+
+        """
+        visible_ev = np.linspace(1.63, 3.26, num_spec_points)
+
+
+        if len(self.vg_osc_str) == 0:
+            raise FileNotFoundError("Osc. strengths for vibronic spectra are not implemented")
+
+        for species in self.vg_osc_str.keys():
+            final_spec = np.array([0.] * num_spec_points)
+            for i in range(len(self.vg_osc_str[species])):
+
+                df = pd.read_csv(f"data/vg_spectra/{mol}/{species}_vg{i+1}.spectrum", sep='\t')
+                df = df.dropna(axis=1)
+                energy = np.array(df.iloc[:,0].apply(cm2ev)) * 0.731 + 0.397 # empirical correction
+                spec = np.array(df.iloc[:, 1] / df.iloc[:, 1].max())
+                spec = gaussian_broadening(energy, spec, 0.08)
+                interp_spectra = np.interp(visible_ev, *zip(*sorted(zip(energy, spec))))
+                final_spec += self.vg_osc_str[species][i] * interp_spectra
+
+            #plt.plot(visible_ev, final_spec, label=species)
+            #plt.legend()
+            self.vg_scaled_spectra[species] = final_spec
+
+
 
     def absorption_spectrum_from_file(self,
                                       filename: str,
@@ -369,24 +408,84 @@ class Molecule:
                                 for sp in spectra]
         self.colours_vs_pH_sampled = [Spectrum(np.linspace(380, 780, 81), sp).rgb_to_hex() for sp in self.interpolated_spectra]
 
+    def generate_colour_vs_pH_from_vibronic(self,
+                                            colourant: str,
+                                            num_spec_points: int = 500) -> None:
+        """
+        A special function to visualise emodin colour from vibronic transition
+        """
+
+        visible_ev = np.linspace(1.63, 3.26, num_spec_points)
+
+        if colourant == "emodin":
+            # make sure the order of species is correct
+            initial_spectra = [self.vg_scaled_spectra['S111'],
+                               self.vg_scaled_spectra['S110'],
+                               self.vg_scaled_spectra['S100'],
+                               self.vg_scaled_spectra['S010'],
+                               self.vg_scaled_spectra['S000']]
+
+        elif colourant == "quinalizarin":
+            initial_spectra = [self.vg_scaled_spectra['S1111'],
+                               self.vg_scaled_spectra['S0111'],
+                               self.vg_scaled_spectra['S0110'],
+                               self.vg_scaled_spectra['S0101'],
+                               self.vg_scaled_spectra['S0001'],
+                               self.vg_scaled_spectra['S0100'],
+                               self.vg_scaled_spectra['S0000']]
+
+        elif colourant == "orcein":
+            initial_spectra = [self.vg_scaled_spectra['S1111'],
+                               self.vg_scaled_spectra['S1101'],
+                               self.vg_scaled_spectra['S1100'],
+                               self.vg_scaled_spectra['S0100'],
+                               self.vg_scaled_spectra['S0000']]
+
+        elif colourant == "aminoorcein":
+            initial_spectra = [self.vg_scaled_spectra['S1111'],
+                               self.vg_scaled_spectra['S1101'],
+                               self.vg_scaled_spectra['S1100'],
+                               self.vg_scaled_spectra['S0100'],
+                               self.vg_scaled_spectra['S1000'],
+                               self.vg_scaled_spectra['S0000']]
+
+        else:
+            raise NotImplementedError(f"Vibronic spectra are not defined for colourant {colourant}")
+
+        spectra = []
+
+        for i in range(self.species.shape[1]):
+            sp = np.zeros(num_spec_points)
+            fractions = list(reversed(self.species[:, i]))
+            for j in range(len(fractions)):
+                sp += 11451.73 * self.concentration / self.empirical_broadening * fractions[j] * initial_spectra[j]
+
+            spectra.append(sp)
+
+        self.interpolated_spectra = [np.interp(np.linspace(380, 780, 81), *zip(*sorted(zip(ev2nm(visible_ev), sp))))
+                                for sp in spectra]
+        self.colours_vs_pH_vibronic = [Spectrum(np.linspace(380, 780, 81), sp).rgb_to_hex() for sp in self.interpolated_spectra]
+
+
     def generate_colour_vs_pH(self) -> None:
         """
         Given transition energies, ext. coefficients nad species distributions generate RGB colour vs pH
         """
         visible_ev = np.linspace(1.63, 3.26, 163)
 
+
         # currently use gaussian approximation of spectrum
         # takes each species and add gaussian function placed on the transition energy
-        spectra = [gauss_spec_with_extinction([i[1] for i in self.transition_energies],        # transition energies here for each species
+        self.spectra = [gauss_spec_with_extinction([i[1] for i in self.transition_energies],        # transition energies here for each species
                                               list(reversed(self.species[:, i])),              # molar fractions of species at a specified pH
                                               [i[1] for i in self.extinction_coefficients],    # extinction coefficients for each species
                                               self.empirical_broadening, self.concentration) for i in range(self.species.shape[1])]
 
-        spectra = [np.interp(np.linspace(380, 780, 81), *zip(*sorted(zip(ev2nm(visible_ev), sp)))) for sp in spectra]
-        self.colours_vs_pH = [Spectrum(np.linspace(380, 780, 81), sp).rgb_to_hex() for sp in spectra]
+        self.spectra = [np.interp(np.linspace(380, 780, 81), *zip(*sorted(zip(ev2nm(visible_ev), sp)))) for sp in self.spectra]
+        self.colours_vs_pH = [Spectrum(np.linspace(380, 780, 81), sp).rgb_to_hex() for sp in self.spectra]
 
 
-    def visualize_species_distribution(self, sampled_spectrum = False) -> None:
+    def visualize_species_distribution(self, sampled_spectrum = False, vibronic=False) -> None:
         """
         Draw:
         1. Species distributions vs pH
@@ -399,7 +498,7 @@ class Molecule:
 
         x = np.linspace(self.pH_low, self.pH_high, self.num_points)
 
-        if sampled_spectrum:
+        if sampled_spectrum or vibronic:
             fig, axs = plt.subplots(4)
         else:
             fig, axs = plt.subplots(3)
@@ -411,6 +510,8 @@ class Molecule:
 
         if sampled_spectrum:
             axs[2].bar(x, np.ones(self.num_points), color=self.colours_vs_pH_sampled)  # bars marked by computed colour single conformations
+        elif vibronic:
+            axs[2].bar(x, np.ones(self.num_points), color=self.colours_vs_pH_vibronic)
 
         # draw mols from SMILES
         for i in range(len(self.protonated_species)):

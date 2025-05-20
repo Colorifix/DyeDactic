@@ -115,13 +115,15 @@ def DrawTautsFromList(mol_list: List, name: str, print_md = False) -> None:
 
     cnt = 1
     for mol in mol_list:
-        if mol.HasProp("energy"):
-            Draw.MolToFile(mol, f"../figs/tauts_{name}{str(cnt)}.png", legend=mol.GetProp("energy"))
+        if mol.HasProp("energy") and not mol.HasProp("dft_energy"):
+            Draw.MolToFile(mol, os.path.abspath('.') + f"/figs/tauts_{name}{str(cnt)}.png", legend=mol.GetProp("energy"))
+        elif mol.HasProp("energy") and mol.HasProp("dft_energy"):
+            Draw.MolToFile(mol, os.path.abspath('.') + f"/figs/tauts_{name}{str(cnt)}.png", legend=f'XTB: {mol.GetProp("energy")}; PBE0/def2-svp: {mol.GetProp("dft_energy")}')
         else:
-            Draw.MolToFile(mol, f"../figs/tauts_{name}{str(cnt)}.png")
+            Draw.MolToFile(mol, os.path.abspath('.') + f"/figs/tauts_{name}{str(cnt)}.png")
 
         if print_md:
-            print(f"![tauts_{name}{str(cnt)}]({os.path.abspath('..')}/figs/tauts_{name}{str(cnt)}.png)")
+            print(f"![tauts_{name}{str(cnt)}]({os.path.abspath('.')}/figs/tauts_{name}{str(cnt)}.png)")
         cnt += 1
 
 
@@ -169,6 +171,35 @@ def gauss_spec_with_extinction(wavelengths: List[List[float]],
 
     # sp = sp / np.max(sp)
     return sp
+
+def vibronic_spec_with_extinction(energies_spec: List[Tuple[np.ndarray, np.ndarray]],
+                                  fractions: np.ndarray,
+                                  extinction_coefficients: List[List[float]],
+                                  s: float,
+                                  concentration: float) -> None:
+    """
+    Given a
+    """
+    visible_ev = np.linspace(1.63, 3.26, 163)
+    sp = np.zeros(163)
+
+    if len(fractions) != len(wavelengths):
+        raise RuntimeError('Number of wavelengths is not equal to the number of components in the mixture')
+
+    for i in range(len(wavelengths)):
+        wl = wavelengths[i]         # wl is a list of wavelengths
+        fraction = fractions[i]
+        ext_coef = extinction_coefficients[i]
+
+        if len(wl) != len(ext_coef):
+            raise RuntimeError('Number of wavelengths is not equal to the number of extinction coefficients for the current component')
+
+        for j in range(len(wl)):
+            sp += concentration * ext_coef[j] * fraction * 1/s * np.sqrt(4 * np.log(2)/np.pi) * np.exp(-4 * np.log(2) * (visible_ev - wl[j])**2 / s**2)
+
+    # sp = sp / np.max(sp)
+    return sp
+
 
 def generate_count_fps(smi: str, radius: int = 3, size: int = 2048) -> List[int]:
     """
@@ -260,3 +291,5 @@ def ndarray_to_b64(ndarray):
     img = cv2.cvtColor(ndarray, cv2.COLOR_RGB2BGR)
     _, buffer = cv2.imencode('.png', img)
 
+def cm2ev(cm: float) -> float:
+    return 1.23981e-4 * cm
