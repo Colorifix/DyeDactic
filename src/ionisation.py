@@ -290,10 +290,7 @@ class Molecule:
         for osc in self.oscillator_strengths:
             current_osc = []
             for j in osc[1]:
-                current_osc.append(
-
-
-                )
+                current_osc.append(11451.73 / self.empirical_broadening * j)
             self.extinction_coefficients.append((osc[0], current_osc))
 
     def read_vibronic_spectra_from_files(self, mol: str, num_spec_points: int = 500) -> None:
@@ -491,7 +488,7 @@ class Molecule:
         1. Species distributions vs pH
         2. Chemical structures of the corresponding protonated forms
         3. Colour vs pH from single conformations
-        4. Colour vs pH from an ensemble of conformations
+        4. Colour vs pH from an ensemble of conformations or vibronic spectra
         """
         if len(self.species) == 0:
             raise RuntimeError("A self.species is empty: first, generate distribution based on the nature of the colourant")
@@ -507,12 +504,14 @@ class Molecule:
             axs[0].plot(x, self.species[i, :], label=str(i))  # molar fraction vs pH for species
 
         axs[1].bar(x, np.ones(self.num_points), color=self.colours_vs_pH)  # bars marked by computed colour single conformations
+        axs[1].set_title(f'Colour vs pH for {self.name} with gaussian approximation of spectra')
 
         if sampled_spectrum:
             axs[2].bar(x, np.ones(self.num_points), color=self.colours_vs_pH_sampled)  # bars marked by computed colour single conformations
+            axs[2].set_title(f'Colour vs pH for {self.name} based on sampled conformations')
         elif vibronic:
             axs[2].bar(x, np.ones(self.num_points), color=self.colours_vs_pH_vibronic)
-
+            axs[2].set_title(f'Colour vs pH for {self.name} using vibronic correction')
         # draw mols from SMILES
         for i in range(len(self.protonated_species)):
             newax = fig.add_axes([i / len(self.protonated_species),
@@ -534,6 +533,7 @@ class Molecule:
                       fancybox=True, shadow=True, fontsize=15, ncol=len(self.species))
 
         axs[0].tick_params(bottom=False, labelbottom=False, labelsize=15)
+        axs[0].set_title(f'Species populations for {self.name}')
         axs[1].tick_params(bottom=False, labelbottom=False, labelsize=15)
         axs[2].tick_params(labelsize=15)
         axs[3].axis('off')
