@@ -227,7 +227,11 @@ def generate_colours(wavelength_list):
 
     for wavelength in wavelength_list:
 
-        sp = gauss_spec([nm2ev(float(nm)) for nm in wavelength.split(";")])
+        try:
+            sp = gauss_spec([nm2ev(float(nm)) for nm in wavelength.split(";")])
+        except:
+            sp = gauss_spec([wavelength])
+
         sp = sp / np.max(sp)
 
         # spectrum in nm is in a reversed order

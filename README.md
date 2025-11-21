@@ -13,6 +13,9 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - Please run `poetry install` to install dependencies
 - Then any script can be launched using `poetry run python /path/to/script.py`
 - To reproduce REMD results [AmberTools](https://ambermd.org/AmberTools.php) and [GROMACS](https://manual.gromacs.org/current/download.html) has to be downloaded and installed
+- Bikaverin analogue generation requires `molecules`, `ring_correction.csv`, and `group_values` data which have to be
+ installed separately from [pathermo](https://github.com/dmdqy/pathermo) repository which are not downloaded by poetry by default.
+
 
 
 ## Description of package files

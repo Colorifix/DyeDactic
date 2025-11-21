@@ -1,13 +1,12 @@
-# A hyperparameter optimisation of MPNN model using approach
-# from Greenman et al. https://doi.org/10.1039/D1SC05677H
-# original training data was cleaned and enriched with natural colourants data
-# training goes on GPU the chemprop must be configured accordingly
-
 import numpy as np
+import hyperopt
+import uuid
 from hyperopt import hp, fmin, tpe, Trials, space_eval, STATUS_OK
-import json, os, subprocess, uuid
+import json, os, subprocess
+import pandas as pd
 
-SAVE_DIR = "hyperopt"
+save_dir = "hyperopt"
+
 
 def objective_fun(params):
     param_id = str(uuid.uuid4())
@@ -17,25 +16,23 @@ def objective_fun(params):
     params['init-lr'] = params['init-lr'] * params['max-lr']
     params['final-lr'] = params['final-lr'] * params['max-lr']
 
-    trial_directory = os.path.join(SAVE_DIR, param_id)
+    trial_directory = os.path.join(save_dir, param_id)
     hyperopt_config_dir = os.path.join(trial_directory, "hyperopt.json")
     if not os.path.exists(trial_directory):
         os.makedirs(trial_directory)
 
-    # keep the parameters saved
     with open(hyperopt_config_dir, "w") as outfile:
         json.dump(params, outfile)
 
-    run_command = f"""chemprop train \
-                     --data-path data/data_all.csv \
+    run_command = f"""chemprop train  \
+                     --data-path data_all.csv \
                      --smiles-columns smiles solvent \
                      --task-type regression \
                      --target-columns peakwavs_max \
                      --loss-function mse \
-                     --splits-column split \
                      --data-seed 123 \
                      --pytorch-seed 42 \
-                     --metric mae rmse \
+                     --metric mae rmse\
                      --save-dir {trial_directory} \
                      --batch-size {params["batch-size"]} \
                      --message-hidden-dim {params["message-hidden-dim"]} \
@@ -50,10 +47,10 @@ def objective_fun(params):
                      --max-lr {params["max-lr"]} \
                      --final-lr {params["final-lr"]} \
                      --add-h \
-                     --epochs 30 \
-                     --accelerator cpu \
+                     --epochs 50 \
+                     --accelerator gpu \
                      --devices auto \
-                     --multi-hot-atom-featurizer-mode v1 \
+                     --num-workers 7 \
                      {params["message-bias"]} \
                      --ensemble-size 1"""
 
@@ -63,13 +60,15 @@ def objective_fun(params):
                                )
     
     stdout, stderr = process.communicate()
+    
+    print(stdout)
     print(stderr)
-    results_file = os.path.join(trial_directory, "verbose.log")
-    with open(results_file, 'r') as f:
-        results = f.readlines()
-    final_val_mae = np.mean([float(y.split()[6]) for y in [x for x in results if 'best validation mae' in x]])
 
-    return {'loss': final_val_mae, 'status': STATUS_OK}
+    results_file = os.path.join(trial_directory, "model_0/trainer_logs/version_0/metrics.csv")
+    metrics = pd.read_csv(results_file)
+    best_val_mae = min(metrics['val_loss']) 
+
+    return {'loss': best_val_mae, 'status': STATUS_OK}
 
 
 param_space = {
@@ -98,3 +97,6 @@ best_params = fmin(
 
 with open(best_params, "w") as outfile:
     json.dump(params, outfile)
+    
+    
+    
