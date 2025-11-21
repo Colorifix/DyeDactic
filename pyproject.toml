@@ -24,7 +24,11 @@ parmed = "^4.3.0"
 pyscf = "^2.8.0"
 doranet = "^0.5.6a1"
 pathermo = {git = "https://github.com/dmdqy/pathermo"}
+<<<<<<< HEAD
 torch = "2.5.0"
+=======
+
+>>>>>>> 94aa309 (generation of bikaverin analogues)
 
 [build-system]
 requires = ["poetry-core"]

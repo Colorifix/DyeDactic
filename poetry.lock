@@ -946,6 +946,7 @@ files = [
 [package.extras]
 tests = ["asttokens (>=2.1.0)", "coverage", "coverage-enable-subprocess", "ipython", "littleutils", "pytest", "rich ; python_version >= \"3.11\""]
 
+
 [[package]]
 name = "fasteners"
 version = "0.19"
@@ -964,6 +965,7 @@ version = "0.19"
 description = "A python package that provides useful locks"
 optional = false
 python-versions = ">=3.6"
+groups = ["main"]
 files = [
     {file = "fasteners-0.19-py3-none-any.whl", hash = "sha256:758819cb5d94cdedf4e836988b74de396ceacb8e2794d21f82d131fd9ee77237"},
     {file = "fasteners-0.19.tar.gz", hash = "sha256:b4f37c3ac52d8a445af3a66bce57b33b5e90b97c696b7b984f530cf8f0ded09c"},
@@ -1248,7 +1250,6 @@ version = "1.0.2"
 description = "Reading and writing of data on regular grids in Python"
 optional = false
 python-versions = ">=3.9"
-
 groups = ["main"]
 files = [
     {file = "GridDataFormats-1.0.2-py3-none-any.whl", hash = "sha256:4562bb2da9a064a8e6640e5fb853e204c8f32f6403651703f6b0ef58a009054c"},
@@ -2288,7 +2289,6 @@ version = "0.2.0"
 description = "Stand-alone XDRLIB module (from cpython 3.10.8)"
 optional = false
 python-versions = ">=3.7"
-
 groups = ["main"]
 files = [
     {file = "mda_xdrlib-0.2.0-py3-none-any.whl", hash = "sha256:0d1757b339f5db2d017a89ddaae06a82cd7a2cce26b8063df9f52b64e933fb47"},
@@ -5007,4 +5007,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.1"
 python-versions = " >=3.11,<3.12"
-content-hash = "0c70e6bf0ed782b44e3b3258de219bb1dab9e8040c5f24cc588c133680e8a8df"
+content-hash = "18b040f42e20243a3616bebbba575c61fe12cc6766c5679ce0ed9c301eee23fb"
