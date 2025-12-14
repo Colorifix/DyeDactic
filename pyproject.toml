@@ -24,6 +24,7 @@ parmed = "^4.3.0"
 pyscf = "^2.8.0"
 doranet = "^0.5.6a1"
 pathermo = {git = "https://github.com/dmdqy/pathermo"}
+torch = "2.5.0"
 
 
 [build-system]

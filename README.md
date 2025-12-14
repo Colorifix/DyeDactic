@@ -43,10 +43,12 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - `mpnn_training/prepare_dataset.ipynb` - prepare a train/test spilt for MPNN training and clean the initial data from outliers; to run the natural compound split TD-DFT calculations hav to be done
 - `simulations/S?????` - directory containing biliverdin conformations in PDB format
 - `simulations/simulations.ipynb` - Jupyter notebook containing REMD simulation prepartion and commands to run simulations
-- `simulations/QM_colour_extraction.ipynb` - Jupyter notebook containing trajectory manipulation commnads, ORCA input prepartion, and spectra visualisation commands
+- `simulations/QM_colour_extraction.ipynb` - Jupyter notebook containing trajectory manipulation commands, ORCA input prepartion, and spectra visualisation commands
 
 
 ### Scripts for image generation and input preparation
+- `bikaverin_chemical_generation.py` - a script to generate *bikaverin* analogues and visualize their predicted colour 
+- `bikaverin_colour_vs_pH.py` - a script for *bikaverin* and its aminated derivative halochromicity visualisation based pKa, transition energies and oscillator strengths 
 - `biliverdin_colour_vs_pH.py` - a script for *biliverdin* halochromicity visualisation based pKa, transition energies and oscillator strengths 
 - `emodin_colour_vs_pH.py` - a script for *emodin* halochromicity visualisation based pKa, transition energies and oscillator strengths 
 - `quinalizarin_colour_vs_pH.py` - a script for *quinalizarin* halochromicity visualisation based pKa, transition energies and oscillator strengths 
