@@ -42,3 +42,10 @@ A code repository to reproduce the results published by [Karlov et al.]()
 - `orcein_colour_vs_pH.py` - a script for *orcein* halochromicity visualisation based pKa, transition energies and oscillator strengths 
 - `generate_inputs.py` - a script to generate inputs files for ORCA and xyz coordinates
 - `plot_experimental_spectra_SI.py` - takes experimental spectra in csv format, prints, and converts to corresponding colours
+
+## Related publication
+Karlov D, Marques R, Wheatley R, Hirst J. DyeDactic: towards biosynthetic alternatives to artificial textile dyes. ChemRxiv. 2025; doi:10.26434/chemrxiv-2024-hdpn5-v2
+
+[Link to publication](https://doi.org/10.26434/chemrxiv-2024-hdpn5-v2)
+
+This content is a preprint and has not been peer-reviewed.
