@@ -1,23 +1,12 @@
 cff-version: 1.2.0
-title: "DyeDactic: towards biosynthetic alternatives to artificial textile dyes"
-message: "If you use this repository in published research, please cite the related preprint below."
+title: "DyeDactic"
 type: software
+message: "If you use this repository in published research, please cite the related preprint below."
 
 authors:
   - family-names: Karlov
     given-names: Dmitry
-  - family-names: Marques
-    given-names: Rodolfo
-  - family-names: Wheatley
-    given-names: Richard
-  - family-names: Hirst
-    given-names: Jonathan
 
-date-released: 2025-11-17
-doi: 10.26434/chemrxiv-2024-hdpn5-v2
+date-released: 2025-12-16
+doi: 10.5281/zenodo.17955211
 url: https://github.com/Colorifix/DyeDactic
-
-keywords:
-  - dye
-  - time-dependent DFT
-  - neural network
